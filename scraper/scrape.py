@@ -9,6 +9,7 @@ Theater Monitor Scraper — Playwright edition
   fomenki        — fomenki.ru  (парсит страницу спектакля напрямую)
   electrotheatre — electrotheatre.ru
   mxat           — mxat.ru (МХТ им. А.П. Чехова)
+  vakhtangov    — vakhtangov.ru (Театр Вахтангова)
   todo           — заглушка
 """
 
@@ -504,6 +505,118 @@ def parse_mxat(cfg: dict) -> dict:
 
 
 # ─────────────────────────────────────────────
+# ПАРСЕР: vakhtangov.ru (Театр Вахтангова)
+# ─────────────────────────────────────────────
+#
+# Реальная структура (подтверждена из HTML):
+#
+# Страница спектакля:
+#   <header class="cover" id="cover" style="background-image: url(...)">
+#   <h1>Ночь перед Рождеством</h1>
+#   <section class="ugc"><blockquote>Описание...</blockquote></section>
+#   <section class="stage-and-tickets">
+#     <ul class="show-afisha">
+#       <li>
+#         <p class="info"><span class="date">16 мая, суббота, 14:00</span></p>
+#         <ul class="btn-list"><li><a href="/tickets/buy/?...">Купить билеты</a></li></ul>
+#       </li>
+#     </ul>
+#     <p>Билеты: от 3300 до 4800 руб.</p>
+#   </section>
+# ─────────────────────────────────────────────
+
+def parse_vakhtangov(cfg: dict) -> dict:
+    html = fetch(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Название ───────────────────────────────────────────
+    h1 = s.select_one("h1")
+    if h1:
+        result["name"] = h1.get_text(strip=True)
+
+    # ── Описание ───────────────────────────────────────────
+    ugc = s.select_one("section.ugc")
+    if ugc:
+        # Берём текст из blockquote или всего блока
+        blockquote = ugc.select_one("blockquote")
+        if blockquote:
+            text = blockquote.get_text(" ", strip=True)
+        else:
+            text = ugc.get_text(" ", strip=True)
+        result["description"] = text[:600]
+
+    # ── Постер ─────────────────────────────────────────────
+    cover = s.select_one("#cover")
+    if cover:
+        # Ищем background-image в стиле
+        style = cover.get("style", "")
+        m = re.search(r"background-image:\s*url\(([^)]+)\)", style)
+        if m:
+            result["image"] = m.group(1)
+        else:
+            # Ищем в медиа галерее
+            gallery_img = s.select_one(".thumbs-gallery img")
+            if gallery_img:
+                result["image"] = gallery_img.get("src", "")
+
+    # ── Цены ───────────────────────────────────────────────
+    price_p = s.find(string=re.compile(r"Билеты:.*руб", re.I))
+    if price_p:
+        price_text = price_p.strip() if isinstance(price_p, str) else price_p.get_text(strip=True)
+        pm = re.search(r"от\s*([\d\s]+?)\s*до\s*([\d\s]+?)\s*руб", price_text, re.I)
+        if pm:
+            result["price_min"] = parse_price(pm[1])
+            result["price_max"] = parse_price(pm[2])
+
+    # ── Даты ───────────────────────────────────────────────
+    dates = []
+    afisha = s.select_one("ul.show-afisha")
+    if afisha:
+        for li in afisha.find_all("li"):
+            # Ищем дату и время
+            info = li.select_one("p.info")
+            if not info:
+                continue
+
+            date_span = info.select_one("span.date")
+            time_span = info.select_one("span.time")
+            
+            if not date_span:
+                continue
+
+            date_text = date_span.get_text(strip=True)
+            time_text = time_span.get_text(strip=True) if time_span else ""
+
+            d = parse_ru_date(date_text)
+            if not d:
+                continue
+
+            # Проверяем доступность билетов
+            buy_a = li.select_one("a.js-buy-tickets-btn")
+            if buy_a:
+                href = buy_a.get("href", "")
+                buy_url = f"https://vakhtangov.ru{href}" if href.startswith("/") else href
+                available = "Купить билеты" in buy_a.get_text()
+            else:
+                buy_url = cfg["url"]
+                available = False
+
+            if d >= today():
+                dates.append(make_date_entry(
+                    d, time_text, available,
+                    result["price_min"], result["price_max"],
+                    buy_url,
+                ))
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
 # ЗАГЛУШКА
 # ─────────────────────────────────────────────
 
@@ -521,6 +634,7 @@ PARSERS: dict = {
     "fomenki":        parse_fomenki,
     "electrotheatre": parse_electrotheatre,
     "mxat":           parse_mxat,
+    "vakhtangov":     parse_vakhtangov,
     "todo":           parse_todo,
 }
 

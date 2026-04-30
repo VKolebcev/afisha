@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T11:57:23+03:00",
+  "last_updated": "2026-04-30T12:13:31+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -36,33 +36,6 @@
           "date": "2026-06-04",
           "time": "19:00",
           "weekday": "Чт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#28316352"
-        },
-        {
-          "date": "2026-05-22",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#28399397"
-        },
-        {
-          "date": "2026-06-04",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#43766173"
-        },
-        {
-          "date": "2026-07-03",
-          "time": "19:00",
-          "weekday": "Пт",
           "available": true,
           "price_min": 1000,
           "price_max": 30000,
@@ -347,59 +320,216 @@
     },
     {
       "id": "vakhtangov-noch",
-      "name": "Ночь перед Рождеством",
+      "name": "Театр им. Евг. Вахтангова",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-16",
+          "time": "14:00",
+          "weekday": "Сб",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "19:30",
+          "weekday": "Сб",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "14:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "19:30",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-24-19-30-00"
+        },
+        {
+          "date": "2026-06-02",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-02-19-30-00"
+        },
+        {
+          "date": "2026-06-03",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-03-19-30-00"
+        },
+        {
+          "date": "2026-06-16",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-16-19-30-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-chudo",
-      "name": "Обыкновенное чудо",
+      "name": "Театр им. Евг. Вахтангова",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-04-30",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": false,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-06-25",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
-      "name": "Повесть о Сонечке",
+      "name": "Театр им. Евг. Вахтангова",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "« Повесть о Сонечке» – густой, очень плотный текст. Общественные потрясения становятся для Марины Цветаевой своеобразным катализатором. Сумасшедшая энергия обновления, которой буквально пропитан воздух, даёт ей силы, темы, новый язык. О ком бы ни писала Цветаева, она, как большой поэт, писала о себе. Примеривала на себя чужие жизни, разные роли. Её проза, соединенная с реалиями жизни, полна магии, которая завораживает… Я благодарен Евгении Крегжде за совместное глубокое погружение в пространство прозы М.И. Цветаевой и внимательную работу над текстом нашего спектакля",
+      "image": "https://vakhtangov.ru/uploads/2023/12/DSC00275-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/sonechka",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1800,
+      "price_max": 5300,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-06",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-05-06-19-30-00"
+        },
+        {
+          "date": "2026-05-08",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-05-08-19-30-00"
+        },
+        {
+          "date": "2026-05-21",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-05-21-19-30-00"
+        },
+        {
+          "date": "2026-06-22",
+          "time": "19:30",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-06-22-19-30-00"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "19:30",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-06-28-19-30-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-pushkin",
-      "name": "Повести Пушкина",
+      "name": "Театр им. Евг. Вахтангова",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "1830-й год. В Болдино, в уединении Александр Сергеевич Пушкин пишет своё первое завершённое прозаическое произведение, знаменитые «Повести Белкина». Всю жизнь обращавший внимание на знаки судьбы, поэт как будто подводит своеобразные итоги прошлого и думает о будущем. Герои его историй любят, страдают, играют роли, блуждают в метели, стреляются на дуэлях, гонятся за похищенной дочерью, ищут счастье, но в конце концов всё в их жизнях меняет Случай. Анатолий Шульев: «Даже когда наступает самое тёмное время года, тёмное время жизни, надо чуть-чуть подождать утра, весны — и за смертью снова жизнь н",
+      "image": "https://vakhtangov.ru/uploads/2023/12/DSC03108-250x167.jpg",
       "url": "https://vakhtangov.ru/show/pushkin_tales",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-19",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-19-19-00-00"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-06-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-fellini",

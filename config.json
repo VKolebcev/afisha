@@ -189,7 +189,7 @@
       "theater": "Театр Вахтангова",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
       "image": "",
-      "parser": "todo"
+      "parser": "vakhtangov"
     },
     {
       "id": "vakhtangov-chudo",
@@ -197,7 +197,7 @@
       "theater": "Театр Вахтангова",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
       "image": "",
-      "parser": "todo"
+      "parser": "vakhtangov"
     },
     {
       "id": "vakhtangov-sonechka",
@@ -205,7 +205,7 @@
       "theater": "Театр Вахтангова",
       "url": "https://vakhtangov.ru/show/sonechka",
       "image": "",
-      "parser": "todo"
+      "parser": "vakhtangov"
     },
     {
       "id": "vakhtangov-pushkin",
@@ -213,7 +213,7 @@
       "theater": "Театр Вахтангова",
       "url": "https://vakhtangov.ru/show/pushkin_tales",
       "image": "",
-      "parser": "todo"
+      "parser": "vakhtangov"
     },
     {
       "id": "vakhtangov-fellini",
