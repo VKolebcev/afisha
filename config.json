@@ -1,0 +1,34 @@
+{
+  "_comment": "Добавляй постановки сюда. GitHub Actions будет скрапить их автоматически.",
+  "settings": {
+    "scrape_interval_hours": 3,
+    "timezone": "Europe/Moscow",
+    "days_ahead": 60
+  },
+  "productions": [
+    {
+      "id": "seagull-mhat",
+      "name": "Чайка",
+      "theater": "МХТ им. Чехова",
+      "url": "https://mxat.ru/performance/chayka/",
+      "image": "",
+      "parser": "mxat"
+    },
+    {
+      "id": "three-sisters-mhat",
+      "name": "Три сестры",
+      "theater": "МХТ им. Чехова",
+      "url": "https://mxat.ru/performance/tri_sestry/",
+      "image": "",
+      "parser": "mxat"
+    },
+    {
+      "id": "example-kassir",
+      "name": "Название спектакля",
+      "theater": "Название театра",
+      "url": "https://www.kassir.ru/spectacle/название",
+      "image": "",
+      "parser": "kassir"
+    }
+  ]
+}

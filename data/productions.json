@@ -1,0 +1,94 @@
+{
+  "last_updated": "2026-04-30T12:00:00",
+  "productions": [
+    {
+      "id": "seagull-mhat",
+      "name": "Чайка",
+      "theater": "МХТ им. Чехова",
+      "description": "Пьеса Антона Чехова в постановке Оли Мухиной. Легкие и воздушные образы, тонкие переживания героев, изящество и поэзия — всё это «Чайка».",
+      "image": "https://mxat.ru/upload/iblock/example.jpg",
+      "url": "https://mxat.ru/performance/chayka/",
+      "available": true,
+      "price_min": 1200,
+      "price_max": 7500,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-10",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 1200,
+          "price_max": 5000,
+          "buy_url": "https://mxat.ru/buy/chayka/2026-05-10/"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 7500,
+          "buy_url": "https://mxat.ru/buy/chayka/2026-05-24/"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
+    },
+    {
+      "id": "three-sisters-mhat",
+      "name": "Три сестры",
+      "theater": "МХТ им. Чехова",
+      "description": "Режиссёр — Константин Богомолов. Спектакль о времени, ожидании и невозможности уехать из места, которое тебя держит.",
+      "image": "",
+      "url": "https://mxat.ru/performance/tri_sestry/",
+      "available": true,
+      "price_min": 2000,
+      "price_max": 9000,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-16",
+          "time": "18:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 2000,
+          "price_max": 9000,
+          "buy_url": "https://mxat.ru/buy/tri_sestry/2026-05-16/"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "18:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 2000,
+          "price_max": 9000,
+          "buy_url": "https://mxat.ru/buy/tri_sestry/2026-06-13/"
+        }
+      ]
+    },
+    {
+      "id": "example-kassir",
+      "name": "Название спектакля",
+      "theater": "Название театра",
+      "description": "",
+      "image": "",
+      "url": "https://www.kassir.ru/spectacle/название",
+      "available": null,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": "Сайт недоступен или изменилась структура страницы",
+      "dates": []
+    }
+  ]
+}
