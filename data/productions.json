@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T13:47:07+03:00",
+  "last_updated": "2026-04-30T16:28:21+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -362,10 +362,10 @@
           "date": "2026-05-24",
           "time": "19:30",
           "weekday": "Вс",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-24-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-02",
@@ -566,7 +566,7 @@
       "description": "В 2017 году в свет вышла автобиографическая книга народного артиста РФ Юрия Стоянова «Игра в \"Городки\"». «Добрая книга умного человека» — так охарактеризовали её читатели. Юрий Стоянов : « Книжка „Игра в „Городки““ не надиктована и не рассказана в форме интервью. У нее нет редактора, от первого до последнего слова книга написана мной. Я не могу назвать свое произведение биографией в чистом виде, потому что это все-таки жанровая книга. Она написана в жанре рассказа, или очень маленькой повести, под большим влиянием Марка Твена, Антона Павловича Чехова и Сергея Довлатова. Узнаете ли вы что-нибуд",
       "image": "https://storage.mxat.ru/resize_cache/17255/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/53b/vkl3sxgx2oyk02l2m6076iozjtv2vmeg/79869.jpg",
       "url": "https://mxat.ru/repertuar/show/stoyanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
@@ -585,10 +585,10 @@
           "date": "2026-06-14",
           "time": "19:00",
           "weekday": "Вс",
-          "available": true,
+          "available": false,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "javascript:;"
+          "buy_url": "https://mxat.ru/repertuar/show/stoyanov"
         }
       ]
     },
