@@ -1,27 +1,54 @@
 {
-  "last_updated": "2026-04-30T11:25:25+03:00",
+  "last_updated": "2026-04-30T11:40:58+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "",
-      "image": "https://fomenki.ru/f/performance/26576_c.png",
+      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
+      "image": "https://fomenki.ru/f/performance/26523_c.png",
       "url": "https://fomenki.ru/performance/arcadia/",
       "available": true,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 1000,
+      "price_max": 30000,
       "currency": "₽",
       "error": null,
       "dates": [
         {
           "date": "2026-04-30",
-          "time": "",
+          "time": "19:00",
           "weekday": "Чт",
           "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://fomenki.ru/buy/"
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#28316352"
+        },
+        {
+          "date": "2026-05-22",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#28399397"
+        },
+        {
+          "date": "2026-06-04",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#43766173"
+        },
+        {
+          "date": "2026-07-03",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#48095088"
         }
       ]
     },
@@ -30,7 +57,7 @@
       "name": "Пик Ник. Город миражей",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "https://electrotheatre.ru/static/pictures/12858.png",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1182",
       "available": false,
       "price_min": 0,
@@ -44,7 +71,7 @@
       "name": "Пик Ник. Никогда",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "https://electrotheatre.ru/static/pictures/12864.png",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1183",
       "available": false,
       "price_min": 0,
@@ -58,7 +85,7 @@
       "name": "Пик Ник. Прибытие",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "https://electrotheatre.ru/static/pictures/12859.png",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1186",
       "available": false,
       "price_min": 0,
