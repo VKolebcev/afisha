@@ -8,6 +8,7 @@ Theater Monitor Scraper — Playwright edition
 Реализованные парсеры:
   fomenki        — fomenki.ru  (парсит страницу спектакля напрямую)
   electrotheatre — electrotheatre.ru
+  mxat           — mxat.ru (МХТ им. А.П. Чехова)
   todo           — заглушка
 """
 
@@ -276,50 +277,47 @@ def parse_fomenki(cfg: dict) -> dict:
 # ПАРСЕР: electrotheatre.ru
 # ─────────────────────────────────────────────
 #
-# Страница спектакля: electrotheatre.ru/repertoire/spectacle/NNNN
-# Афиша: electrotheatre.ru/playbill/
+# Реальная структура (подтверждена из HTML):
 #
-# Постер ищем через og:image или первый <img> в основном блоке.
-# Даты — через афишу (поиск по match_name).
+# Страница /repertoire/spectacle/1182:
+#   og:image -> https://electrotheatre.ru/static/pictures/12858.png
+#   div.page_item.twocol div.about -> описание
+#   Дат НЕТ — только в афише.
+#
+# Страница афиши /playbill/:
+#   Ссылки на спектакль: href="/repertoire/spectacle.htm?id=1182"
+#   Кнопка: <span class="js-unifd-trigger-link" data-unifd-performance-id="NNN">
+#   Buy URL: https://electrotheatre.edinoepole.ru/performance/NNN
 # ─────────────────────────────────────────────
 
+EDINOEPOLE_BUY = "https://electrotheatre.edinoepole.ru/performance/{pid}"
+
+
 def parse_electrotheatre(cfg: dict) -> dict:
-    opts       = cfg.get("parser_options", {})
-    match_name = opts.get("match_name", "").strip().lower()
-    if not match_name:
-        return error_result(cfg, "parser_options.match_name не задан")
+    opts         = cfg.get("parser_options", {})
+    spectacle_id = str(opts.get("spectacle_id", "")).strip()
+    if not spectacle_id:
+        m = re.search(r"/(\d+)/?$", cfg["url"])
+        spectacle_id = m.group(1) if m else ""
+    if not spectacle_id:
+        return error_result(cfg, "Не удалось определить spectacle_id из URL")
 
     result = base_result(cfg)
     base   = "https://electrotheatre.ru"
 
-    # ── Постер и описание — со страницы спектакля ─────────────
+    # ── Постер и описание ─────────────────────────────────────
     html = fetch(cfg["url"])
     if html:
         s = soup(html)
-
-        # og:image — самый надёжный способ
         og = s.select_one('meta[property="og:image"]')
         if og:
-            result["image"] = og.get("content", "")
+            src = og.get("content", "")
+            result["image"] = src.replace("/pictures/", "/1600/")
+        about = s.select_one(".page_item.twocol .about, .page_item .about")
+        if about:
+            result["description"] = about.get_text(" ", strip=True)[:600]
 
-        # Fallback: первый <img> в основном контенте
-        if not result["image"]:
-            for sel in ["main img", "article img", ".spectacle img", ".content img"]:
-                img = s.select_one(sel)
-                if img:
-                    src = img.get("src") or img.get("data-src", "")
-                    if src and "logo" not in src and "icon" not in src:
-                        result["image"] = src if src.startswith("http") else base + src
-                        break
-
-        # Описание
-        for sel in [".spectacle-description", ".description", "article p", ".b-text p"]:
-            el = s.select_one(sel)
-            if el and len(el.get_text(strip=True)) > 80:
-                result["description"] = el.get_text(" ", strip=True)[:600]
-                break
-
-    # ── Расписание — из афиши за 3 месяца ─────────────────────
+    # ── Расписание из афиши за 3 месяца ───────────────────────
     now = today()
     playbill_urls = [f"{base}/playbill/"]
     for delta in range(1, 3):
@@ -329,73 +327,180 @@ def parse_electrotheatre(cfg: dict) -> dict:
 
     dates = []
     seen  = set()
-
     for url in playbill_urls:
         html = fetch(url)
         if html:
-            found = _electrotheatre_parse_playbill(soup(html), match_name, base, seen)
-            dates.extend(found)
+            dates.extend(_electrotheatre_parse_playbill(soup(html), spectacle_id, base, seen))
         time.sleep(0.5)
 
     result["dates"] = dates
     return finalize(result)
 
 
-def _electrotheatre_parse_playbill(
-    s: BeautifulSoup, match_name: str, base: str, seen: set
-) -> list[dict]:
+def _electrotheatre_parse_playbill(s, spectacle_id: str, base: str, seen: set) -> list:
     """
-    Парсит страницу афиши Электротеатра.
-    Ищет события по подстроке match_name в названии.
+    Находим все ссылки на наш спектакль в афише, поднимаемся к блоку события,
+    извлекаем дату, время и ссылку на покупку через edinoepole.
     """
     entries = []
-    current_date: date | None = None
+    pattern = re.compile(rf"spectacle(\.htm\?id=|/){spectacle_id}\b")
+    spectacle_links = s.find_all("a", href=pattern)
 
-    # Проходим по всем тегам страницы линейно
-    for tag in s.find_all(True):
-        name = getattr(tag, "name", "")
-
-        # ── Детектор строки с датой ──────────────────────────
-        # Электротеатр выводит даты как: "25 апреля", "Суббота", затем события
-        if name in ("h3", "h2", "div", "p", "span", "strong", "b"):
-            txt = tag.get_text(strip=True)
-            # Паттерн: "DD месяц" или "DD месяц, Weekday"
-            if re.match(r"^\d{1,2}\s+[а-яА-Яё]+", txt) and len(txt) < 40:
-                parsed = parse_ru_date(txt)
-                if parsed and parsed >= today():
-                    current_date = parsed
-
-        if current_date is None:
+    for link in spectacle_links:
+        event_block = _find_event_block(link)
+        if event_block is None:
             continue
 
-        # ── Ищем событие с нашим спектаклем ─────────────────
-        if name not in ("div", "article", "section", "li", "tr"):
+        block_text = event_block.get_text(" ", strip=True)
+
+        # Дата из блока события ("28 мая, Четверг, 19:00")
+        d = _extract_date_from_block(event_block)
+        if d is None or d < today():
             continue
 
-        for a in tag.find_all("a", href=True):
-            link_text = a.get_text(strip=True).lower()
-            if match_name not in link_text:
-                continue
+        key = fmt(d)
+        if key in seen:
+            continue
+        seen.add(key)
 
-            key = fmt(current_date)
-            if key in seen:
-                continue
-            seen.add(key)
+        tm = re.search(r"\b(\d{1,2}:\d{2})\b", block_text)
+        time_str = tm.group(1) if tm else ""
 
-            # Время: ищем в тексте родителя
-            parent_text = tag.get_text(" ")
-            tm = re.search(r"\b(\d{1,2}:\d{2})\b", parent_text)
-            time_str = tm.group(1) if tm else ""
+        buy_span = event_block.find(attrs={"data-unifd-performance-id": True})
+        if buy_span:
+            pid = buy_span.get("data-unifd-performance-id", "")
+            buy_url = EDINOEPOLE_BUY.format(pid=pid)
+        else:
+            buy_url = cfg["url"] if "cfg" in dir() else f"{base}/playbill/"
 
-            # Ссылка «Купить билет» рядом с событием
-            buy_a = tag.find("a", string=re.compile(r"купить", re.I))
-            href = (buy_a or a).get("href", "")
-            buy_url = href if href.startswith("http") else base + href
-
-            entries.append(make_date_entry(current_date, time_str, True, buy_url=buy_url))
-            break  # одна запись на дату
+        entries.append(make_date_entry(d, time_str, True, buy_url=buy_url))
 
     return entries
+
+
+def _find_event_block(link):
+    """Поднимаемся по DOM до блока события."""
+    node = link.parent
+    for _ in range(8):
+        if node is None:
+            return None
+        cls = " ".join(node.get("class", [])) if hasattr(node, "get") else ""
+        if any(k in cls for k in ("item", "event", "card", "row", "playbill-item")):
+            return node
+        if getattr(node, "name", "") == "div" and node.get("class"):
+            return node
+        node = getattr(node, "parent", None)
+    return None
+
+
+def _extract_date_from_block(block) -> date | None:
+    """Ищет дату вида 'DD месяц' в тексте блока или рядом с ним."""
+    text = block.get_text(" ")
+    m = re.search(r"\b(\d{1,2})\s+([а-яёА-ЯЁ]+)", text)
+    if m:
+        d = parse_ru_date(f"{m[1]} {m[2]}")
+        if d:
+            return d
+    # Ищем заголовок дня выше по DOM
+    node = block
+    for _ in range(12):
+        node = getattr(node, "previous_sibling", None)
+        if node is None:
+            break
+        if not hasattr(node, "get_text"):
+            continue
+        txt = node.get_text(strip=True)
+        if re.match(r"^\d{1,2}\s+[а-яА-Яё]+", txt) and len(txt) < 50:
+            return parse_ru_date(txt)
+    return None
+# ─────────────────────────────────────────────
+# ПАРСЕР: mxat.ru (МХТ им. А.П. Чехова)
+# ─────────────────────────────────────────────
+#
+# Реальная структура (подтверждена из HTML):
+#
+# Страница спектакля:
+#   <h1>Игра в «Городки»</h1>
+#   <div id="about">...<div class="x-prose">Описание...</div></div>
+#   <dl>...<dt>Цена билета:</dt><dd>от 2000 ₽ до 11500 ₽</dd>...</dl>
+#   <div id="tickets">
+#     <time datetime="2026-05-21 19:00">21 мая, Чт 19:00</time>
+#     <a href="https://spa.profticket.ru/customer/54/shows/162/8249/">Купить билет</a>
+#   </div>
+#   Галерея: <img src="..."> в галерее
+# ─────────────────────────────────────────────
+
+def parse_mxat(cfg: dict) -> dict:
+    html = fetch(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Название ───────────────────────────────────────────
+    h1 = s.select_one("h1")
+    if h1:
+        result["name"] = h1.get_text(strip=True)
+
+    # ── Описание ───────────────────────────────────────────
+    about = s.select_one("#about .x-prose")
+    if not about:
+        about = s.select_one(".x-prose")
+    if about:
+        # Очищаем от HTML тегов
+        text = about.get_text(" ", strip=True)
+        result["description"] = text[:600]
+
+    # ── Постер ─────────────────────────────────────────────
+    # Ищем в галерее первое изображение
+    gallery_img = s.select_one("#gallery img, .mxat-gallery img")
+    if gallery_img:
+        src = gallery_img.get("src", "") or gallery_img.get("data-src", "")
+        if src:
+            result["image"] = src
+
+    # ── Цены ───────────────────────────────────────────────
+    price_dd = s.find("dd", string=re.compile(r"Цена билета:", re.I))
+    if price_dd:
+        price_text = price_dd.get_text(strip=True)
+        pm = re.search(r"от\s*([\d\s]+?)\s*до\s*([\d\s]+?)\s*₽", price_text, re.I)
+        if pm:
+            result["price_min"] = parse_price(pm[1])
+            result["price_max"] = parse_price(pm[2])
+
+    # ── Даты ───────────────────────────────────────────────
+    dates = []
+    tickets_section = s.select_one("#tickets")
+    if tickets_section:
+        for time_el in tickets_section.find_all("time", datetime=True):
+            dt = time_el.get("datetime", "")
+            # Формат: "2026-05-21 19:00"
+            m = re.search(r"(\d{4})-(\d{2})-(\d{2})\s+(\d{2}):(\d{2})", dt)
+            if m:
+                d = date(int(m[1]), int(m[2]), int(m[3]))
+                time_str = f"{m[4]}:{m[5]}"
+                
+                # Проверяем доступность билетов
+                parent = time_el.find_parent("div", class_="grid")
+                buy_a = parent.find("a", href=True) if parent else None
+                
+                if buy_a and "Купить билет" in buy_a.get_text():
+                    buy_url = buy_a.get("href", "")
+                    available = True
+                else:
+                    buy_url = cfg["url"]
+                    available = False
+
+                if d >= today():
+                    dates.append(make_date_entry(
+                        d, time_str, available,
+                        result["price_min"], result["price_max"],
+                        buy_url,
+                    ))
+
+    result["dates"] = dates
+    return finalize(result)
 
 
 # ─────────────────────────────────────────────
@@ -415,6 +520,7 @@ def parse_todo(cfg: dict) -> dict:
 PARSERS: dict = {
     "fomenki":        parse_fomenki,
     "electrotheatre": parse_electrotheatre,
+    "mxat":           parse_mxat,
     "todo":           parse_todo,
 }
 

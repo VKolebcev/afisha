@@ -229,7 +229,7 @@
       "theater": "МХТ им. А.П. Чехова",
       "url": "https://mxat.ru/repertuar/show/space",
       "image": "",
-      "parser": "todo"
+      "parser": "mxat"
     },
     {
       "id": "mxat-gorodki",
@@ -237,7 +237,7 @@
       "theater": "МХТ им. А.П. Чехова",
       "url": "https://mxat.ru/repertuar/show/stoyanov",
       "image": "",
-      "parser": "todo"
+      "parser": "mxat"
     },
     {
       "id": "mxat-flashback",
@@ -245,7 +245,7 @@
       "theater": "МХТ им. А.П. Чехова",
       "url": "https://mxat.ru/repertuar/show/flashback",
       "image": "",
-      "parser": "todo"
+      "parser": "mxat"
     },
     {
       "id": "bronnaya-pigmalion",
