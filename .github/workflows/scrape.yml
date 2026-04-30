@@ -11,7 +11,9 @@ permissions:
 
 jobs:
   scrape:
-    runs-on: ubuntu-latest
+    # ubuntu-22.04 — стабильный выбор для Playwright.
+    # ubuntu-latest сейчас 24.04, где libasound2 переименован → ломает --with-deps.
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout repo
@@ -28,6 +30,7 @@ jobs:
         run: pip install -r scraper/requirements.txt
 
       - name: Install Playwright browsers
+        # --with-deps устанавливает системные зависимости Chromium
         run: playwright install chromium --with-deps
 
       - name: Run scraper
