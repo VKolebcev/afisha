@@ -1,34 +1,275 @@
 {
-  "_comment": "Добавляй постановки сюда. GitHub Actions будет скрапить их автоматически.",
+  "_comment": "Редактируй этот файл чтобы добавлять/убирать постановки. После изменений запускай GitHub Actions вручную.",
   "settings": {
-    "scrape_interval_hours": 3,
     "timezone": "Europe/Moscow",
-    "days_ahead": 60
+    "days_ahead": 90
   },
   "productions": [
+
     {
-      "id": "seagull-mhat",
-      "name": "Чайка",
-      "theater": "МХТ им. Чехова",
-      "url": "https://mxat.ru/performance/chayka/",
+      "_theater": "МАСТЕРСКАЯ ПЕТРА ФОМЕНКО",
+      "id": "fomenki-arkadiya",
+      "name": "Аркадия",
+      "theater": "Мастерская Петра Фоменко",
+      "url": "https://fomenki.ru/performance/arcadia/",
       "image": "",
-      "parser": "mxat"
+      "parser": "fomenki",
+      "parser_options": {
+        "performance_slug": "arcadia"
+      }
+    },
+
+    {
+      "_theater": "ЭЛЕКТРОТЕАТР СТАНИСЛАВСКИЙ",
+      "id": "electro-piknik-1",
+      "name": "Пик Ник. Город миражей",
+      "theater": "Электротеатр Станиславский",
+      "url": "https://electrotheatre.ru/repertoire/spectacle/1182",
+      "image": "",
+      "parser": "electrotheatre",
+      "parser_options": {
+        "match_name": "Город миражей"
+      }
     },
     {
-      "id": "three-sisters-mhat",
-      "name": "Три сестры",
-      "theater": "МХТ им. Чехова",
-      "url": "https://mxat.ru/performance/tri_sestry/",
+      "id": "electro-piknik-2",
+      "name": "Пик Ник. Никогда",
+      "theater": "Электротеатр Станиславский",
+      "url": "https://electrotheatre.ru/repertoire/spectacle/1183",
       "image": "",
-      "parser": "mxat"
+      "parser": "electrotheatre",
+      "parser_options": {
+        "match_name": "Никогда"
+      }
     },
     {
-      "id": "example-kassir",
-      "name": "Название спектакля",
-      "theater": "Название театра",
-      "url": "https://www.kassir.ru/spectacle/название",
+      "id": "electro-piknik-3",
+      "name": "Пик Ник. Прибытие",
+      "theater": "Электротеатр Станиславский",
+      "url": "https://electrotheatre.ru/repertoire/spectacle/1186",
       "image": "",
-      "parser": "kassir"
+      "parser": "electrotheatre",
+      "parser_options": {
+        "match_name": "Прибытие"
+      }
+    },
+
+    {
+      "_theater": "ОСТАЛЬНЫЕ — будут добавлены после разбора их сайтов",
+      "id": "mayakovsky-les",
+      "name": "Лес",
+      "theater": "Театр Маяковского",
+      "url": "https://www.mayakovsky.ru/performance/les/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "mayakovsky-bagdad",
+      "name": "Багдадский вор и чёрная магия",
+      "theater": "Театр Маяковского",
+      "url": "https://www.mayakovsky.ru/performance/bagdadskiy-vor-i-chernaya-magiya",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "nations-muzh",
+      "name": "Я не убивала своего мужа",
+      "theater": "Театр наций",
+      "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "nations-makbet",
+      "name": "Макбет",
+      "theater": "Театр наций",
+      "url": "https://theatreofnations.ru/performances/makbet",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "okolo-shkola",
+      "name": "Школа для дураков",
+      "theater": "Театр около дома Станиславского",
+      "url": "https://www.okolo.ru/shows/shkola-dlya-durakov-s-sokolov/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "okolo-yesterday",
+      "name": "Вчера наступило внезапно, Винни-Пух или Прощай, Битлз",
+      "theater": "Театр около дома Станиславского",
+      "url": "https://www.okolo.ru/shows/yesterday/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "okolo-zhivago",
+      "name": "Доктор Живаго",
+      "theater": "Театр около дома Станиславского",
+      "url": "https://www.okolo.ru/shows/doktor-zhivago/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "okolo-lyubimymi",
+      "name": "С любимыми не расставайтесь",
+      "theater": "Театр около дома Станиславского",
+      "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "shalom-natan",
+      "name": "Натан Мудрый",
+      "theater": "Театр Шалом",
+      "url": "https://shalom-theatre.ru/spektakli/Nathan/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "shalom-lir",
+      "name": "Лир",
+      "theater": "Театр Шалом",
+      "url": "https://shalom-theatre.ru/spektakli/lear/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "sreda21-vek",
+      "name": "И дольше века длится день",
+      "theater": "Среда 21",
+      "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "sreda21-smert",
+      "name": "Русская смерть. Воспоминание о спектакле",
+      "theater": "Среда 21",
+      "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "sreda21-frankenstein",
+      "name": "Франкенштейн",
+      "theater": "Среда 21",
+      "url": "https://sreda21.ru/frankenshtejn/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "sreda21-filosofia",
+      "name": "Философия другого переулка",
+      "theater": "Среда 21",
+      "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "sovremennik-art",
+      "name": "Арт",
+      "theater": "Современник",
+      "url": "https://sovremennik.ru/plays/art",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "doc-mesto",
+      "name": "Место силы",
+      "theater": "Театр.doc",
+      "url": "https://teatrdoc.ru/performances/1355",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "vakhtangov-noch",
+      "name": "Ночь перед Рождеством",
+      "theater": "Театр Вахтангова",
+      "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "vakhtangov-chudo",
+      "name": "Обыкновенное чудо",
+      "theater": "Театр Вахтангова",
+      "url": "https://vakhtangov.ru/show/ordinay_miracle",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "vakhtangov-sonechka",
+      "name": "Повесть о Сонечке",
+      "theater": "Театр Вахтангова",
+      "url": "https://vakhtangov.ru/show/sonechka",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "vakhtangov-pushkin",
+      "name": "Повести Пушкина",
+      "theater": "Театр Вахтангова",
+      "url": "https://vakhtangov.ru/show/pushkin_tales",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "vakhtangov-fellini",
+      "name": "Феллини. 8½",
+      "theater": "Театр Вахтангова",
+      "url": "https://vakhtangov.ru/show/fellini-8-1-2",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "mxat-kosmos",
+      "name": "Космос",
+      "theater": "МХТ им. А.П. Чехова",
+      "url": "https://mxat.ru/repertuar/show/space",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "mxat-gorodki",
+      "name": "Игра в городки",
+      "theater": "МХТ им. А.П. Чехова",
+      "url": "https://mxat.ru/repertuar/show/stoyanov",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "mxat-flashback",
+      "name": "Флешбэк 2002",
+      "theater": "МХТ им. А.П. Чехова",
+      "url": "https://mxat.ru/repertuar/show/flashback",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "bronnaya-pigmalion",
+      "name": "Пигмалион",
+      "theater": "Театр на Бронной",
+      "url": "https://mbronnaya.ru/performances/pigmalion",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "ermolova-chukovsky",
+      "name": "Чуковский",
+      "theater": "Театр им. Ермоловой",
+      "url": "https://www.ermolova.ru/repertoire/view/230/",
+      "image": "",
+      "parser": "todo"
+    },
+    {
+      "id": "poltory-parkovka",
+      "name": "Парковка. ВСЁ ТУТ.",
+      "theater": "Полторы комнаты",
+      "url": "https://brodsky.online/events/parkovka-vsye-tut-spektakl",
+      "image": "",
+      "parser": "todo"
     }
   ]
 }
