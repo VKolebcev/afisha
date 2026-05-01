@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-30T12:13:31+03:00",
+  "last_updated": "2026-05-01T13:16:46+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -14,15 +14,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-04-30",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#28316352"
-        },
         {
           "date": "2026-05-22",
           "time": "19:00",
@@ -362,10 +353,10 @@
           "date": "2026-05-24",
           "time": "19:30",
           "weekday": "Вс",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-24-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-02",
@@ -410,22 +401,13 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-04-30",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": false,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "#"
-        },
-        {
           "date": "2026-05-16",
           "time": "19:00",
           "weekday": "Сб",
-          "available": false,
+          "available": true,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
         },
         {
           "date": "2026-06-25",
@@ -566,7 +548,7 @@
       "description": "В 2017 году в свет вышла автобиографическая книга народного артиста РФ Юрия Стоянова «Игра в \"Городки\"». «Добрая книга умного человека» — так охарактеризовали её читатели. Юрий Стоянов : « Книжка „Игра в „Городки““ не надиктована и не рассказана в форме интервью. У нее нет редактора, от первого до последнего слова книга написана мной. Я не могу назвать свое произведение биографией в чистом виде, потому что это все-таки жанровая книга. Она написана в жанре рассказа, или очень маленькой повести, под большим влиянием Марка Твена, Антона Павловича Чехова и Сергея Довлатова. Узнаете ли вы что-нибуд",
       "image": "https://storage.mxat.ru/resize_cache/17255/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/53b/vkl3sxgx2oyk02l2m6076iozjtv2vmeg/79869.jpg",
       "url": "https://mxat.ru/repertuar/show/stoyanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
@@ -585,10 +567,10 @@
           "date": "2026-06-14",
           "time": "19:00",
           "weekday": "Вс",
-          "available": true,
+          "available": false,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "javascript:;"
+          "buy_url": "https://mxat.ru/repertuar/show/stoyanov"
         }
       ]
     },
