@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T14:14:02+03:00",
+  "last_updated": "2026-05-01T14:24:17+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -89,29 +89,76 @@
       "id": "mayakovsky-les",
       "name": "Лес",
       "theater": "Театр Маяковского",
-      "description": "",
-      "image": "",
+      "description": "На перекрёстке лесных дорог, посреди России, сходятся два провинциальных артиста, комик Счастливцев и трагик Несчастливцев. Дорога доводит их до «Пеньков» — усадьбы богатой помещицы Гурмыжской, где творится «тёмный лес». Молодые женятся на старых ради денег, бесприданницы топятся от любви, все врут и никто не счастлив. Поработав в других спектаклях со стихиями ветра, воды, огня, в пьесе Островского художественный руководитель Маяковки Егор Перегудов исследует новую стихию. Леса давно нет. Нет ни пеньков, ни опилок. Одна природная сила вытеснила другую, оставив человека в тревожной зыбкости и п",
+      "image": "https://www.mayakovsky.ru/upload/iblock/7ff/7ff05647dfbffe2fe8541f5245c9be0e.jpg",
       "url": "https://www.mayakovsky.ru/performance/les/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Не удалось загрузить страницу",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-30",
+          "time": "18:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15271"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "18:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15351"
+        },
+        {
+          "date": "2026-07-19",
+          "time": "18:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15488"
+        }
+      ]
     },
     {
       "id": "mayakovsky-bagdad",
       "name": "Багдадский вор и чёрная магия",
       "theater": "Театр Маяковского",
-      "description": "",
-      "image": "",
+      "description": "Восток древний и современный, Восток пряный и разноцветный оживает на большой сцене Маяковки вокалом и танцами, живой музыкой, полётами, трюками и превращениями, традиционными восточными коврами и современным видео-артом. Вновь хитрость побеждает силу, а Багдадский вор, минуя испытания Подземными толчками, Смерчем и даже Восточными сладостями (в исполнении молодых артистов Маяковки) завоёвывает возлюбленную Фатиму. Музыка Давида Тухманова и стихи Юрия Энтина — автора песен всего советского детства (от «Бременских музыкантов» и «Летучего корабля» до «Гостьи из будущего») объединяют детей и роди",
+      "image": "https://www.mayakovsky.ru/upload/resize_cache/iblock/ab2/800_1156_2/ab2220cad38539d32cd1bbf35af33ebb.PNG",
       "url": "https://www.mayakovsky.ru/performance/bagdadskiy-vor-i-chernaya-magiya",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Не удалось загрузить страницу",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-31",
+          "time": "18:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15274"
+        },
+        {
+          "date": "2026-07-04",
+          "time": "18:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15460"
+        }
+      ]
     },
     {
       "id": "nations-muzh",
@@ -190,45 +237,111 @@
     },
     {
       "id": "okolo-shkola",
-      "name": "Школа для дураков",
+      "name": "Школа для дураков//С.Соколов",
       "theater": "Театр около дома Станиславского",
-      "description": "",
-      "image": "",
+      "description": "Сюрреалистическая, в высоком смысле наивная и потому бесконечно трогательная история. Главный герой «Школы для дураков», от лица которого ведётся повествование — ученик Такой-то, мальчик с нелинейным восприятием времени и раздвоением личности. Он вспоминает детство, когда учился в школе, и вспоминая, описывает и комментирует мир, в котором прошедшее время то и дело путается с настоящим. Первый роман Саши Соколова (1973), называют одним из важнейших событий в русской литературе ХХ века. Его высоко оценил, к примеру, Владимир Набоков, а выдающиеся теоретики обнаруживают в нетривиальном по структ",
+      "image": "'/upload/resize_cache/iblock/d8e/1200_900_2/dfnd0fmi82l7uekrlv8a5nv140uf1etv.jpg'",
       "url": "https://www.okolo.ru/shows/shkola-dlya-durakov-s-sokolov/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Не удалось загрузить страницу",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-13",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=48721821&agentId=museum255"
+        }
+      ]
     },
     {
       "id": "okolo-yesterday",
-      "name": "Вчера наступило внезапно, Винни-Пух или Прощай, Битлз",
+      "name": "Вчера наступило внезапно, Винни-Пух или Прощай, Битлз//А.Милн",
       "theater": "Театр около дома Станиславского",
-      "description": "",
-      "image": "",
+      "description": "«Вчера наступило внезапно» — таков буквальный перевод строчки из песни «Yesterday» The Beatles. В спектакле Юрия Погребничко песни ливерпульской четверки встречаются с диалогами из «Винни-Пуха» Алана Милна, а хмурые персонажи носят телогрейки и шапки ушанки, охотятся на слонопотама, ищут земную ось и цитируют Джона Леннона: «Я плачу, потому что земля круглая». .",
+      "image": "'/upload/iblock/64a/fzjboeupjkwf16fj4lh4a2so2u0zawpn.jpg'",
       "url": "https://www.okolo.ru/shows/yesterday/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Не удалось загрузить страницу",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-28",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=45003471&agentId=museum255"
+        },
+        {
+          "date": "2026-06-20",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=48725793&agentId=museum255"
+        }
+      ]
     },
     {
       "id": "okolo-zhivago",
-      "name": "Доктор Живаго",
+      "name": "Доктор Живаго//по мотивам романа Б.Пастернака",
       "theater": "Театр около дома Станиславского",
-      "description": "",
-      "image": "",
+      "description": "Спектакль «Доктор Живаго» по роману Бориса Пастернака о любви, о возможности и необходимости принятия противоречий эпохи, где сюжет – цепочка случайностей, которые чудесным образом осуществляют упрямый замысел Провидения. Режиссёр взяла главный русский роман ХХ века и перенесла его на сцену, сохранив пастернаковскую картину поэтического мира.",
+      "image": "'/upload/resize_cache/iblock/1c4/1200_900_2/ry2ef9gcrwlxx1xrpmukhhzk7uuywh15.jpg'",
       "url": "https://www.okolo.ru/shows/doktor-zhivago/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Не удалось загрузить страницу",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-13",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=44878496&agentId=museum255"
+        },
+        {
+          "date": "2026-05-14",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=44878499&agentId=museum255"
+        },
+        {
+          "date": "2026-06-02",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=48721750&agentId=museum255"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=48721755&agentId=museum255"
+        }
+      ]
     },
     {
       "id": "okolo-lyubimymi",
@@ -241,7 +354,7 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Не удалось загрузить страницу",
       "dates": []
     },
     {
