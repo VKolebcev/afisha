@@ -482,16 +482,13 @@ def parse_mxat(cfg: dict) -> dict:
                 d = date(int(m[1]), int(m[2]), int(m[3]))
                 time_str = f"{m[4]}:{m[5]}"
                 
-                # Проверяем доступность билетов
+                # Проверяем доступность билетов.
+                # Билеты продаются через JS-попап на странице спектакля,
+                # поэтому buy_url всегда указывает на страницу спектакля.
                 parent = time_el.find_parent("div", class_="grid")
                 buy_a = parent.find("a", href=True) if parent else None
-                
-                if buy_a and "Купить билет" in buy_a.get_text():
-                    buy_url = buy_a.get("href", "")
-                    available = True
-                else:
-                    buy_url = cfg["url"]
-                    available = False
+                available = buy_a is not None and "Купить билет" in buy_a.get_text()
+                buy_url = cfg["url"] if available else ""
 
                 if d >= today():
                     dates.append(make_date_entry(
