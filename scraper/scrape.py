@@ -19,6 +19,7 @@ import re
 import sys
 import time
 import traceback
+import urllib.request
 from datetime import date, datetime, timedelta
 from zoneinfo import ZoneInfo
 
@@ -57,6 +58,24 @@ def fetch(url: str, wait: str = "networkidle", timeout: int = 30_000) -> str:
 
 def soup(html: str) -> BeautifulSoup:
     return BeautifulSoup(html, "html.parser")
+
+
+def fetch_http(url: str) -> str:
+    """Лёгкий HTTP-запрос без браузера — для сайтов, блокирующих headless Chrome."""
+    req = urllib.request.Request(url, headers={
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "ru-RU,ru;q=0.9",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return resp.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        print(f"  ✗ fetch_http {url}: {e}")
+        return ""
 
 
 # ─────────────────────────────────────────────
@@ -743,8 +762,8 @@ def parse_nations(cfg: dict) -> dict:
 # ─────────────────────────────────────────────
 
 def parse_mayakovsky(cfg: dict) -> dict:
-    # Сайт не достигает networkidle из-за фоновых запросов — используем domcontentloaded
-    html = fetch(cfg["url"], wait="domcontentloaded", timeout=30_000)
+    # Сайт блокирует headless Chrome — используем простой HTTP-запрос
+    html = fetch_http(cfg["url"])
     if not html:
         return error_result(cfg, "Не удалось загрузить страницу")
 
@@ -931,8 +950,8 @@ def parse_sreda21(cfg: dict) -> dict:
 # ─────────────────────────────────────────────
 
 def parse_okolo(cfg: dict) -> dict:
-    # Сайт не достигает networkidle — используем domcontentloaded
-    html = fetch(cfg["url"], wait="domcontentloaded")
+    # Сайт блокирует headless Chrome — используем простой HTTP-запрос
+    html = fetch_http(cfg["url"])
     if not html:
         return error_result(cfg, "Не удалось загрузить страницу")
 
