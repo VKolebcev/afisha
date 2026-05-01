@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T14:24:17+03:00",
+  "last_updated": "2026-05-01T14:40:12+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -345,45 +345,83 @@
     },
     {
       "id": "okolo-lyubimymi",
-      "name": "С любимыми не расставайтесь",
+      "name": "С любимыми не расставайтесь//А.Володин и Ф.М.Достоевский",
       "theater": "Театр около дома Станиславского",
-      "description": "",
-      "image": "",
-      "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy",
+      "description": "Смокинг и кирзовые сапоги, жабо и телогрейка, кринолин и шапка-ушанка в спектаклях Погребничко мирно соседствуют друг с другом, Так же, как Володин и Достоевский. Режиссером движет не желание противопоставить эпохи или социальные срезы, а скорее уравнять их в правах. Парадоксальное соседство не снижает хрестоматийные образы, а скорее возвышает зэков и бомжей. Спектакль как попытка обнаружить общее в людях независимо от того, где и когда им выпало жить. Жанр спектакля — концерт самодеятельности со сквозным сюжетом из легендарной пьесы Володина. Погребничко «взрывает» бытовую ситуацию каждого из",
+      "image": "'/upload/iblock/d35/jtob3m0h3atxupu9wtm3rrnec2jxudre.jpg'",
+      "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Не удалось загрузить страницу",
+      "error": null,
       "dates": []
     },
     {
       "id": "shalom-natan",
-      "name": "Натан Мудрый",
+      "name": "Натан Mудрый",
       "theater": "Театр Шалом",
       "description": "",
-      "image": "",
+      "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/9d0/9d045aa39444c288f1fb474a3459ebd3/nat_1920_750_1x.png",
       "url": "https://shalom-theatre.ru/spektakli/Nathan/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-08",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/349392257/"
+        }
+      ]
     },
     {
       "id": "shalom-lir",
-      "name": "Лир",
+      "name": "ЛИР",
       "theater": "Театр Шалом",
       "description": "",
-      "image": "",
+      "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/2e5/2e59960325a7d758b8283e0dd9fb41d5/605662b1_9688_4925_8761_6590340aef8c_1x.webp",
       "url": "https://shalom-theatre.ru/spektakli/lear/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-15",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        },
+        {
+          "date": "2026-07-21",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        }
+      ]
     },
     {
       "id": "sreda21-vek",
