@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T13:49:35+03:00",
+  "last_updated": "2026-05-01T14:03:43+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -125,7 +125,35 @@
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": []
+      "dates": [
+        {
+          "date": "2026-06-20",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-06-21",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-06-28",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "nations-makbet",
@@ -134,12 +162,31 @@
       "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
       "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
       "url": "https://theatreofnations.ru/performances/makbet",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": []
+      "dates": [
+        {
+          "date": "2026-05-04",
+          "time": "20:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://theatreofnations.ru/event/6a864f99db5c2b63151f85df299a4d63/"
+        },
+        {
+          "date": "2026-05-05",
+          "time": "20:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://theatreofnations.ru/event/8293dde07fbd582a4c1febb0de2da326/"
+        }
+      ]
     },
     {
       "id": "okolo-shkola",
@@ -152,7 +199,7 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
+      "error": "Не удалось загрузить страницу",
       "dates": []
     },
     {
@@ -166,7 +213,7 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
+      "error": "Не удалось загрузить страницу",
       "dates": []
     },
     {
@@ -180,7 +227,7 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
+      "error": "Не удалось загрузить страницу",
       "dates": []
     },
     {
@@ -194,7 +241,7 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
+      "error": null,
       "dates": []
     },
     {
