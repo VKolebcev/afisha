@@ -743,8 +743,8 @@ def parse_nations(cfg: dict) -> dict:
 # ─────────────────────────────────────────────
 
 def parse_mayakovsky(cfg: dict) -> dict:
-    # Сайт может медленно грузиться — даём больше времени
-    html = fetch(cfg["url"], timeout=45_000)
+    # Сайт не достигает networkidle из-за фоновых запросов — используем domcontentloaded
+    html = fetch(cfg["url"], wait="domcontentloaded", timeout=30_000)
     if not html:
         return error_result(cfg, "Не удалось загрузить страницу")
 
@@ -931,7 +931,8 @@ def parse_sreda21(cfg: dict) -> dict:
 # ─────────────────────────────────────────────
 
 def parse_okolo(cfg: dict) -> dict:
-    html = fetch(cfg["url"])
+    # Сайт не достигает networkidle — используем domcontentloaded
+    html = fetch(cfg["url"], wait="domcontentloaded")
     if not html:
         return error_result(cfg, "Не удалось загрузить страницу")
 
