@@ -90,7 +90,7 @@
       "theater": "Театр около дома Станиславского",
       "url": "https://www.okolo.ru/shows/shkola-dlya-durakov-s-sokolov/",
       "image": "",
-      "parser": "todo"
+      "parser": "okolo"
     },
     {
       "id": "okolo-yesterday",
@@ -98,7 +98,7 @@
       "theater": "Театр около дома Станиславского",
       "url": "https://www.okolo.ru/shows/yesterday/",
       "image": "",
-      "parser": "todo"
+      "parser": "okolo"
     },
     {
       "id": "okolo-zhivago",
@@ -106,7 +106,7 @@
       "theater": "Театр около дома Станиславского",
       "url": "https://www.okolo.ru/shows/doktor-zhivago/",
       "image": "",
-      "parser": "todo"
+      "parser": "okolo"
     },
     {
       "id": "okolo-lyubimymi",
@@ -114,7 +114,7 @@
       "theater": "Театр около дома Станиславского",
       "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy",
       "image": "",
-      "parser": "todo"
+      "parser": "okolo"
     },
     {
       "id": "shalom-natan",

@@ -671,60 +671,47 @@ def parse_nations(cfg: dict) -> dict:
 
     # ── Даты (.nearest_events_performances — рендерится JS) ──
     #
-    # Точная структура рендера неизвестна, поэтому:
-    # 1. Ищем все <a> и блоки с датой внутри контейнера
-    # 2. Из текста каждого блока вытаскиваем дату и время
-    # 3. buy_url — ссылка из href или страница спектакля
+    # Реальная структура после рендера (подтверждена):
+    #   <div class="play-info__meta-item events_help_cast_row">
+    #     <span>4 май 2026 (Пн) - 20:00</span>
+    #     <a class="btn" href="/event/abc123/">Купить билет</a>
+    #   </div>
     dates = []
     events_div = s.select_one(".nearest_events_performances")
 
     if not events_div or not events_div.get_text(strip=True):
         result["error"] = (
-            "Блок .nearest_events_performances пуст после загрузки страницы — "
-            "JS не успел отрендерить даты. Нужно увеличить задержку fetch() "
-            "или добавить явное ожидание элемента."
+            "Блок .nearest_events_performances пуст — JS не успел отрендерить. "
+            "Попробуй увеличить задержку в fetch()."
         )
         result["dates"] = []
         return finalize(result)
 
-    # Пробуем найти дочерние блоки-события (структура зависит от рендера)
-    event_els = events_div.select("a, .event, .ticket, li, .session")
-    if not event_els:
-        # Если нет вложенных блоков — пробуем весь контейнер целиком
-        event_els = [events_div]
-
-    for el in event_els:
-        text = el.get_text(" ", strip=True)
-        if not text:
+    for item in events_div.select(".play-info__meta-item.events_help_cast_row"):
+        # Дата и время из первого <span>: "4 май 2026 (Пн) - 20:00"
+        span = item.select_one("span")
+        if not span:
             continue
+        text = span.get_text(strip=True)
 
         d = parse_ru_date(text)
         if not d or d < today():
             continue
 
-        # Время
-        time_m = re.search(r"(\d{1,2}):(\d{2})", text)
-        time_str = f"{time_m[1]}:{time_m[2]}" if time_m else ""
+        time_m = re.search(r"(\d{1,2}:\d{2})", text)
+        time_str = time_m.group(1) if time_m else ""
 
-        # Цена
-        price_m = re.search(r"от\s*([\d\s]+?)\s*(?:до\s*([\d\s]+?)\s*)?(?:руб|₽)", text, re.I)
-        if price_m:
-            result["price_min"] = parse_price(price_m[1])
-            if price_m[2]:
-                result["price_max"] = parse_price(price_m[2])
-
-        # Ссылка на покупку
-        href = el.get("href", "") if el.name == "a" else ""
-        if not href:
-            a = el.select_one("a[href]")
-            href = a.get("href", "") if a else ""
-        if href and not href.startswith("http"):
-            href = "https://theatreofnations.ru" + href
-        buy_url = href or cfg["url"]
-
-        # Доступность: считаем доступным если нашли ссылку или нет явного «нет билетов»
-        unavailable_keywords = ("нет билетов", "недоступно", "отменён", "sold out")
-        available = not any(kw in text.lower() for kw in unavailable_keywords)
+        # Ссылка: a.btn с текстом "Купить билет"
+        buy_a = item.select_one("a.btn[href]")
+        if buy_a and "купить" in buy_a.get_text(strip=True).lower():
+            href = buy_a.get("href", "")
+            if href and not href.startswith("http"):
+                href = "https://theatreofnations.ru" + href
+            available = True
+            buy_url = href
+        else:
+            available = False
+            buy_url = ""
 
         dates.append(make_date_entry(d, time_str, available,
                                      result["price_min"], result["price_max"],
@@ -756,7 +743,8 @@ def parse_nations(cfg: dict) -> dict:
 # ─────────────────────────────────────────────
 
 def parse_mayakovsky(cfg: dict) -> dict:
-    html = fetch(cfg["url"])
+    # Сайт может медленно грузиться — даём больше времени
+    html = fetch(cfg["url"], timeout=45_000)
     if not html:
         return error_result(cfg, "Не удалось загрузить страницу")
 
@@ -924,6 +912,74 @@ def parse_sreda21(cfg: dict) -> dict:
     result["dates"] = dates
     return finalize(result)
 
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: okolo.ru (Театр около дома Станиславского)
+# ─────────────────────────────────────────────
+#
+# Реальная структура (подтверждена из HTML):
+#
+#   <h1 class="page-header-shows-inner">Вчера наступило внезапно...</h1>
+#   <div class="background" style="background-image: url('/upload/...jpg')"></div>
+#   <div class="row performance-text-block">
+#     <div class="performance-block">Описание...</div>
+#   </div>
+#   <div id="buyTicketsBlock">
+#     <a href="https://tickets.mos.ru/..." class="_buyTicketBtn">28 Мая (19:00)</a>
+#     <a href="https://tickets.mos.ru/..." class="_buyTicketBtn">20 Июня (19:00)</a>
+#   </div>
+# ─────────────────────────────────────────────
+
+def parse_okolo(cfg: dict) -> dict:
+    html = fetch(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Название ───────────────────────────────────────────
+    h1 = s.select_one("h1.page-header-shows-inner")
+    if h1:
+        result["name"] = h1.get_text(strip=True)
+
+    # ── Постер ─────────────────────────────────────────────
+    bg = s.select_one(".background")
+    if bg:
+        style = bg.get("style", "")
+        m = re.search(r"url\(([^)]+)\)", style)
+        if m:
+            src = m.group(1)
+            if src.startswith("/"):
+                src = "https://www.okolo.ru" + src
+            result["image"] = src
+
+    # ── Описание ───────────────────────────────────────────
+    desc_el = s.select_one(".performance-text-block .performance-block")
+    if desc_el:
+        result["description"] = desc_el.get_text(" ", strip=True)[:600]
+
+    # ── Даты ───────────────────────────────────────────────
+    # Формат: "28 Мая (19:00)" — прямые ссылки на tickets.mos.ru
+    dates = []
+    for a in s.select("#buyTicketsBlock ._buyTicketBtn"):
+        text = a.get_text(strip=True)
+        d = parse_ru_date(text)
+        if not d or d < today():
+            continue
+
+        tm = re.search(r"(\d{1,2}:\d{2})", text)
+        time_str = tm.group(1) if tm else ""
+
+        buy_url = a.get("href", "")
+        dates.append(make_date_entry(d, time_str, True, 0, 0, buy_url))
+
+    if not dates and s.select_one("#buyTicketsBlock"):
+        result["error"] = "Ближайших дат не найдено — возможно, билеты ещё не выставлены"
+
+    result["dates"] = dates
+    return finalize(result)
+
 # ─────────────────────────────────────────────
 # ЗАГЛУШКА
 # ─────────────────────────────────────────────
@@ -946,6 +1002,7 @@ PARSERS: dict = {
     "nations":        parse_nations,
     "mayakovsky":     parse_mayakovsky,
     "sreda21":        parse_sreda21,
+    "okolo":          parse_okolo,
     "todo":           parse_todo,
 }
 
