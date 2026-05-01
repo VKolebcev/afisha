@@ -531,7 +531,9 @@ def parse_vakhtangov(cfg: dict) -> dict:
     result = base_result(cfg)
 
     # ── Название ───────────────────────────────────────────
-    h1 = s.select_one("h1")
+    # Используем точный селектор чтобы не захватить h1 с названием
+    # театра из шапки сайта (он идёт раньше заголовка спектакля).
+    h1 = s.select_one(".cover-header h1") or s.select_one("#cover h1")
     if h1:
         result["name"] = h1.get_text(strip=True)
 
@@ -613,6 +615,315 @@ def parse_vakhtangov(cfg: dict) -> dict:
     return finalize(result)
 
 
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: theatreofnations.ru (Театр наций)
+# ─────────────────────────────────────────────
+#
+# Реальная структура (подтверждена из HTML):
+#
+#   <div class="sidebar-info-title">Макбет</div>
+#   <img class="play-info__poster" src="https://cdn.theatreofnations.ru/...jpg">
+#   <div class="stripped_content content-body__text rich-text">Описание...</div>
+#
+#   Даты рендерятся JS в:
+#   <div class="nearest_events_performances">
+#     <!-- после рендера ожидаем элементы вида: -->
+#     <a href="/performances/.../buy/" class="...">
+#       <span class="date">15 мая</span>
+#       <span class="time">19:00</span>
+#       <span class="price">от 1500 руб.</span>
+#     </a>
+#     ...
+#   </div>
+#
+#   Playwright с networkidle должен дождаться заполнения блока.
+#   Если блок окажется пустым — парсер вернёт понятную ошибку.
+# ─────────────────────────────────────────────
+
+def parse_nations(cfg: dict) -> dict:
+    html = fetch(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Название ───────────────────────────────────────────
+    title_el = s.select_one(".sidebar-info-title")
+    if title_el:
+        result["name"] = title_el.get_text(strip=True)
+
+    # ── Описание ───────────────────────────────────────────
+    desc_el = s.select_one(".stripped_content")
+    if desc_el:
+        result["description"] = desc_el.get_text(" ", strip=True)[:600]
+
+    # ── Постер ─────────────────────────────────────────────
+    poster = s.select_one(".play-info__poster")
+    if not poster:
+        poster = s.select_one(".play-info-mobile-poster img")
+    if poster:
+        src = poster.get("src", "")
+        if src and not src.startswith("http"):
+            src = "https://theatreofnations.ru" + src
+        result["image"] = src
+
+    # ── Даты (.nearest_events_performances — рендерится JS) ──
+    #
+    # Точная структура рендера неизвестна, поэтому:
+    # 1. Ищем все <a> и блоки с датой внутри контейнера
+    # 2. Из текста каждого блока вытаскиваем дату и время
+    # 3. buy_url — ссылка из href или страница спектакля
+    dates = []
+    events_div = s.select_one(".nearest_events_performances")
+
+    if not events_div or not events_div.get_text(strip=True):
+        result["error"] = (
+            "Блок .nearest_events_performances пуст после загрузки страницы — "
+            "JS не успел отрендерить даты. Нужно увеличить задержку fetch() "
+            "или добавить явное ожидание элемента."
+        )
+        result["dates"] = []
+        return finalize(result)
+
+    # Пробуем найти дочерние блоки-события (структура зависит от рендера)
+    event_els = events_div.select("a, .event, .ticket, li, .session")
+    if not event_els:
+        # Если нет вложенных блоков — пробуем весь контейнер целиком
+        event_els = [events_div]
+
+    for el in event_els:
+        text = el.get_text(" ", strip=True)
+        if not text:
+            continue
+
+        d = parse_ru_date(text)
+        if not d or d < today():
+            continue
+
+        # Время
+        time_m = re.search(r"(\d{1,2}):(\d{2})", text)
+        time_str = f"{time_m[1]}:{time_m[2]}" if time_m else ""
+
+        # Цена
+        price_m = re.search(r"от\s*([\d\s]+?)\s*(?:до\s*([\d\s]+?)\s*)?(?:руб|₽)", text, re.I)
+        if price_m:
+            result["price_min"] = parse_price(price_m[1])
+            if price_m[2]:
+                result["price_max"] = parse_price(price_m[2])
+
+        # Ссылка на покупку
+        href = el.get("href", "") if el.name == "a" else ""
+        if not href:
+            a = el.select_one("a[href]")
+            href = a.get("href", "") if a else ""
+        if href and not href.startswith("http"):
+            href = "https://theatreofnations.ru" + href
+        buy_url = href or cfg["url"]
+
+        # Доступность: считаем доступным если нашли ссылку или нет явного «нет билетов»
+        unavailable_keywords = ("нет билетов", "недоступно", "отменён", "sold out")
+        available = not any(kw in text.lower() for kw in unavailable_keywords)
+
+        dates.append(make_date_entry(d, time_str, available,
+                                     result["price_min"], result["price_max"],
+                                     buy_url))
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: mayakovsky.ru (Театр Маяковского)
+# ─────────────────────────────────────────────
+#
+# Реальная структура (подтверждена из HTML):
+#
+#   <p class="aoi_title">Лес</p>
+#   <div class="aoim_left">
+#     <div data-src="/upload/iblock/7ff/....jpg" class="afisha-img">
+#       <img src="/upload/iblock/7ff/....jpg">
+#     </div>
+#   </div>
+#   <div class="text_review">Описание...</div>
+#
+#   <div class="aoi_data_block clearfix">
+#     <p class="aoidb_t1">/30.05</p>
+#     <p class="aoidb_t2">Сб 18:00<span></span></p>
+#     <a class="aoi_btn" href="/mos-tickets/?event_id=15271">билеты</a>
+#   </div>
+# ─────────────────────────────────────────────
+
+def parse_mayakovsky(cfg: dict) -> dict:
+    html = fetch(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Название ───────────────────────────────────────────
+    title_el = s.select_one(".aoi_title")
+    if title_el:
+        result["name"] = title_el.get_text(strip=True)
+
+    # ── Постер ─────────────────────────────────────────────
+    img_src = ""
+    img_div = s.select_one(".aoim_left [data-src]")
+    if img_div:
+        img_src = img_div.get("data-src", "")
+    if not img_src:
+        img_el = s.select_one(".aoim_left img")
+        if img_el:
+            img_src = img_el.get("src", "")
+    if img_src and not img_src.startswith("http"):
+        img_src = "https://www.mayakovsky.ru" + img_src
+    result["image"] = img_src
+
+    # ── Описание ───────────────────────────────────────────
+    desc_el = s.select_one(".text_review")
+    if desc_el:
+        result["description"] = desc_el.get_text(" ", strip=True)[:600]
+
+    # ── Даты ───────────────────────────────────────────────
+    # Формат даты в .aoidb_t1: "/30.05" (без года — добавляем текущий/следующий)
+    dates = []
+    for block in s.select(".aoi_data_block"):
+        t1 = block.select_one(".aoidb_t1")
+        t2 = block.select_one(".aoidb_t2")
+        if not t1:
+            continue
+
+        date_text = t1.get_text(strip=True)
+        m = re.search(r"/(\d{1,2})\.(\d{1,2})", date_text)
+        if not m:
+            continue
+
+        day, mon = int(m[1]), int(m[2])
+        try:
+            d = date(today().year, mon, day)
+            if d < today():
+                d = date(today().year + 1, mon, day)
+        except ValueError:
+            continue
+
+        # Время: "Сб 18:00"
+        time_str = ""
+        if t2:
+            tm = re.search(r"(\d{1,2}:\d{2})", t2.get_text())
+            if tm:
+                time_str = tm[1]
+
+        # Ссылка на покупку
+        buy_a = block.select_one("a.aoi_btn")
+        if buy_a:
+            href = buy_a.get("href", "")
+            if href and not href.startswith("http"):
+                href = "https://www.mayakovsky.ru" + href
+            available = True
+            buy_url = href
+        else:
+            available = False
+            buy_url = ""
+
+        dates.append(make_date_entry(d, time_str, available, 0, 0, buy_url))
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: sreda21.ru (Театр «Среда 21»)
+# ─────────────────────────────────────────────
+#
+# Сайт построен на Tilda. Структура страницы спектакля:
+#
+#   <meta property="og:title" content="И дольше века длится день">
+#   <meta property="og:image" content="https://static.tildacdn.com/....jpg">
+#   <meta name="description" content="Кукольная мистерия...">
+#
+#   Ближайшие даты — каждый показ в отдельном блоке T396.
+#   Поля шаблона (field-ID стабильны для всего проекта sreda21.ru):
+#     field="tn_text_1610551950639" — дата ("7 мая")
+#     field="tn_text_1610551972048" — время ("19:30")
+#     field="tn_text_1630567561103" — ссылка купить/продан
+#       <a href="https://www.afisha.ru/...">КУПИТЬ БИЛЕТ</a>  → available=True
+#       <a href="...">ПРОДАН</a>                              → available=False
+# ─────────────────────────────────────────────
+
+def parse_sreda21(cfg: dict) -> dict:
+    html = fetch(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Название ───────────────────────────────────────────
+    og_title = s.select_one('meta[property="og:title"]')
+    if og_title and og_title.get("content"):
+        result["name"] = og_title["content"].strip()
+
+    # ── Постер ─────────────────────────────────────────────
+    og_img = s.select_one('meta[property="og:image"]')
+    if og_img and og_img.get("content"):
+        result["image"] = og_img["content"].strip()
+
+    # ── Описание ───────────────────────────────────────────
+    og_desc = s.select_one('meta[name="description"]')
+    if og_desc and og_desc.get("content"):
+        result["description"] = og_desc["content"].strip()[:600]
+
+    # ── Даты ───────────────────────────────────────────────
+    # Каждый показ — отдельный Tilda-блок с фиксированными field-ID полей.
+    dates = []
+    for date_el in s.select('[field="tn_text_1610551950639"]'):
+        date_text = date_el.get_text(strip=True)
+        d = parse_ru_date(date_text)
+        if not d or d < today():
+            continue
+
+        # Поднимаемся до корневого блока записи (#recXXXXX)
+        rec = date_el
+        for _ in range(15):
+            rec = getattr(rec, "parent", None)
+            if rec is None:
+                break
+            rec_id = rec.get("id", "") if hasattr(rec, "get") else ""
+            if rec_id.startswith("rec"):
+                break
+
+        if rec is None:
+            continue
+
+        # Время
+        time_el = rec.select_one('[field="tn_text_1610551972048"]')
+        time_str = time_el.get_text(strip=True) if time_el else ""
+
+        # Ссылка на покупку / статус
+        buy_container = rec.select_one('[field="tn_text_1630567561103"]')
+        buy_a = buy_container.select_one("a[href]") if buy_container else None
+        if buy_a:
+            link_text = buy_a.get_text(strip=True).upper()
+            sold_keywords = ("ПРОДАН", "SOLD OUT", "НЕТ БИЛЕТОВ", "НЕЛЬЗЯ")
+            available = not any(kw in link_text for kw in sold_keywords)
+            buy_url = buy_a.get("href", "") if available else ""
+        else:
+            available = False
+            buy_url = ""
+
+        dates.append(make_date_entry(d, time_str, available, 0, 0, buy_url))
+
+    if not dates:
+        result["error"] = (
+            "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. "
+            "Проверь атрибуты field у элементов с датой и временем."
+        )
+
+    result["dates"] = dates
+    return finalize(result)
+
 # ─────────────────────────────────────────────
 # ЗАГЛУШКА
 # ─────────────────────────────────────────────
@@ -632,6 +943,9 @@ PARSERS: dict = {
     "electrotheatre": parse_electrotheatre,
     "mxat":           parse_mxat,
     "vakhtangov":     parse_vakhtangov,
+    "nations":        parse_nations,
+    "mayakovsky":     parse_mayakovsky,
+    "sreda21":        parse_sreda21,
     "todo":           parse_todo,
 }
 

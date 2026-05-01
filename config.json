@@ -5,7 +5,6 @@
     "days_ahead": 90
   },
   "productions": [
-
     {
       "_theater": "МАСТЕРСКАЯ ПЕТРА ФОМЕНКО",
       "id": "fomenki-arkadiya",
@@ -18,7 +17,6 @@
         "performance_slug": "arcadia"
       }
     },
-
     {
       "_theater": "ЭЛЕКТРОТЕАТР СТАНИСЛАВСКИЙ",
       "id": "electro-piknik-1",
@@ -53,7 +51,6 @@
         "match_name": "Прибытие"
       }
     },
-
     {
       "_theater": "ОСТАЛЬНЫЕ — будут добавлены после разбора их сайтов",
       "id": "mayakovsky-les",
@@ -61,7 +58,7 @@
       "theater": "Театр Маяковского",
       "url": "https://www.mayakovsky.ru/performance/les/",
       "image": "",
-      "parser": "todo"
+      "parser": "mayakovsky"
     },
     {
       "id": "mayakovsky-bagdad",
@@ -69,7 +66,7 @@
       "theater": "Театр Маяковского",
       "url": "https://www.mayakovsky.ru/performance/bagdadskiy-vor-i-chernaya-magiya",
       "image": "",
-      "parser": "todo"
+      "parser": "mayakovsky"
     },
     {
       "id": "nations-muzh",
@@ -77,7 +74,7 @@
       "theater": "Театр наций",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
       "image": "",
-      "parser": "todo"
+      "parser": "nations"
     },
     {
       "id": "nations-makbet",
@@ -85,7 +82,7 @@
       "theater": "Театр наций",
       "url": "https://theatreofnations.ru/performances/makbet",
       "image": "",
-      "parser": "todo"
+      "parser": "nations"
     },
     {
       "id": "okolo-shkola",
@@ -141,7 +138,7 @@
       "theater": "Среда 21",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "image": "",
-      "parser": "todo"
+      "parser": "sreda21"
     },
     {
       "id": "sreda21-smert",
@@ -149,7 +146,7 @@
       "theater": "Среда 21",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
       "image": "",
-      "parser": "todo"
+      "parser": "sreda21"
     },
     {
       "id": "sreda21-frankenstein",
@@ -157,7 +154,7 @@
       "theater": "Среда 21",
       "url": "https://sreda21.ru/frankenshtejn/",
       "image": "",
-      "parser": "todo"
+      "parser": "sreda21"
     },
     {
       "id": "sreda21-filosofia",
@@ -165,7 +162,7 @@
       "theater": "Среда 21",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
       "image": "",
-      "parser": "todo"
+      "parser": "sreda21"
     },
     {
       "id": "sovremennik-art",
@@ -221,7 +218,7 @@
       "theater": "Театр Вахтангова",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
       "image": "",
-      "parser": "todo"
+      "parser": "vakhtangov"
     },
     {
       "id": "mxat-kosmos",
