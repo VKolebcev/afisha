@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T13:16:46+03:00",
+  "last_updated": "2026-05-01T13:35:39+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -561,7 +561,7 @@
           "available": false,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://mxat.ru/repertuar/show/stoyanov"
+          "buy_url": ""
         },
         {
           "date": "2026-06-14",
@@ -570,7 +570,7 @@
           "available": false,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://mxat.ru/repertuar/show/stoyanov"
+          "buy_url": ""
         }
       ]
     },
@@ -594,7 +594,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "javascript:;"
+          "buy_url": "https://mxat.ru/repertuar/show/flashback"
         },
         {
           "date": "2026-06-08",
@@ -603,7 +603,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "javascript:;"
+          "buy_url": "https://mxat.ru/repertuar/show/flashback"
         }
       ]
     },
