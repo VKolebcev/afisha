@@ -112,7 +112,7 @@
       "id": "okolo-lyubimymi",
       "name": "С любимыми не расставайтесь",
       "theater": "Театр около дома Станиславского",
-      "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy",
+      "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy/",
       "image": "",
       "parser": "okolo"
     },
@@ -122,7 +122,7 @@
       "theater": "Театр Шалом",
       "url": "https://shalom-theatre.ru/spektakli/Nathan/",
       "image": "",
-      "parser": "todo"
+      "parser": "shalom"
     },
     {
       "id": "shalom-lir",
@@ -130,7 +130,7 @@
       "theater": "Театр Шалом",
       "url": "https://shalom-theatre.ru/spektakli/lear/",
       "image": "",
-      "parser": "todo"
+      "parser": "shalom"
     },
     {
       "id": "sreda21-vek",

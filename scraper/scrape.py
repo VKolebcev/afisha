@@ -1000,6 +1000,107 @@ def parse_okolo(cfg: dict) -> dict:
     result["dates"] = dates
     return finalize(result)
 
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: shalom-theatre.ru (Театр Шалом)
+# ─────────────────────────────────────────────
+#
+# Структура главной страницы афиши (shalom-theatre.ru/):
+#
+#   <article class="landing-block-node-card ...">
+#     <div class="landing-block-node-card-date-value">08</div>
+#     <div class="landing-block-node-card-date-text">мая<br/><p>ПТ<br/>19:00</p></div>
+#     <img ... data-pseudo-url='{"href":"https://shalom-theatre.ru/spektakli/Nathan/", ...}'/>
+#     <a class="landing-block-node-card-button" href="https://bilet.mos.ru/event/349392257/">
+#       КУПИТЬ БИЛЕТ
+#     </a>
+#   </article>
+#
+# Стратегия: парсим всю афишу, фильтруем по cfg["url"] конкретного спектакля.
+# Постер/описание берём со страницы спектакля через og-теги.
+# ─────────────────────────────────────────────
+
+def parse_shalom(cfg: dict) -> dict:
+    result = base_result(cfg)
+
+    # ── Постер и описание со страницы спектакля ────────────────────────────
+    show_html = fetch_http(cfg["url"])
+    if show_html:
+        ss = soup(show_html)
+        og_img = ss.select_one('meta[property="og:image"]')
+        if og_img and og_img.get("content"):
+            result["image"] = og_img["content"]
+        og_title = ss.select_one('meta[property="og:title"]')
+        if og_title and og_title.get("content"):
+            result["name"] = og_title["content"]
+        # Описание из текстового блока
+        desc_el = ss.select_one('.landing-semantic-text-medium p')
+        if desc_el:
+            result["description"] = desc_el.get_text(" ", strip=True)[:500]
+
+    # ── Даты с главной страницы афиши ──────────────────────────────────────
+    afisha_html = fetch_http("https://shalom-theatre.ru/")
+    if not afisha_html:
+        result["error"] = "Не удалось загрузить страницу афиши"
+        result["dates"] = []
+        return finalize(result)
+
+    s = soup(afisha_html)
+    show_url = cfg["url"].rstrip("/") + "/"
+
+    dates = []
+    for article in s.select("article.landing-block-node-card"):
+        # Ищем URL спектакля в data-pseudo-url всех элементов внутри article
+        show_href = ""
+        for el in article.find_all(attrs={"data-pseudo-url": True}):
+            try:
+                pseudo = json.loads(el["data-pseudo-url"])
+                href = pseudo.get("href", "")
+                if "/spektakli/" in href:
+                    show_href = href.rstrip("/") + "/"
+                    break
+            except Exception:
+                pass
+
+        if not show_href or show_href.lower() != show_url.lower():
+            continue
+
+        # День
+        day_el = article.select_one(".landing-block-node-card-date-value")
+        if not day_el:
+            continue
+
+        # Месяц и время
+        date_el = article.select_one(".landing-block-node-card-date-text")
+        if not date_el:
+            continue
+
+        full_text = day_el.get_text(strip=True) + " " + date_el.get_text(" ", strip=True)
+        d = parse_ru_date(full_text)
+        if not d or d < today():
+            continue
+
+        time_m = re.search(r"(\d{1,2}:\d{2})", full_text)
+        time_str = time_m.group(1) if time_m else ""
+
+        # Кнопка покупки
+        buy_a = article.select_one("a.landing-block-node-card-button[href]")
+        if buy_a:
+            buy_url = buy_a.get("href", "")
+            btn_text = buy_a.get_text(strip=True).upper()
+            available = "КУПИТЬ" in btn_text or "РЕГИСТР" in btn_text
+        else:
+            buy_url = ""
+            available = False
+
+        dates.append(make_date_entry(d, time_str, available, 0, 0, buy_url))
+
+    if not dates:
+        result["error"] = "Спектакль не найден в афише — возможно, ближайших дат нет"
+
+    result["dates"] = dates
+    return finalize(result)
+
 # ─────────────────────────────────────────────
 # ЗАГЛУШКА
 # ─────────────────────────────────────────────
@@ -1023,6 +1124,7 @@ PARSERS: dict = {
     "mayakovsky":     parse_mayakovsky,
     "sreda21":        parse_sreda21,
     "okolo":          parse_okolo,
+    "shalom":         parse_shalom,
     "todo":           parse_todo,
 }
 
