@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-02T18:38:41+03:00",
+  "last_updated": "2026-05-02T21:44:04+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -647,15 +647,34 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Не удалось загрузить страницу",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-16",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
+        },
+        {
+          "date": "2026-06-25",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
