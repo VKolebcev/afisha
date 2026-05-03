@@ -170,7 +170,7 @@
       "theater": "Современник",
       "url": "https://sovremennik.ru/plays/art",
       "image": "",
-      "parser": "todo"
+      "parser": "sovremennik"
     },
     {
       "id": "doc-mesto",
@@ -178,7 +178,7 @@
       "theater": "Театр.doc",
       "url": "https://teatrdoc.ru/performances/1355",
       "image": "",
-      "parser": "todo"
+      "parser": "teatrdoc"
     },
     {
       "id": "vakhtangov-noch",
@@ -250,7 +250,7 @@
       "theater": "Театр на Бронной",
       "url": "https://mbronnaya.ru/performances/pigmalion",
       "image": "",
-      "parser": "todo"
+      "parser": "mbronnaya"
     },
     {
       "id": "ermolova-chukovsky",
@@ -258,7 +258,31 @@
       "theater": "Театр им. Ермоловой",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
       "image": "",
-      "parser": "todo"
+      "parser": "ermolova"
+    },
+    {
+      "id": "entracte-mitina",
+      "name": "Митина любовь",
+      "theater": "Антракт",
+      "url": "https://entracte.moscow/mitina",
+      "image": "",
+      "parser": "entracte"
+    },
+    {
+      "id": "entracte-einstein",
+      "name": "Эйнштейн и Маргарита",
+      "theater": "Антракт",
+      "url": "https://entracte.moscow/einsteinundmargarita",
+      "image": "",
+      "parser": "entracte"
+    },
+    {
+      "id": "entracte-chayka",
+      "name": "Чайка",
+      "theater": "Антракт",
+      "url": "https://entracte.moscow/seagull",
+      "image": "",
+      "parser": "entracte"
     },
     {
       "id": "poltory-parkovka",
@@ -266,7 +290,7 @@
       "theater": "Полторы комнаты",
       "url": "https://brodsky.online/events/parkovka-vsye-tut-spektakl",
       "image": "",
-      "parser": "todo"
+      "parser": "brodsky"
     }
   ]
 }

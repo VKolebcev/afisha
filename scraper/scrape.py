@@ -969,7 +969,7 @@ def parse_okolo(cfg: dict) -> dict:
         style = bg.get("style", "")
         m = re.search(r"url\(([^)]+)\)", style)
         if m:
-            src = m.group(1)
+            src = m.group(1).strip("'\"")
             if src.startswith("/"):
                 src = "https://www.okolo.ru" + src
             result["image"] = src
@@ -1102,6 +1102,503 @@ def parse_shalom(cfg: dict) -> dict:
     return finalize(result)
 
 # ─────────────────────────────────────────────
+# ПАРСЕР: entracte.moscow (Театральное агентство Антракт)
+# ─────────────────────────────────────────────
+#
+# Структура страницы спектакля (Tilda):
+#
+#   <meta property="og:image" content="https://static.tildacdn.com/.../photo.jpg" />
+#
+#   <div class="t764__descr" field="descr">
+#     Режиссёр Владислав Наставшев помещает...
+#   </div>
+#
+#   <a class="t734__button" href="https://moscowshow.com/..." target="_blank">
+#     КУПИТЬ БИЛЕТ
+#   </a>
+#
+# Даты берём с главной афиши (entracte.moscow/):
+#   <a href="/seagull" class="t-card__link">ЧАЙКА</a>
+#   <div class="t-card__descr">
+#     ...
+#     <strong>16 МАЯ /</strong> <strong>Москва</strong>
+#     <strong>20 ИЮНЯ /</strong> <strong>Москва</strong>
+#   </div>
+#
+# Slug для матчинга берём из последнего сегмента cfg["url"].
+# Время не указывается в афише — оставляем пустым.
+# ─────────────────────────────────────────────
+
+def parse_entracte(cfg: dict) -> dict:
+    result = base_result(cfg)
+    slug = "/" + cfg["url"].rstrip("/").split("/")[-1]  # "/seagull"
+
+    # ── Постер, описание и URL покупки со страницы спектакля ───
+    html = fetch_http(cfg["url"])
+    buy_url = cfg["url"]
+    if html:
+        s = soup(html)
+        og_img = s.select_one('meta[property="og:image"]')
+        if og_img and og_img.get("content"):
+            result["image"] = og_img["content"]
+        desc_el = s.select_one(".t764__descr")
+        if desc_el:
+            result["description"] = desc_el.get_text(" ", strip=True)[:600]
+        btn = s.select_one("a.t734__button[href]")
+        if btn and btn.get("href", "").startswith("http"):
+            buy_url = btn["href"]
+
+    # ── Даты с главной афиши ────────────────────────────────────
+    afisha_html = fetch_http("https://entracte.moscow/")
+    if not afisha_html:
+        result["error"] = "Не удалось загрузить страницу афиши"
+        result["dates"] = []
+        return finalize(result)
+
+    s2 = soup(afisha_html)
+
+    # Находим карточку по slug
+    target_card = None
+    for card in s2.select(".t774__wrapper, .t774__col"):
+        link = card.select_one("a.t-card__link[href]")
+        if link and link.get("href", "").rstrip("/") == slug.rstrip("/"):
+            target_card = card
+            break
+
+    dates = []
+    if target_card:
+        descr_el = target_card.select_one(".t-card__descr")
+        if descr_el:
+            text = descr_el.get_text(" ", strip=True)
+            # Формат дат: "16 МАЯ / Москва" или "16 МАЯ / С.-Петербург"
+            # Берём только московские показы (или все, если город не указан)
+            for m in re.finditer(r"(\d{1,2})\s+([А-ЯЁа-яё]+)(?:\s*/\s*([А-ЯЁа-яёA-Za-z.\-]+))?", text):
+                day_str   = m.group(1)
+                month_str = m.group(2).lower()
+                city      = (m.group(3) or "").strip()
+                # Пропускаем гастроли за пределами Москвы
+                if city and "москва" not in city.lower() and city != "":
+                    # Оставляем только если город не указан или это Москва
+                    if city.lower() not in ("москва", "moscow", ""):
+                        continue
+                mon = next((v for k, v in MONTHS_RU.items()
+                            if month_str.startswith(k[:3])), None)
+                if mon is None:
+                    continue
+                day = int(day_str)
+                year = today().year
+                try:
+                    d = date(year, mon, day)
+                    if d < today():
+                        d = date(year + 1, mon, day)
+                except ValueError:
+                    continue
+                dates.append(make_date_entry(d, "", True, 0, 0, buy_url))
+
+    if not dates:
+        result["error"] = "Ближайших дат не найдено"
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: brodsky.online (Полторы комнаты)
+# ─────────────────────────────────────────────
+#
+# Структура страницы события:
+#
+#   <!-- Слайдер: фон = постер спектакля -->
+#   <div class="left-pic swiper-slide">
+#     <div style="background-image: url('/upload/iblock/.../photo.png')"></div>
+#   </div>
+#
+#   <div class="detail-content">
+#     <p>Режиссер — ...</p>
+#     ...
+#   </div>
+#
+#   <div class="ticket-link-row">
+#     <a href="/tickets/bookplaces/12878/" class="ticket-link">20.05 17:00</a>
+#     <a href="/tickets/bookplaces/12879/" class="ticket-link">20.05 20:00</a>
+#     ...
+#   </div>
+#
+# og:image — общий для всего сайта, поэтому берём фон первого слайда.
+# ─────────────────────────────────────────────
+
+def parse_brodsky(cfg: dict) -> dict:
+    html = fetch_http(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Постер: фон первого слайда ─────────────────────────
+    slide = s.select_one(".left-pic")
+    if slide:
+        inner = slide.select_one("div[style]")
+        if inner:
+            m = re.search(r"url\(['\"]?([^'\")\s]+)['\"]?\)", inner.get("style", ""))
+            if m:
+                src = m.group(1)
+                result["image"] = "https://www.brodsky.online" + src if src.startswith("/") else src
+
+    # ── Описание ───────────────────────────────────────────
+    desc_el = s.select_one(".detail-content")
+    if desc_el:
+        result["description"] = desc_el.get_text(" ", strip=True)[:600]
+
+    # ── Даты ───────────────────────────────────────────────
+    # Формат текста ссылки: "20.05 17:00"
+    dates = []
+    for a in s.select(".ticket-link-row a.ticket-link"):
+        text = a.get_text(strip=True)
+        m = re.match(r"(\d{2})\.(\d{2})\s+(\d{2}:\d{2})", text)
+        if not m:
+            continue
+        day, mon, time_str = int(m.group(1)), int(m.group(2)), m.group(3)
+        year = today().year
+        try:
+            d = date(year, mon, day)
+            if d < today():
+                d = date(year + 1, mon, day)
+        except ValueError:
+            continue
+        href = a.get("href", "")
+        buy_url = "https://www.brodsky.online" + href if href.startswith("/") else href
+        dates.append(make_date_entry(d, time_str, True, 0, 0, buy_url))
+
+    if not dates:
+        result["error"] = "Ближайших дат не найдено"
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: ermolova.ru (Театр им. Ермоловой)
+# ─────────────────────────────────────────────
+#
+# Структура страницы спектакля:
+#
+#   <meta property="og:image" content="..." />   <!-- может отсутствовать -->
+#   <a href="/slir/w1500/.../photo.jpeg" data-fancybox="gallery">...</a>
+#
+#   <div class="perfomance_dates">
+#     <p><span class="about_month">Июнь:</span><span class="about_date">14</span></p>
+#     <p><span class="about_month">Июль:</span><span class="about_date">6, 7</span></p>
+#   </div>
+#
+#   <div class="description-block-about">
+#     <p class="about">...Описание...</p>
+#     <p class="about">...Начало спектакля в 19.00...</p>
+#     <p class="about">...Цена билетов: от 500 до 30000 руб....</p>
+#   </div>
+#
+# Кнопка покупки — profTicket виджет без прямого URL → используем URL страницы.
+# ─────────────────────────────────────────────
+
+def parse_ermolova(cfg: dict) -> dict:
+    html = fetch_http(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Постер ─────────────────────────────────────────────
+    og_img = s.select_one('meta[property="og:image"]')
+    if og_img and og_img.get("content"):
+        result["image"] = og_img["content"]
+    else:
+        gallery_a = s.select_one('a[data-fancybox="gallery"]')
+        if gallery_a and gallery_a.get("href"):
+            href = gallery_a["href"]
+            result["image"] = "https://www.ermolova.ru" + href if href.startswith("/") else href
+
+    # ── Описание и мета-данные из текстовых блоков ─────────
+    desc_block = s.select_one(".description-block-about")
+    if desc_block:
+        desc_text = desc_block.get_text(" ", strip=True)
+        # Цена: "от 500 до 30000 руб."
+        price_m = re.search(r"от\s+(\d[\d\s]*)\s+до\s+(\d[\d\s]*)\s*руб", desc_text)
+        if price_m:
+            result["price_min"] = parse_price(price_m.group(1))
+            result["price_max"] = parse_price(price_m.group(2))
+        # Время начала: "в 19.00" или "в 19:00"
+        time_m = re.search(r"в\s+(\d{1,2})[.:]\s*(\d{2})", desc_text)
+        default_time = f"{time_m.group(1)}:{time_m.group(2)}" if time_m else ""
+        # Описание — самый длинный абзац p.about
+        about_paras = [p.get_text(" ", strip=True) for p in desc_block.select("p.about")]
+        long_paras = [p for p in about_paras if len(p) > 100]
+        if long_paras:
+            result["description"] = max(long_paras, key=len)[:600]
+
+    # ── Даты ───────────────────────────────────────────────
+    # Блок: <span class="about_month">Июнь:</span>
+    #        <span class="about_date">14</span>  или "6, 7"
+    dates = []
+    dates_block = s.select_one(".perfomance_dates")
+    if dates_block:
+        for p in dates_block.select("p"):
+            month_el = p.select_one(".about_month")
+            date_el  = p.select_one(".about_date")
+            if not month_el or not date_el:
+                continue
+            month_text = month_el.get_text(strip=True).rstrip(":").strip()
+            mon = next((v for k, v in MONTHS_RU.items() if month_text.lower().startswith(k[:3])), None)
+            if mon is None:
+                continue
+            for day_str in date_el.get_text().split(","):
+                day_str = day_str.strip()
+                if not day_str.isdigit():
+                    continue
+                day = int(day_str)
+                year = today().year
+                try:
+                    d = date(year, mon, day)
+                    if d < today():
+                        d = date(year + 1, mon, day)
+                except ValueError:
+                    continue
+                dates.append(make_date_entry(d, default_time, True,
+                                             result.get("price_min", 0),
+                                             result.get("price_max", 0),
+                                             cfg["url"]))
+
+    if not dates:
+        result["error"] = "Ближайших дат не найдено"
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: mbronnaya.ru (Театр на Бронной)
+# ─────────────────────────────────────────────
+#
+# Структура страницы спектакля:
+#
+#   <meta property="og:image" content="https://mbronnaya.ru/upload/..." />
+#
+#   <div class="performance--content__left-detailText">
+#     <p>Описание...</p>
+#   </div>
+#
+#   <!-- Блок расписания дублируется для десктопа и мобайла — берём первый -->
+#   <div class="c-playbill ...">
+#     <div class="c-playbill--day">
+#       <div class="c-playbill--day__left">
+#         <div class="c-playbill--day__left-item">19 мая</div>
+#         <div class="c-playbill--day__left-item">19:00</div>
+#         <div class="c-playbill--day__price">от 1000₽</div>  <!-- опционально -->
+#       </div>
+#       <div class="c-playbill--day__right">
+#         <!-- href может быть полным URL или "#event/XXXXXX" -->
+#         <a href="https://tickets.mos.ru/..." class="btn playbill--item-buyBlock-buyButton">Купить билет</a>
+#       </div>
+#     </div>
+#   </div>
+#
+# ─────────────────────────────────────────────
+
+def parse_mbronnaya(cfg: dict) -> dict:
+    html = fetch_http(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Постер ─────────────────────────────────────────────
+    og_img = s.select_one('meta[property="og:image"]')
+    if og_img and og_img.get("content"):
+        result["image"] = og_img["content"]
+    else:
+        # Фолбэк: первое изображение галереи
+        gallery_a = s.select_one('a[data-fancybox="gallery"]')
+        if gallery_a and gallery_a.get("href"):
+            href = gallery_a["href"]
+            result["image"] = "https://mbronnaya.ru" + href if href.startswith("/") else href
+
+    # ── Описание ───────────────────────────────────────────
+    desc_el = s.select_one(".performance--content__left-detailText")
+    if desc_el:
+        result["description"] = desc_el.get_text(" ", strip=True)[:600]
+
+    # ── Даты — берём только первый блок расписания (второй — дубль для мобайла)
+    playbill = s.select_one(".c-playbill")
+    dates = []
+    if playbill:
+        for day in playbill.select(".c-playbill--day"):
+            items = day.select(".c-playbill--day__left-item")
+            if not items:
+                continue
+            date_text = items[0].get_text(strip=True)      # "19 мая"
+            time_text = items[1].get_text(strip=True) if len(items) > 1 else ""
+            d = parse_ru_date(date_text)
+            if not d or d < today():
+                continue
+
+            price_el = day.select_one(".c-playbill--day__price")
+            price_min = parse_price(price_el.get_text()) if price_el else 0
+
+            buy_a = day.select_one("a.playbill--item-buyBlock-buyButton")
+            buy_url = ""
+            if buy_a:
+                href = buy_a.get("href", "")
+                buy_url = href if href.startswith("http") else cfg["url"]
+
+            dates.append(make_date_entry(d, time_text, True, price_min, 0, buy_url))
+
+    if not dates:
+        result["error"] = "Ближайших дат не найдено"
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: teatrdoc.ru (Театр.doc)
+# ─────────────────────────────────────────────
+#
+# Структура страницы спектакля:
+#
+#   <meta property="og:image" content="http://teatrdoc.ru/media/events/images/...jpg" />
+#
+#   <div class="content_tabs">
+#     <div class="content content_1">Описание...</div>
+#   </div>
+#
+#   <div class="tickets_block" id="buytickets">
+#     <div class="item">
+#       <div class="date">Чт, <strong>28 Май</strong> 20:00</div>
+#       <a href="javascript:afishaWidget.openModal(1248050)" class="btn btn_1 buy_ticket">...</a>
+#     </div>
+#   </div>
+#
+# Кнопка покупки — JS-модальная, прямого URL нет → используем URL страницы.
+# ─────────────────────────────────────────────
+
+def parse_teatrdoc(cfg: dict) -> dict:
+    html = fetch_http(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Постер ─────────────────────────────────────────────
+    og_img = s.select_one('meta[property="og:image"]')
+    if og_img and og_img.get("content"):
+        result["image"] = og_img["content"]
+
+    # ── Описание ───────────────────────────────────────────
+    desc_el = s.select_one(".content_tabs .content_1")
+    if desc_el:
+        result["description"] = desc_el.get_text(" ", strip=True)[:600]
+
+    # ── Даты ───────────────────────────────────────────────
+    # Формат: "Чт, 28 Май 20:00"
+    dates = []
+    for item in s.select(".tickets_block .item"):
+        date_el = item.select_one(".date")
+        if not date_el:
+            continue
+        text = date_el.get_text(" ", strip=True)  # "Чт, 28 Май 20:00"
+        d = parse_ru_date(text)
+        if not d or d < today():
+            continue
+        tm = re.search(r"(\d{1,2}:\d{2})", text)
+        time_str = tm.group(1) if tm else ""
+        dates.append(make_date_entry(d, time_str, True, 0, 0, cfg["url"]))
+
+    if not dates:
+        result["error"] = "Ближайших дат не найдено"
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
+# ПАРСЕР: sovremennik.ru (Современник)
+# ─────────────────────────────────────────────
+#
+# Структура страницы спектакля:
+#
+#   <meta property="og:image" content="https://sovremennik.ru/uploads/play/image/.../DSC_0340.jpg" />
+#
+#   <script type='application/ld+json'>
+#     [{"@type":"TheaterEvent",
+#       "startDate":"2026-05-07T19:00:00.000+03:00",
+#       "offers":{"url":"/plays/art/tickets/2478"}, ...}, ...]
+#   </script>
+#
+#   <div class='content-block content-block--text'>
+#     <p>Описание...</p>
+#   </div>
+#
+# Стратегия: JSON-LD для дат и URL билетов, og:image для постера.
+# Сайт убирает прошедшие события сам — все даты в списке считаются доступными.
+# ─────────────────────────────────────────────
+
+def parse_sovremennik(cfg: dict) -> dict:
+    html = fetch_http(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Постер ─────────────────────────────────────────────
+    og_img = s.select_one('meta[property="og:image"]')
+    if og_img and og_img.get("content"):
+        result["image"] = og_img["content"]
+
+    # ── Описание ───────────────────────────────────────────
+    desc_el = s.select_one(".content-block--text")
+    if desc_el:
+        result["description"] = desc_el.get_text(" ", strip=True)[:600]
+
+    # ── Даты из JSON-LD ────────────────────────────────────
+    # На странице массив TheaterEvent — каждый объект = одна дата показа
+    dates = []
+    for script in s.select('script[type="application/ld+json"]'):
+        try:
+            data = json.loads(script.string or "")
+        except Exception:
+            continue
+        if not isinstance(data, list):
+            data = [data]
+        for event in data:
+            if event.get("@type") != "TheaterEvent":
+                continue
+            start = event.get("startDate", "")
+            if not start:
+                continue
+            d = parse_ru_date(start[:10])  # "2026-05-07"
+            if not d or d < today():
+                continue
+            tm = re.search(r"T(\d{2}:\d{2})", start)
+            time_str = tm.group(1) if tm else ""
+            buy_url = ""
+            offers = event.get("offers", {})
+            if isinstance(offers, dict):
+                rel = offers.get("url", "")
+                if rel:
+                    buy_url = "https://sovremennik.ru" + rel if rel.startswith("/") else rel
+            dates.append(make_date_entry(d, time_str, True, 0, 0, buy_url))
+
+    if not dates:
+        result["error"] = "Ближайших дат не найдено"
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
 # ЗАГЛУШКА
 # ─────────────────────────────────────────────
 
@@ -1125,6 +1622,12 @@ PARSERS: dict = {
     "sreda21":        parse_sreda21,
     "okolo":          parse_okolo,
     "shalom":         parse_shalom,
+    "sovremennik":    parse_sovremennik,
+    "entracte":       parse_entracte,
+    "brodsky":        parse_brodsky,
+    "ermolova":       parse_ermolova,
+    "mbronnaya":      parse_mbronnaya,
+    "teatrdoc":       parse_teatrdoc,
     "todo":           parse_todo,
 }
 
