@@ -1377,6 +1377,113 @@ def parse_ermolova(cfg: dict) -> dict:
 
 
 # ─────────────────────────────────────────────
+# ПАРСЕР: afisha.yandex.ru (Яндекс Афиша)
+# ─────────────────────────────────────────────
+#
+# Все данные сервер-рендерятся в window['__initialState'] JSON —
+# fetch_http достаточно, JS не нужен.
+#
+# URL: https://afisha.yandex.ru/{city}/{rubric}/{event-slug}
+#
+# Структура JSON:
+#   urlInfo["/moscow/.../slug"].params.eventId   → ID события
+#   events["eventId={id}"].images[0].galleryPrimary.url  → постер
+#   events["eventId={id}"].description          → описание
+#   eventScheduleOther["city=moscow&date=...&eventId={id}&period=N"]
+#     [].session.datetime  → "2026-05-19T19:00:00"
+#     [].session.ticket.price.min/max  → цена в КОПЕЙКАХ (÷ 100)
+#     [].session.ticket.saleStatus     → "available" | "soldout"
+#
+# ─────────────────────────────────────────────
+
+def parse_afisha(cfg: dict) -> dict:
+    html = fetch_http(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Извлекаем __initialState JSON ──────────────────────
+    script = s.find("script", class_="i-redux")
+    if not script:
+        return error_result(cfg, "Не найден __initialState на странице")
+
+    try:
+        text = script.string or script.get_text()
+        json_start = text.index("{")
+        data = json.loads(text[json_start:].rstrip("; \n"))
+    except Exception as e:
+        return error_result(cfg, f"Ошибка парсинга JSON: {e}")
+
+    # ── Event ID из urlInfo ─────────────────────────────────
+    event_id = None
+    for val in data.get("urlInfo", {}).values():
+        if isinstance(val, dict) and val.get("type") == "event":
+            event_id = val.get("params", {}).get("eventId")
+            break
+
+    if not event_id:
+        return error_result(cfg, "eventId не найден в urlInfo")
+
+    event = data.get("events", {}).get(f"eventId={event_id}")
+    if not event:
+        return error_result(cfg, f"Данные события {event_id} не найдены")
+
+    # ── Постер ─────────────────────────────────────────────
+    images = event.get("images", [])
+    if images:
+        img_url = (
+            images[0].get("galleryPrimary", {}).get("url")
+            or images[0].get("origin", {}).get("url", "")
+        )
+        result["image"] = img_url
+
+    # ── Описание ───────────────────────────────────────────
+    result["description"] = (event.get("description") or "")[:600]
+
+    # ── Даты из eventScheduleOther ─────────────────────────
+    dates = []
+    for key, sessions in data.get("eventScheduleOther", {}).items():
+        if event_id not in key:
+            continue
+        for item in sessions:
+            sess = item.get("session", {})
+            dt_str = sess.get("datetime", "")        # "2026-05-19T19:00:00"
+            if not dt_str:
+                continue
+            d = parse_ru_date(dt_str[:10])
+            if not d or d < today():
+                continue
+
+            tm = re.search(r"T(\d{2}:\d{2})", dt_str)
+            time_str = tm.group(1) if tm else ""
+
+            ticket = sess.get("ticket", {})
+            available = ticket.get("saleStatus", "") == "available"
+            price = ticket.get("price", {})
+            price_min = (price.get("min") or 0) // 100  # копейки → рубли
+            price_max = (price.get("max") or 0) // 100
+
+            dates.append(make_date_entry(d, time_str, available, price_min, price_max, cfg["url"]))
+
+    # Дедупликация по дате (несколько ключей могут содержать одну дату)
+    seen = set()
+    unique_dates = []
+    for d in dates:
+        k = (d["date"], d["time"])
+        if k not in seen:
+            seen.add(k)
+            unique_dates.append(d)
+
+    if not unique_dates:
+        result["error"] = "Ближайших дат не найдено"
+
+    result["dates"] = unique_dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
 # ПАРСЕР: mbronnaya.ru (Театр на Бронной)
 # ─────────────────────────────────────────────
 #
@@ -1628,6 +1735,7 @@ PARSERS: dict = {
     "entracte":       parse_entracte,
     "brodsky":        parse_brodsky,
     "ermolova":       parse_ermolova,
+    "afisha":         parse_afisha,
     "mbronnaya":      parse_mbronnaya,
     "teatrdoc":       parse_teatrdoc,
     "todo":           parse_todo,

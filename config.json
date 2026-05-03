@@ -189,11 +189,19 @@
       "parser": "vakhtangov"
     },
     {
+      "id": "vakhtangov-war_and_peace",
+      "name": "Война и мир",
+      "theater": "Театр Вахтангова",
+      "url": "https://vakhtangov.ru/show/war_and_peace/",
+      "image": "",
+      "parser": "vakhtangov"
+    },
+    {
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "image": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "parser": "vakhtangov"
     },
     {
@@ -217,7 +225,7 @@
       "name": "Феллини. 8½",
       "theater": "Театр Вахтангова",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
-      "image": "",
+      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
       "parser": "vakhtangov"
     },
     {
@@ -248,16 +256,16 @@
       "id": "bronnaya-pigmalion",
       "name": "Пигмалион",
       "theater": "Театр на Бронной",
-      "url": "https://mbronnaya.ru/performances/pigmalion",
+      "url": "https://afisha.yandex.ru/moscow/theatre_show/pigmalion-teatr-na-bronnoi",
       "image": "",
-      "parser": "mbronnaya"
+      "parser": "afisha"
     },
     {
       "id": "ermolova-chukovsky",
       "name": "Чуковский",
       "theater": "Театр им. Ермоловой",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
-      "image": "",
+      "image": "https://edge-msk-1.kinescopecdn.net/b4800941-33d4-435b-bd07-7e5b6a489cba/posters/701fff82-7623-4102-8917-057614fe9b8e/poster_md/61407ce0-5dc7-4e2e-8ab7-914dbb620b04.webp",
       "parser": "ermolova"
     },
     {
