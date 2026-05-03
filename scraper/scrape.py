@@ -1301,7 +1301,8 @@ def parse_brodsky(cfg: dict) -> dict:
 # ─────────────────────────────────────────────
 
 def parse_ermolova(cfg: dict) -> dict:
-    html = fetch_http(cfg["url"])
+    # Даты рендерятся JS — используем Playwright вместо fetch_http
+    html = fetch(cfg["url"])
     if not html:
         return error_result(cfg, "Не удалось загрузить страницу")
 
@@ -1405,7 +1406,8 @@ def parse_ermolova(cfg: dict) -> dict:
 # ─────────────────────────────────────────────
 
 def parse_mbronnaya(cfg: dict) -> dict:
-    html = fetch_http(cfg["url"])
+    # fetch_http падает с "Network unreachable" на GitHub Actions — используем Playwright
+    html = fetch(cfg["url"])
     if not html:
         return error_result(cfg, "Не удалось загрузить страницу")
 
