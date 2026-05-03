@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T10:48:55+03:00",
+  "last_updated": "2026-05-03T11:55:56+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -240,7 +240,7 @@
       "name": "Школа для дураков//С.Соколов",
       "theater": "Театр около дома Станиславского",
       "description": "Сюрреалистическая, в высоком смысле наивная и потому бесконечно трогательная история. Главный герой «Школы для дураков», от лица которого ведётся повествование — ученик Такой-то, мальчик с нелинейным восприятием времени и раздвоением личности. Он вспоминает детство, когда учился в школе, и вспоминая, описывает и комментирует мир, в котором прошедшее время то и дело путается с настоящим. Первый роман Саши Соколова (1973), называют одним из важнейших событий в русской литературе ХХ века. Его высоко оценил, к примеру, Владимир Набоков, а выдающиеся теоретики обнаруживают в нетривиальном по структ",
-      "image": "'/upload/resize_cache/iblock/d8e/1200_900_2/dfnd0fmi82l7uekrlv8a5nv140uf1etv.jpg'",
+      "image": "https://www.okolo.ru/upload/resize_cache/iblock/d8e/1200_900_2/dfnd0fmi82l7uekrlv8a5nv140uf1etv.jpg",
       "url": "https://www.okolo.ru/shows/shkola-dlya-durakov-s-sokolov/",
       "available": true,
       "price_min": 0,
@@ -264,7 +264,7 @@
       "name": "Вчера наступило внезапно, Винни-Пух или Прощай, Битлз//А.Милн",
       "theater": "Театр около дома Станиславского",
       "description": "«Вчера наступило внезапно» — таков буквальный перевод строчки из песни «Yesterday» The Beatles. В спектакле Юрия Погребничко песни ливерпульской четверки встречаются с диалогами из «Винни-Пуха» Алана Милна, а хмурые персонажи носят телогрейки и шапки ушанки, охотятся на слонопотама, ищут земную ось и цитируют Джона Леннона: «Я плачу, потому что земля круглая». .",
-      "image": "'/upload/iblock/64a/fzjboeupjkwf16fj4lh4a2so2u0zawpn.jpg'",
+      "image": "https://www.okolo.ru/upload/iblock/64a/fzjboeupjkwf16fj4lh4a2so2u0zawpn.jpg",
       "url": "https://www.okolo.ru/shows/yesterday/",
       "available": true,
       "price_min": 0,
@@ -297,7 +297,7 @@
       "name": "Доктор Живаго//по мотивам романа Б.Пастернака",
       "theater": "Театр около дома Станиславского",
       "description": "Спектакль «Доктор Живаго» по роману Бориса Пастернака о любви, о возможности и необходимости принятия противоречий эпохи, где сюжет – цепочка случайностей, которые чудесным образом осуществляют упрямый замысел Провидения. Режиссёр взяла главный русский роман ХХ века и перенесла его на сцену, сохранив пастернаковскую картину поэтического мира.",
-      "image": "'/upload/resize_cache/iblock/1c4/1200_900_2/ry2ef9gcrwlxx1xrpmukhhzk7uuywh15.jpg'",
+      "image": "https://www.okolo.ru/upload/resize_cache/iblock/1c4/1200_900_2/ry2ef9gcrwlxx1xrpmukhhzk7uuywh15.jpg",
       "url": "https://www.okolo.ru/shows/doktor-zhivago/",
       "available": true,
       "price_min": 0,
@@ -348,7 +348,7 @@
       "name": "С любимыми не расставайтесь//А.Володин и Ф.М.Достоевский",
       "theater": "Театр около дома Станиславского",
       "description": "Смокинг и кирзовые сапоги, жабо и телогрейка, кринолин и шапка-ушанка в спектаклях Погребничко мирно соседствуют друг с другом, Так же, как Володин и Достоевский. Режиссером движет не желание противопоставить эпохи или социальные срезы, а скорее уравнять их в правах. Парадоксальное соседство не снижает хрестоматийные образы, а скорее возвышает зэков и бомжей. Спектакль как попытка обнаружить общее в людях независимо от того, где и когда им выпало жить. Жанр спектакля — концерт самодеятельности со сквозным сюжетом из легендарной пьесы Володина. Погребничко «взрывает» бытовую ситуацию каждого из",
-      "image": "'/upload/iblock/d35/jtob3m0h3atxupu9wtm3rrnec2jxudre.jpg'",
+      "image": "https://www.okolo.ru/upload/iblock/d35/jtob3m0h3atxupu9wtm3rrnec2jxudre.jpg",
       "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy/",
       "available": false,
       "price_min": 0,
@@ -541,15 +541,43 @@
       "id": "sovremennik-art",
       "name": "Арт",
       "theater": "Современник",
-      "description": "",
-      "image": "",
+      "description": "Иван, Серж и Марк — трое друзей. Они по-своему успешны, каждый имеет профессию и своё дело. Их размеренная жизнь течёт по ровному руслу — всё ясно, как божий день, тщательно распланировано и работает, как часовой механизм: один собирается жениться на девушке из хорошей семьи, второй завёл роман с гомеопатией в прямом смысле этого слова, а третий — с белоснежно белым холстом, который приобрёл за баснословную сумму. Эта покупка свела друзей вместе и одновременно развела их по разные стороны: Серж искренне восхищён картиной и не понимает, почему его чувство не разделяют друзья. Насмешки над гиган",
+      "image": "https://sovremennik.ru/uploads/play/image/89/DSC_0340.jpg",
       "url": "https://sovremennik.ru/plays/art",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-07",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://sovremennik.ru/plays/art/tickets/2478"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://sovremennik.ru/plays/art/tickets/2493"
+        },
+        {
+          "date": "2026-06-20",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://sovremennik.ru/plays/art/tickets/2590"
+        }
+      ]
     },
     {
       "id": "doc-mesto",
@@ -562,7 +590,7 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
+      "error": "Не удалось загрузить страницу",
       "dates": []
     },
     {
@@ -893,36 +921,199 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
+      "error": "Не удалось загрузить страницу",
       "dates": []
     },
     {
       "id": "ermolova-chukovsky",
       "name": "Чуковский",
       "theater": "Театр им. Ермоловой",
-      "description": "",
-      "image": "",
+      "description": "������ ��� �������� � ���� ��������� � ��������� ������������ ������������� ������� 18+ � ���� ���������� — ����������� ������ ������ ������ ���������� ������̆ �������� ���������̆ — ��� ��� ������, ������ � ����� ����� � �������� ��� ������ ��� ���. ������ ��� ������ �������� �������. �������� ���������, ����, � ��� ������ ��-�������� ������ � �����. ���������� ��� ����� ��� ������� ����������, ������� �������, ����� ���� �����. �� ����� �� �� ���, ��� ��������? ��������, �������� ��� ���������� III, ���� �����������, ����� � ���������, ������������� ��������� � ���������� �������� �����������",
+      "image": "/slir/w300/userfiles/perfomance/full/10f8723ead89c6ea.jpg",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
+      "error": "Ближайших дат не найдено",
       "dates": []
+    },
+    {
+      "id": "entracte-mitina",
+      "name": "Митина любовь",
+      "theater": "Антракт",
+      "description": "В спектакле «Митина любовь» режиссер не только переосмысляет повесть, но и добавляет несколько ярких музыкальных фрагментов. Как и во многих других постановках, Наставшев выступает здесь как автор инсценировки, композитор и художник. Владислав Наставшев: «Главный вопрос для меня: что происходит с Митей? Катя действительно существует или все события происходят во внутреннем мире героя? А если Катя существует? Она играет спектакль? Она репетирует? Готовит роль? Кто она? Актриса или сила судьбы? Человек или нет? Митю играет молодой артист Андрей Мартынов, а Катю – Аня Чиповская. Между ними поколе",
+      "image": "https://static.tildacdn.com/tild3333-6534-4662-b734-306634363833/ML-Poster-Red-00.jpg",
+      "url": "https://entracte.moscow/mitina",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-23",
+          "time": "",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        },
+        {
+          "date": "2026-07-20",
+          "time": "",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        }
+      ]
+    },
+    {
+      "id": "entracte-einstein",
+      "name": "Эйнштейн и Маргарита",
+      "theater": "Антракт",
+      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
+      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
+      "url": "https://entracte.moscow/einsteinundmargarita",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-17",
+          "time": "",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://entracte.moscow/einsteinundmargarita"
+        },
+        {
+          "date": "2026-07-23",
+          "time": "",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://entracte.moscow/einsteinundmargarita"
+        }
+      ]
+    },
+    {
+      "id": "entracte-chayka",
+      "name": "Чайка",
+      "theater": "Антракт",
+      "description": "Режиссер Владислав Наставшев помещает чеховских персонажей в неопознанное пространство. Герои спектакля не понимают до конца – то ли они живые люди со своими проблемами, желаниями, тоской и страстью, то ли их вовсе не существует, и они всего лишь персонажи пьесы Антона Павловича Чехова. Владислав Наставшев: «Чехов писал о себе, о том, что он сам думает и чувствует про жизнь, про человека, про искусство. «Чайка» не только заявлена комедией, но и является таковой. При всей серьезности и глубине тем и проблем, которые поднимаются в пьесе, она сделана очень смешно, с уникальным тонким чеховским чу",
+      "image": "https://static.tildacdn.com/tild6265-6665-4465-b632-373964643338/CHAYKA-0832-www.jpg",
+      "url": "https://entracte.moscow/seagull",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-16",
+          "time": "",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://moscowshow.com/afisha/teatry/chayka/"
+        }
+      ]
     },
     {
       "id": "poltory-parkovka",
       "name": "Парковка. ВСЁ ТУТ.",
       "theater": "Полторы комнаты",
-      "description": "",
-      "image": "",
+      "description": "Режиссер — Режиссер Художник — Мария Трегубова В ролях — Евгений Цыганов, Мария Смольникова, Ольга Надеждина, Светлана Кузянина, Максим Логинов, Станислав Кобозев Художник по свету — Иван Виноградов Хореограф — Анатолий Емельянов Саунд дизайнер — Дмитрий Бачинский Генеральный продюсер — Максим Левченко Директор — Мария Могучая Исполнительный продюсер — Анна Маленкова Административно-постановочная часть: Технический директор — Алексей Акимов Главный администратор — Захар Волошко Звукорежиссер — Дмитрий Бачинский Место проведения — парковка торгового центра Europolis Ростокино Адрес: Москва, пр.",
+      "image": "https://www.brodsky.online/upload/iblock/99d/p6vnn8hj8dotx23q33logexl9rn39krl/Snimok-ekrana-2025_12_06-v-14.01.10.png",
       "url": "https://brodsky.online/events/parkovka-vsye-tut-spektakl",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Парсер для этого театра ещё не реализован",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-20",
+          "time": "17:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/12878/"
+        },
+        {
+          "date": "2026-05-20",
+          "time": "20:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/12879/"
+        },
+        {
+          "date": "2026-05-21",
+          "time": "17:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/12881/"
+        },
+        {
+          "date": "2026-05-21",
+          "time": "20:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/12882/"
+        },
+        {
+          "date": "2026-06-10",
+          "time": "17:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/13311/"
+        },
+        {
+          "date": "2026-06-10",
+          "time": "20:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/13312/"
+        },
+        {
+          "date": "2026-07-16",
+          "time": "17:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/13314/"
+        },
+        {
+          "date": "2026-07-16",
+          "time": "20:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/13315/"
+        }
+      ]
     }
   ]
 }
