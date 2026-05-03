@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03T12:25:53+03:00",
+  "last_updated": "2026-05-03T12:44:30+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -47,8 +47,8 @@
       "id": "electro-piknik-1",
       "name": "Пик Ник. Город миражей",
       "theater": "Электротеатр Станиславский",
-      "description": "",
-      "image": "",
+      "description": "Новый проект Бориса Юхананова – это фэнтези про путешествие Ангелов на Землю, развернутое в трех спектаклях и представляющее собой многослойное сочинение. Сюжет повествует о том, как Творец, принявший облик Старого Ворона, отправляет небесных Ангелов в путешествие по Городу миражей, во время которого они должны воплотиться в земных женщин – театральных актрис, получить знание о театре и жизни и разыграть пьесу о любви. В первом спектакле для Ангелов обустраивается Город миражей, по которому они отправляются в путешествие. Второй спектакль «Никогда» Третий спектакль «Прибытие» –––––– Хотим пред",
+      "image": "https://electrotheatre.ru/static/1600/12858.png",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1182",
       "available": false,
       "price_min": 0,
@@ -982,7 +982,7 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка парсинга JSON: Expecting value: line 1 column 4344 (char 4343)",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -1201,6 +1201,293 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.brodsky.online/tickets/bookplaces/13315/"
+        }
+      ]
+    },
+    {
+      "id": "vnutri-bochkotara",
+      "name": "Затоваренная бочкотара",
+      "theater": "Пространство внутри",
+      "description": "Нас всех ждет хороший человек. Он ждет всегда",
+      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
+      "url": "https://vnutri.space/bochkotara",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-10",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        }
+      ]
+    },
+    {
+      "id": "vnutri-sherlock",
+      "name": "Шерлокхолмси все-все-все",
+      "theater": "Пространство внутри",
+      "description": "Спектакль Антона Фёдорова в Арт-платформе ",
+      "image": "https://static.tildacdn.com/tild6536-3836-4764-b033-626233616534/photo_2026-02-12_211.jpeg",
+      "url": "https://vnutri.space/sherlock",
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": []
+    },
+    {
+      "id": "vnutri-deadsouls",
+      "name": "Мёртвые души",
+      "theater": "Пространство внутри",
+      "description": "Поэма об «обыденной» жизни",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "url": "https://vnutri.space/deadsouls",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-28",
+          "time": "18:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/129959/"
+        },
+        {
+          "date": "2026-05-28",
+          "time": "21:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/129959/"
+        }
+      ]
+    },
+    {
+      "id": "vnutri-tarkovskii",
+      "name": "Добыть Тарковского",
+      "theater": "Пространство внутри",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
+      "url": "https://vnutri.space/tarkovskii",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-04",
+          "time": "18:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
+        },
+        {
+          "date": "2026-05-04",
+          "time": "20:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
+        }
+      ]
+    },
+    {
+      "id": "vnutri-redhood",
+      "name": "Красная Шапочка",
+      "theater": "Пространство внутри",
+      "description": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
+      "url": "https://vnutri.space/redhood",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-05",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/118813/"
+        },
+        {
+          "date": "2026-05-05",
+          "time": "21:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/118813/"
+        }
+      ]
+    },
+    {
+      "id": "vnutri-endoftheworld",
+      "name": "Это конец света",
+      "theater": "Пространство внутри",
+      "description": "Режиссер Таисия Вилкова представляет новое прочтение культовой пьесы Николая Коляды",
+      "image": "https://static.tildacdn.com/tild6163-3266-4361-b463-633636306632/photo.jpeg",
+      "url": "https://vnutri.space/endoftheworld",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-16",
+          "time": "18:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "20:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
+        },
+        {
+          "date": "2026-06-24",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
+        },
+        {
+          "date": "2026-06-24",
+          "time": "21:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
+        }
+      ]
+    },
+    {
+      "id": "vnutri-mirkurbanov",
+      "name": "Гуттаперчевый человек и NUTCRACKER",
+      "theater": "Пространство внутри",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "url": "https://vnutri.space/mirkurbanov",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-20",
+          "time": "18:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
+        },
+        {
+          "date": "2026-05-20",
+          "time": "20:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
+        }
+      ]
+    },
+    {
+      "id": "vnutri-hamlet",
+      "name": "Я — Ошибка",
+      "theater": "Пространство внутри",
+      "description": "Жанр - Исследование трагедии",
+      "image": "https://static.tildacdn.com/tild3963-6334-4734-a631-316538303232/_.jpg",
+      "url": "https://vnutri.space/hamlet",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-24",
+          "time": "16:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
+        }
+      ]
+    },
+    {
+      "id": "vnutri-sisters",
+      "name": "Три сестры",
+      "theater": "Пространство внутри",
+      "description": "Драма одного дома",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "url": "https://vnutri.space/sisters",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-29",
+          "time": "18:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/105954/"
+        },
+        {
+          "date": "2026-05-29",
+          "time": "21:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/105954/"
         }
       ]
     }
