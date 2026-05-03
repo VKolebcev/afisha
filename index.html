@@ -485,6 +485,19 @@ header {
   text-transform: uppercase;
 }
 
+.error-note {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  font-size: .62rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--dim);
+  border-left: 2px solid var(--dim);
+  padding-left: .5rem;
+  line-height: 1.4;
+}
+.card:hover .error-note { color: #888; border-color: #ccc; }
+
 /* Footer */
 .card-footer {
   display: flex; align-items: center; justify-content: space-between; gap: .4rem;
@@ -1007,7 +1020,9 @@ function renderCard(p) {
          </div>`;
        }).join('')}
        ${rest > 0 ? `<p class="more-dates">+ ${rest} ${pluralDates(rest)}</p>` : ''}`
-    : `<p class="dates-lbl" style="opacity:.35">Дат не найдено</p>`;
+    : p.error
+      ? `<p class="dates-lbl error-note">${p.error}</p>`
+      : `<p class="dates-lbl" style="opacity:.35">Дат не найдено</p>`;
 
   const buyUrl = p.dates.find(d => d.available && d.buy_url)?.buy_url || p.url;
   const priceHtml = p.price_min

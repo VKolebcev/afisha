@@ -299,6 +299,78 @@
       "url": "https://brodsky.online/events/parkovka-vsye-tut-spektakl",
       "image": "",
       "parser": "brodsky"
+    },
+    {
+      "id": "vnutri-bochkotara",
+      "name": "Затоваренная бочкотара",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/bochkotara",
+      "image": "",
+      "parser": "vnutri"
+    },
+    {
+      "id": "vnutri-sherlock",
+      "name": "Шерлокхолмси все-все-все",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/sherlock",
+      "image": "",
+      "parser": "vnutri"
+    },
+    {
+      "id": "vnutri-deadsouls",
+      "name": "Мёртвые души",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/deadsouls",
+      "image": "",
+      "parser": "vnutri"
+    },
+    {
+      "id": "vnutri-tarkovskii",
+      "name": "Добыть Тарковского",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/tarkovskii",
+      "image": "",
+      "parser": "vnutri"
+    },
+    {
+      "id": "vnutri-redhood",
+      "name": "Красная Шапочка",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/redhood",
+      "image": "",
+      "parser": "vnutri"
+    },
+    {
+      "id": "vnutri-endoftheworld",
+      "name": "Это конец света",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/endoftheworld",
+      "image": "",
+      "parser": "vnutri"
+    },
+    {
+      "id": "vnutri-mirkurbanov",
+      "name": "Гуттаперчевый человек и NUTCRACKER",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/mirkurbanov",
+      "image": "",
+      "parser": "vnutri"
+    },
+    {
+      "id": "vnutri-hamlet",
+      "name": "Я — Ошибка",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/hamlet",
+      "image": "",
+      "parser": "vnutri"
+    },
+    {
+      "id": "vnutri-sisters",
+      "name": "Три сестры",
+      "theater": "Пространство внутри",
+      "url": "https://vnutri.space/sisters",
+      "image": "",
+      "parser": "vnutri"
     }
   ]
 }

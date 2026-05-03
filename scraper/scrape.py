@@ -1718,6 +1718,103 @@ def parse_todo(cfg: dict) -> dict:
 
 
 # ─────────────────────────────────────────────
+# ПАРСЕР: vnutri.space (Пространство внутри)
+# ─────────────────────────────────────────────
+#
+# Tilda-сайт, SSR — fetch_http достаточно, JS не нужен.
+#
+# Даты в кнопках:  <span class="t-btnflex__text">29 мая, 18:00 и 21:00</span>
+# Постер:          <meta property="og:image" content="...">
+# Описание:        <meta property="og:description" content="...">
+#                  или <meta name="description" content="...">
+#
+# Доступность: кнопка обёрнута в <a href="..."> → есть билеты
+#              кнопка без ссылки (<div>/<span>)  → распродано
+#
+# Форматы дат в кнопках:
+#   "29 мая, 18:00 и 21:00"  →  два показа в один день
+#   "29 мая, 18:00"          →  один показ
+#   "29 мая"                 →  показ без времени
+# ─────────────────────────────────────────────
+
+def _parse_vnutri_button(text: str) -> list[tuple[date | None, str]]:
+    """
+    "29 мая, 18:00 и 21:00" → [(date(2026,5,29),"18:00"), (date(2026,5,29),"21:00")]
+    "29 мая, 18:00"         → [(date(2026,5,29),"18:00")]
+    "29 мая"                → [(date(2026,5,29),"")]
+    """
+    text = text.strip()
+
+    # Ищем базовую дату: "29 мая" / "29 мая 2026"
+    dm = re.match(r"(\d{1,2}\s+[а-яёА-ЯЁ]+(?:\s+\d{4})?)", text, re.IGNORECASE)
+    if not dm:
+        return []
+    base_d = parse_ru_date(dm.group(1))
+    if not base_d:
+        return []
+
+    # Собираем все времена вида HH:MM
+    times = re.findall(r"\b(\d{1,2}:\d{2})\b", text)
+    if not times:
+        return [(base_d, "")]
+    return [(base_d, t) for t in times]
+
+
+def parse_vnutri(cfg: dict) -> dict:
+    html = fetch_http(cfg["url"])
+    if not html:
+        return error_result(cfg, "Не удалось загрузить страницу")
+
+    s = soup(html)
+    result = base_result(cfg)
+
+    # ── Постер ─────────────────────────────────────────────
+    og_img = s.find("meta", property="og:image")
+    if og_img and og_img.get("content"):
+        result["image"] = og_img["content"]
+
+    # ── Описание ───────────────────────────────────────────
+    og_desc = (
+        s.find("meta", property="og:description")
+        or s.find("meta", attrs={"name": "description"})
+    )
+    if og_desc and og_desc.get("content"):
+        result["description"] = og_desc["content"][:600]
+
+    # ── Даты ───────────────────────────────────────────────
+    dates = []
+
+    for span in s.select(".t-btnflex__text"):
+        text = span.get_text(strip=True)
+
+        # Отсеиваем кнопки без даты (заголовки, «Купить», и т.п.)
+        if not re.search(r"\d+\s+[а-яё]+", text, re.IGNORECASE):
+            continue
+
+        # Доступность и ссылка на покупку
+        parent_a = span.find_parent("a")
+        available = bool(parent_a and parent_a.get("href", "").strip())
+        buy_url = ""
+        if parent_a:
+            href = parent_a.get("href", "").strip()
+            if href and href != "#":
+                buy_url = href if href.startswith("http") else f"https://vnutri.space{href}"
+
+        for d, time_str in _parse_vnutri_button(text):
+            if d and d >= today():
+                dates.append(make_date_entry(
+                    d, time_str, available, 0, 0,
+                    buy_url or cfg["url"]
+                ))
+
+    if not dates:
+        result["error"] = "Ближайших дат не найдено"
+
+    result["dates"] = dates
+    return finalize(result)
+
+
+# ─────────────────────────────────────────────
 # РЕЕСТР
 # ─────────────────────────────────────────────
 
@@ -1738,6 +1835,7 @@ PARSERS: dict = {
     "afisha":         parse_afisha,
     "mbronnaya":      parse_mbronnaya,
     "teatrdoc":       parse_teatrdoc,
+    "vnutri":         parse_vnutri,
     "todo":           parse_todo,
 }
 
@@ -1784,6 +1882,16 @@ def main():
             try:
                 result = parser_fn(prod)
                 result = finalize(result, days_ahead)
+
+                # ── Фолбэк 1: картинка из конфига ──────────────────────
+                if not result.get("image") and prod.get("image"):
+                    result["image"] = prod["image"]
+
+                # ── Фолбэк 2: нет дат и нет описания → служебная запись
+                if not result.get("dates") and not result.get("description"):
+                    result["error"] = "Ошибка обработки — посмотрите вручную"
+                    result["available"] = False
+
                 n   = len(result["dates"])
                 ok  = sum(1 for d in result["dates"] if d["available"])
                 err = f" ⚠ {result['error']}" if result.get("error") else ""
