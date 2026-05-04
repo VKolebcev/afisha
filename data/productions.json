@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T22:15:25+03:00",
+  "last_updated": "2026-05-05T00:54:05+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -215,15 +215,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-05-04",
-          "time": "20:00",
-          "weekday": "Пн",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
         {
           "date": "2026-05-05",
           "time": "20:00",
@@ -460,15 +451,25 @@
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Моноспектакль Дмитрия Волкострелова",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-13",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1240720"
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
@@ -697,10 +698,10 @@
           "date": "2026-05-18",
           "time": "19:00",
           "weekday": "Пн",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-18-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-09",
