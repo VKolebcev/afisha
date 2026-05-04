@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T00:34:12+03:00",
+  "last_updated": "2026-05-04T04:58:50+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -171,36 +171,8 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-20",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
-        {
-          "date": "2026-06-21",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
-        {
-          "date": "2026-06-28",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "dates": []
     },
     {
       "id": "nations-makbet",
