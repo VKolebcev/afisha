@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T04:58:50+03:00",
+  "last_updated": "2026-05-04T08:55:47+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -171,8 +171,36 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-20",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-06-21",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-06-28",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "nations-makbet",
@@ -1368,34 +1396,15 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-20",
-          "time": "18:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        },
-        {
-          "date": "2026-05-20",
-          "time": "20:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-hamlet",
@@ -1434,34 +1443,15 @@
       "id": "vnutri-sisters",
       "name": "Три сестры",
       "theater": "Пространство внутри",
-      "description": "Драма одного дома",
-      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/sisters",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-29",
-          "time": "18:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/105954/"
-        },
-        {
-          "date": "2026-05-29",
-          "time": "21:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/105954/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     }
   ]
 }
