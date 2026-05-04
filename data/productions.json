@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T16:23:18+03:00",
+  "last_updated": "2026-05-04T19:26:53+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -219,10 +219,10 @@
           "date": "2026-05-04",
           "time": "20:00",
           "weekday": "Пн",
-          "available": true,
+          "available": false,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://theatreofnations.ru/event/6a864f99db5c2b63151f85df299a4d63/"
+          "buy_url": ""
         },
         {
           "date": "2026-05-05",
@@ -707,19 +707,19 @@
           "date": "2026-05-18",
           "time": "19:00",
           "weekday": "Пн",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-18-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-09",
           "time": "19:00",
           "weekday": "Вт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-09-19-00-00"
         },
         {
           "date": "2026-07-02",
