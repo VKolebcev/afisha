@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T22:06:27+03:00",
+  "last_updated": "2026-05-06T00:54:49+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -213,18 +213,8 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-05",
-          "time": "20:00",
-          "weekday": "Вт",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "dates": []
     },
     {
       "id": "okolo-shkola",
@@ -734,10 +724,10 @@
           "date": "2026-07-02",
           "time": "19:00",
           "weekday": "Чт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-07-02-19-00-00"
         }
       ]
     },
@@ -758,10 +748,10 @@
           "date": "2026-05-16",
           "time": "19:00",
           "weekday": "Сб",
-          "available": false,
+          "available": true,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
         },
         {
           "date": "2026-06-25",
