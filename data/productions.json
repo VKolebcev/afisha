@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T00:54:05+03:00",
+  "last_updated": "2026-05-05T04:59:02+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -740,10 +740,10 @@
           "date": "2026-05-16",
           "time": "19:00",
           "weekday": "Сб",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-25",
@@ -1273,31 +1273,12 @@
       "description": "Уроки человечности на окраине Перми ",
       "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": [
-        {
-          "date": "2026-05-04",
-          "time": "18:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
-        },
-        {
-          "date": "2026-05-04",
-          "time": "20:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
-        }
-      ]
+      "dates": []
     },
     {
       "id": "vnutri-redhood",
