@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T11:08:38+03:00",
+  "last_updated": "2026-05-06T13:57:55+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -696,7 +696,7 @@
       "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
       "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": true,
+      "available": false,
       "price_min": 1500,
       "price_max": 15000,
       "currency": "₽",
@@ -715,19 +715,19 @@
           "date": "2026-06-09",
           "time": "19:00",
           "weekday": "Вт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-09-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-07-02",
           "time": "19:00",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-07-02-19-00-00"
+          "buy_url": "#"
         }
       ]
     },
