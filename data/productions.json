@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T00:54:49+03:00",
+  "last_updated": "2026-05-06T04:58:09+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -1295,31 +1295,12 @@
       "description": "",
       "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-05",
-          "time": "19:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/118813/"
-        },
-        {
-          "date": "2026-05-05",
-          "time": "21:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/118813/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-endoftheworld",
