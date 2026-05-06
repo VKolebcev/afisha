@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T19:24:05+03:00",
+  "last_updated": "2026-05-06T22:24:14+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -352,67 +352,29 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-07",
-          "time": "17:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1265874"
-        },
-        {
-          "date": "2026-05-07",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "Моноспектакль Дмитрия Волкострелова",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-13",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1240720"
-        },
-        {
-          "date": "2026-06-27",
-          "time": "19:30",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1280974"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
