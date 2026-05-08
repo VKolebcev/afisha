@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T00:47:21+03:00",
+  "last_updated": "2026-05-08T05:07:36+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -411,31 +411,12 @@
       "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
       "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": [
-        {
-          "date": "2026-05-07",
-          "time": "17:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1265874"
-        },
-        {
-          "date": "2026-05-07",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "dates": []
     },
     {
       "id": "sreda21-smert",
