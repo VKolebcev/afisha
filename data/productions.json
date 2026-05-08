@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T16:10:27+03:00",
+  "last_updated": "2026-05-08T19:09:56+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -345,22 +345,12 @@
       "description": "",
       "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/9d0/9d045aa39444c288f1fb474a3459ebd3/nat_1920_750_1x.png",
       "url": "https://shalom-theatre.ru/spektakli/Nathan/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-08",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://bilet.mos.ru/event/349392257/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "shalom-lir",
@@ -720,10 +710,10 @@
           "date": "2026-05-16",
           "time": "19:00",
           "weekday": "Сб",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-25",
