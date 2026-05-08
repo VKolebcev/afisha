@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-08T19:09:56+03:00",
+  "last_updated": "2026-05-08T22:05:29+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -405,7 +405,7 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
