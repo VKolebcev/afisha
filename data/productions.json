@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T08:40:23+03:00",
+  "last_updated": "2026-05-09T10:44:24+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -412,58 +412,29 @@
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "Моноспектакль Дмитрия Волкострелова",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-13",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1240720"
-        },
-        {
-          "date": "2026-06-27",
-          "time": "19:30",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1280974"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
       "name": "Франкенштейн",
       "theater": "Среда 21",
-      "description": "Спектакль Нади Кубайлат об одержимом ученом и созданном им чудовище, о границах человеческого и природе добра и зла. Текст культового романа дополняют стихи английских поэтов-романтиков, а Мэри Шелли от первого лица рассказывает историю создания своего т",
-      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/frankenshtejn/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-22",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1240676"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-filosofia",
@@ -1007,8 +978,8 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
-      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
+      "description": "",
+      "image": "",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": true,
       "price_min": 0,
@@ -1301,34 +1272,15 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-20",
-          "time": "18:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        },
-        {
-          "date": "2026-05-20",
-          "time": "20:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-hamlet",
