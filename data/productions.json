@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-09T21:45:34+03:00",
+  "last_updated": "2026-05-10T00:35:33+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -398,29 +398,48 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
-      "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
-      "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
-      "dates": []
-    },
-    {
-      "id": "sreda21-smert",
-      "name": "Русская смерть. Воспоминание о спектакле",
-      "theater": "Среда 21",
       "description": "",
       "image": "",
-      "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
+      "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
+    },
+    {
+      "id": "sreda21-smert",
+      "name": "Русская смерть. Воспоминание о спектакле",
+      "theater": "Среда 21",
+      "description": "Моноспектакль Дмитрия Волкострелова",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
+      "available": true,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-13",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1240720"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "19:30",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1280974"
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
@@ -589,10 +608,10 @@
           "date": "2026-05-24",
           "time": "14:00",
           "weekday": "Вс",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-24-14-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-05-24",
@@ -988,8 +1007,8 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
-      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
+      "description": "",
+      "image": "",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": true,
       "price_min": 0,
