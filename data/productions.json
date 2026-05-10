@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-10T21:47:19+03:00",
+  "last_updated": "2026-05-11T00:39:34+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -710,10 +710,10 @@
           "date": "2026-05-16",
           "time": "19:00",
           "weekday": "Сб",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-25",
@@ -814,15 +814,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-05-10",
-          "time": "19:30",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "#"
-        },
         {
           "date": "2026-06-04",
           "time": "19:30",
