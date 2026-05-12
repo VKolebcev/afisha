@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T22:28:55+03:00",
+  "last_updated": "2026-05-13T01:04:56+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -389,14 +389,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
@@ -460,15 +460,43 @@
       "id": "sreda21-filosofia",
       "name": "Философия другого переулка",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской в духе философского стендапа мудреца и писателя Александра Пятигорского. Будет весело и неспокойно, как за нашим окном.",
+      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-29",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1244683"
+        },
+        {
+          "date": "2026-05-30",
+          "time": "19:30",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1244684"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "19:30",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1280975"
+        }
+      ]
     },
     {
       "id": "sovremennik-art",
@@ -1213,14 +1241,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
