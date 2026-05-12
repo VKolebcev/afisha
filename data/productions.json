@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-12T14:13:35+03:00",
+  "last_updated": "2026-05-12T16:58:36+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -296,15 +296,6 @@
           "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=44878496&agentId=museum255"
         },
         {
-          "date": "2026-05-14",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=44878499&agentId=museum255"
-        },
-        {
           "date": "2026-06-02",
           "time": "19:00",
           "weekday": "Вт",
@@ -398,14 +389,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -469,43 +460,15 @@
       "id": "sreda21-filosofia",
       "name": "Философия другого переулка",
       "theater": "Среда 21",
-      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской в духе философского стендапа мудреца и писателя Александра Пятигорского. Будет весело и неспокойно, как за нашим окном.",
-      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-29",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1244683"
-        },
-        {
-          "date": "2026-05-30",
-          "time": "19:30",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1244684"
-        },
-        {
-          "date": "2026-06-28",
-          "time": "19:30",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1280975"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sovremennik-art",
@@ -710,10 +673,10 @@
           "date": "2026-05-16",
           "time": "19:00",
           "weekday": "Сб",
-          "available": false,
+          "available": true,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
         },
         {
           "date": "2026-06-25",
@@ -846,7 +809,7 @@
       "description": "В 2017 году в свет вышла автобиографическая книга народного артиста РФ Юрия Стоянова «Игра в \"Городки\"». «Добрая книга умного человека» — так охарактеризовали её читатели. Юрий Стоянов : « Книжка „Игра в „Городки““ не надиктована и не рассказана в форме интервью. У нее нет редактора, от первого до последнего слова книга написана мной. Я не могу назвать свое произведение биографией в чистом виде, потому что это все-таки жанровая книга. Она написана в жанре рассказа, или очень маленькой повести, под большим влиянием Марка Твена, Антона Павловича Чехова и Сергея Довлатова. Узнаете ли вы что-нибуд",
       "image": "https://storage.mxat.ru/resize_cache/17255/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/53b/vkl3sxgx2oyk02l2m6076iozjtv2vmeg/79869.jpg",
       "url": "https://mxat.ru/repertuar/show/stoyanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
@@ -856,10 +819,10 @@
           "date": "2026-05-21",
           "time": "19:00",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://mxat.ru/repertuar/show/stoyanov"
+          "buy_url": ""
         },
         {
           "date": "2026-06-14",
