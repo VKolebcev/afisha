@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T22:41:15+03:00",
+  "last_updated": "2026-05-14T01:04:42+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -286,15 +286,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-05-13",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=44878496&agentId=museum255"
-        },
         {
           "date": "2026-06-02",
           "time": "19:00",
