@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T20:10:31+03:00",
+  "last_updated": "2026-05-13T22:41:15+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -331,10 +331,10 @@
     },
     {
       "id": "shalom-natan",
-      "name": "Натан Мудрый",
+      "name": "Натан Mудрый",
       "theater": "Театр Шалом",
       "description": "",
-      "image": "",
+      "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/9d0/9d045aa39444c288f1fb474a3459ebd3/nat_1920_750_1x.png",
       "url": "https://shalom-theatre.ru/spektakli/Nathan/",
       "available": false,
       "price_min": 0,
@@ -350,25 +350,53 @@
       "description": "",
       "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/2e5/2e59960325a7d758b8283e0dd9fb41d5/605662b1_9688_4925_8761_6590340aef8c_1x.webp",
       "url": "https://shalom-theatre.ru/spektakli/lear/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-15",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        },
+        {
+          "date": "2026-07-21",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        }
+      ]
     },
     {
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
@@ -621,7 +649,7 @@
       "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
       "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": true,
+      "available": false,
       "price_min": 1500,
       "price_max": 15000,
       "currency": "₽",
@@ -631,10 +659,10 @@
           "date": "2026-05-18",
           "time": "19:00",
           "weekday": "Пн",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-18-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-09",
@@ -649,10 +677,10 @@
           "date": "2026-07-02",
           "time": "19:00",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-07-02-19-00-00"
+          "buy_url": "#"
         }
       ]
     },
@@ -673,10 +701,10 @@
           "date": "2026-05-16",
           "time": "19:00",
           "weekday": "Сб",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-25",
