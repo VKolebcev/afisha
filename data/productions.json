@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T09:16:27+03:00",
+  "last_updated": "2026-05-14T14:09:35+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -581,10 +581,10 @@
           "date": "2026-05-24",
           "time": "14:00",
           "weekday": "Вс",
-          "available": false,
+          "available": true,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-24-14-00-00"
         },
         {
           "date": "2026-05-24",
@@ -631,7 +631,7 @@
       "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
       "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": false,
+      "available": true,
       "price_min": 1500,
       "price_max": 15000,
       "currency": "₽",
@@ -650,10 +650,10 @@
           "date": "2026-06-09",
           "time": "19:00",
           "weekday": "Вт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-09-19-00-00"
         },
         {
           "date": "2026-07-02",
@@ -683,10 +683,10 @@
           "date": "2026-05-16",
           "time": "19:00",
           "weekday": "Сб",
-          "available": false,
+          "available": true,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-16-19-00-00"
         },
         {
           "date": "2026-06-25",
