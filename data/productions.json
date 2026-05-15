@@ -1,19 +1,47 @@
 {
-  "last_updated": "2026-05-15T22:18:19+03:00",
+  "last_updated": "2026-05-16T00:51:13+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "",
-      "image": "",
+      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
+      "image": "https://fomenki.ru/f/performance/26523_c.png",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1000,
+      "price_max": 30000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-22",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#28399397"
+        },
+        {
+          "date": "2026-06-04",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#43766173"
+        },
+        {
+          "date": "2026-07-03",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#48095088"
+        }
+      ]
     },
     {
       "id": "electro-piknik-1",
@@ -178,14 +206,14 @@
       "id": "nations-makbet",
       "name": "Макбет",
       "theater": "Театр наций",
-      "description": "",
-      "image": "",
+      "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
+      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
       "url": "https://theatreofnations.ru/performances/makbet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
       "dates": []
     },
     {
@@ -513,79 +541,15 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
-      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
-      "price_min": 3300,
-      "price_max": 4800,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-05-16",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        },
-        {
-          "date": "2026-05-16",
-          "time": "19:30",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-16-19-30-00"
-        },
-        {
-          "date": "2026-05-24",
-          "time": "14:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        },
-        {
-          "date": "2026-05-24",
-          "time": "19:30",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        },
-        {
-          "date": "2026-06-02",
-          "time": "19:30",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-02-19-30-00"
-        },
-        {
-          "date": "2026-06-03",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-03-19-30-00"
-        },
-        {
-          "date": "2026-06-16",
-          "time": "19:30",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-16-19-30-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -604,10 +568,10 @@
           "date": "2026-05-18",
           "time": "19:00",
           "weekday": "Пн",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-18-19-00-00"
         },
         {
           "date": "2026-06-09",
@@ -622,10 +586,10 @@
           "date": "2026-07-02",
           "time": "19:00",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-07-02-19-00-00"
+          "buy_url": "#"
         }
       ]
     },
