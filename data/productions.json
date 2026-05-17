@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T18:51:37+03:00",
+  "last_updated": "2026-05-17T21:55:16+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -47,42 +47,42 @@
       "id": "electro-piknik-1",
       "name": "Пик Ник. Город миражей",
       "theater": "Электротеатр Станиславский",
-      "description": "Новый проект Бориса Юхананова – это фэнтези про путешествие Ангелов на Землю, развернутое в трех спектаклях и представляющее собой многослойное сочинение. Сюжет повествует о том, как Творец, принявший облик Старого Ворона, отправляет небесных Ангелов в путешествие по Городу миражей, во время которого они должны воплотиться в земных женщин – театральных актрис, получить знание о театре и жизни и разыграть пьесу о любви. В первом спектакле для Ангелов обустраивается Город миражей, по которому они отправляются в путешествие. Второй спектакль «Никогда» Третий спектакль «Прибытие» –––––– Хотим пред",
-      "image": "https://electrotheatre.ru/static/1600/12858.png",
+      "description": "",
+      "image": "/static/img/9614/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1182",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "electro-piknik-2",
       "name": "Пик Ник. Никогда",
       "theater": "Электротеатр Станиславский",
-      "description": "Новый проект Бориса Юхананова – это фэнтези про путешествие Ангелов на Землю, развернутое в трех спектаклях и представляющее собой многослойное сочинение. Сюжет повествует о том, как Творец, принявший облик Старого Ворона, отправляет небесных Ангелов в путешествие по Городу миражей, во время которого они должны воплотиться в земных женщин – театральных актрис, получить знание о театре и жизни и разыграть пьесу о любви. Второй спектакль начинается как фрагмент из фильма, где в центре внимания оказывается мясной ресторан в Поднебесье, и продолжается театром. Первый спектакль «Город миражей» Трет",
-      "image": "https://electrotheatre.ru/static/1600/12864.png",
+      "description": "",
+      "image": "/static/img/9617/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1183",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "electro-piknik-3",
       "name": "Пик Ник. Прибытие",
       "theater": "Электротеатр Станиславский",
-      "description": "Новый проект Бориса Юхананова – это фэнтези про путешествие Ангелов на Землю, развернутое в трех спектаклях и представляющее собой многослойное сочинение. Сюжет повествует о том, как Творец, принявший облик Старого Ворона, отправляет небесных Ангелов в путешествие по Городу миражей, во время которого они должны воплотиться в земных женщин – театральных актрис, получить знание о театре и жизни и разыграть пьесу о любви. В третьем спектакле Старый Ворон завершает свои сказки, Ангелы прибывают в портал перехода из Поднебесья на Землю и обратно. Первый спектакль «Город миражей» Второй спектакль «Н",
-      "image": "https://electrotheatre.ru/static/1600/12859.png",
+      "description": "",
+      "image": "/static/img/9622/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1186",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -206,14 +206,14 @@
       "id": "nations-makbet",
       "name": "Макбет",
       "theater": "Театр наций",
-      "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/makbet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -362,14 +362,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
@@ -475,15 +475,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-05-17",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://sovremennik.ru/plays/art/tickets/2493"
-        },
         {
           "date": "2026-06-20",
           "time": "19:00",
@@ -595,7 +586,7 @@
       "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
       "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": false,
+      "available": true,
       "price_min": 1500,
       "price_max": 15000,
       "currency": "₽",
@@ -605,10 +596,10 @@
           "date": "2026-05-18",
           "time": "19:00",
           "weekday": "Пн",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-18-19-00-00"
         },
         {
           "date": "2026-06-09",
@@ -1135,28 +1126,47 @@
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Поэма об «обыденной» жизни",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/deadsouls",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-28",
+          "time": "18:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/129959/"
+        },
+        {
+          "date": "2026-05-28",
+          "time": "21:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/129959/"
+        }
+      ]
     },
     {
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -1276,15 +1286,34 @@
       "id": "vnutri-sisters",
       "name": "Три сестры",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Драма одного дома",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/sisters",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-29",
+          "time": "18:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/105954/"
+        },
+        {
+          "date": "2026-05-29",
+          "time": "21:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/105954/"
+        }
+      ]
     }
   ]
 }
