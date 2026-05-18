@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T05:29:28+03:00",
+  "last_updated": "2026-05-18T09:45:47+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -523,15 +523,61 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-24",
+          "time": "14:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "19:30",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-06-02",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-02-19-30-00"
+        },
+        {
+          "date": "2026-06-03",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-03-19-30-00"
+        },
+        {
+          "date": "2026-06-16",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-16-19-30-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -796,15 +842,43 @@
       "id": "ermolova-chukovsky",
       "name": "Чуковский",
       "theater": "Театр им. Ермоловой",
-      "description": "",
-      "image": "https://edge-msk-1.kinescopecdn.net/b4800941-33d4-435b-bd07-7e5b6a489cba/posters/701fff82-7623-4102-8917-057614fe9b8e/poster_md/61407ce0-5dc7-4e2e-8ab7-914dbb620b04.webp",
+      "description": "Корней Иванович Чуковский — это имя звенит, радует и греет детей и взрослых уже больше ста лет. Тиражи его сказок обгоняют Пушкина. Меняются поколения, мода, а его сказки по-прежнему читают и любят. Чуковского все знают как доброго сказочника, весёлого дедушку, друга всех детей. Но знаем ли мы его, как человека? Самоучка, рождённый при Александре III, друг Маяковского, Блока и Ахматовой, исследователь Некрасова и переводчик великого американского поэта Уитмена, отец четверых детей, потерявший при жизни троих из них. Каким он был на самом деле, что скрывал от посторонних и почему отрёкся от с",
+      "image": "/slir/w300/userfiles/perfomance/full/10f8723ead89c6ea.jpg",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 500,
+      "price_max": 30000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-14",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        },
+        {
+          "date": "2026-07-06",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        },
+        {
+          "date": "2026-07-07",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        }
+      ]
     },
     {
       "id": "entracte-mitina",
