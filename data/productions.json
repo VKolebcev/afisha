@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-19T09:41:17+03:00",
+  "last_updated": "2026-05-19T14:54:56+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -545,10 +545,10 @@
           "date": "2026-05-24",
           "time": "19:30",
           "weekday": "Вс",
-          "available": false,
+          "available": true,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-24-19-30-00"
         },
         {
           "date": "2026-06-02",
@@ -695,10 +695,10 @@
           "date": "2026-05-19",
           "time": "19:00",
           "weekday": "Вт",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-05-19-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-06",
@@ -1160,14 +1160,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -1287,15 +1287,34 @@
       "id": "vnutri-sisters",
       "name": "Три сестры",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Драма одного дома",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/sisters",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-29",
+          "time": "18:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/105954/"
+        },
+        {
+          "date": "2026-05-29",
+          "time": "21:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/105954/"
+        }
+      ]
     }
   ]
 }
