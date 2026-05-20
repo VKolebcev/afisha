@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T09:43:01+03:00",
+  "last_updated": "2026-05-20T14:43:45+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -206,14 +206,14 @@
       "id": "nations-makbet",
       "name": "Макбет",
       "theater": "Театр наций",
-      "description": "",
-      "image": "",
+      "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
+      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
       "url": "https://theatreofnations.ru/performances/makbet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
       "dates": []
     },
     {
@@ -331,8 +331,18 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-07-02",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/349392257/"
+        }
+      ]
     },
     {
       "id": "shalom-lir",
@@ -616,15 +626,25 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-25",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
@@ -643,10 +663,10 @@
           "date": "2026-05-21",
           "time": "19:30",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-05-21-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-06-22",
@@ -938,7 +958,16 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/sessions/OTg4MDZ8ODMzODU1fDEyNDQwNTMwfDE3ODMyNjcyMDAwMDA=?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0"
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        },
+        {
+          "date": "2026-07-06",
+          "time": "",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
         }
       ]
     },
