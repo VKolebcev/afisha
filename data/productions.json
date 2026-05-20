@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-20T05:28:17+03:00",
+  "last_updated": "2026-05-20T09:43:01+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -206,14 +206,14 @@
       "id": "nations-makbet",
       "name": "Макбет",
       "theater": "Театр наций",
-      "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/makbet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -616,25 +616,15 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-25",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-sonechka",
