@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T09:40:49+03:00",
+  "last_updated": "2026-05-22T14:39:17+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -318,7 +318,7 @@
       "description": "",
       "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/9d0/9d045aa39444c288f1fb474a3459ebd3/nat_1920_750_1x.png",
       "url": "https://shalom-theatre.ru/spektakli/Nathan/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
@@ -328,7 +328,7 @@
           "date": "2026-07-02",
           "time": "19:00",
           "weekday": "Чт",
-          "available": false,
+          "available": true,
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://bilet.mos.ru/event/349392257/"
@@ -363,14 +363,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
@@ -546,10 +546,10 @@
           "date": "2026-05-24",
           "time": "19:30",
           "weekday": "Вс",
-          "available": false,
+          "available": true,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-24-19-30-00"
         },
         {
           "date": "2026-06-02",
