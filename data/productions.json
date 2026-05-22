@@ -1,19 +1,38 @@
 {
-  "last_updated": "2026-05-22T01:12:36+03:00",
+  "last_updated": "2026-05-22T05:30:51+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "",
-      "image": "",
+      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
+      "image": "https://fomenki.ru/f/performance/26523_c.png",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1000,
+      "price_max": 30000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-04",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#43766173"
+        },
+        {
+          "date": "2026-07-03",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#48095088"
+        }
+      ]
     },
     {
       "id": "electro-piknik-1",
@@ -505,15 +524,61 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-05-24",
+          "time": "14:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-05-24-14-00-00"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "19:30",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-06-02",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-02-19-30-00"
+        },
+        {
+          "date": "2026-06-03",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-03-19-30-00"
+        },
+        {
+          "date": "2026-06-16",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-16-19-30-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -552,25 +617,15 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-25",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-sonechka",
@@ -590,25 +645,15 @@
       "id": "vakhtangov-pushkin",
       "name": "Повести Пушкина",
       "theater": "Театр Вахтангова",
-      "description": "1830-й год. В Болдино, в уединении Александр Сергеевич Пушкин пишет своё первое завершённое прозаическое произведение, знаменитые «Повести Белкина». Всю жизнь обращавший внимание на знаки судьбы, поэт как будто подводит своеобразные итоги прошлого и думает о будущем. Герои его историй любят, страдают, играют роли, блуждают в метели, стреляются на дуэлях, гонятся за похищенной дочерью, ищут счастье, но в конце концов всё в их жизнях меняет Случай. Анатолий Шульев: «Даже когда наступает самое тёмное время года, тёмное время жизни, надо чуть-чуть подождать утра, весны — и за смертью снова жизнь н",
-      "image": "https://vakhtangov.ru/uploads/2023/12/DSC03108-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/pushkin_tales",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-06",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-06-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-fellini",
@@ -655,21 +700,12 @@
       "description": "В 2017 году в свет вышла автобиографическая книга народного артиста РФ Юрия Стоянова «Игра в \"Городки\"». «Добрая книга умного человека» — так охарактеризовали её читатели. Юрий Стоянов : « Книжка „Игра в „Городки““ не надиктована и не рассказана в форме интервью. У нее нет редактора, от первого до последнего слова книга написана мной. Я не могу назвать свое произведение биографией в чистом виде, потому что это все-таки жанровая книга. Она написана в жанре рассказа, или очень маленькой повести, под большим влиянием Марка Твена, Антона Павловича Чехова и Сергея Довлатова. Узнаете ли вы что-нибуд",
       "image": "https://storage.mxat.ru/resize_cache/17255/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/53b/vkl3sxgx2oyk02l2m6076iozjtv2vmeg/79869.jpg",
       "url": "https://mxat.ru/repertuar/show/stoyanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-05-21",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://mxat.ru/repertuar/show/stoyanov"
-        },
         {
           "date": "2026-06-14",
           "time": "19:00",
@@ -873,24 +909,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-05-21",
-          "time": "17:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.brodsky.online/tickets/bookplaces/12881/"
-        },
-        {
-          "date": "2026-05-21",
-          "time": "20:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.brodsky.online/tickets/bookplaces/12882/"
-        },
         {
           "date": "2026-06-10",
           "time": "17:00",
