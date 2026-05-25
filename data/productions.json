@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T00:46:27+03:00",
+  "last_updated": "2026-05-25T05:34:21+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -1154,24 +1154,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-05-24",
-          "time": "16:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
-        },
-        {
-          "date": "2026-05-24",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
-        },
         {
           "date": "2026-06-21",
           "time": "16:00",
