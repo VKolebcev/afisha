@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T00:52:24+03:00",
+  "last_updated": "2026-05-31T05:35:48+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -39,7 +39,7 @@
       "name": "Пик Ник. Город миражей",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "/static/img/9614/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1182",
       "available": false,
       "price_min": 0,
@@ -53,7 +53,7 @@
       "name": "Пик Ник. Никогда",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "/static/img/9617/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1183",
       "available": false,
       "price_min": 0,
@@ -67,7 +67,7 @@
       "name": "Пик Ник. Прибытие",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "/static/img/9622/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1186",
       "available": false,
       "price_min": 0,
@@ -146,43 +146,15 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-20",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
-        {
-          "date": "2026-06-21",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
-        {
-          "date": "2026-06-28",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "nations-makbet",
@@ -407,15 +379,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-05-30",
-          "time": "19:30",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1244684"
-        },
-        {
           "date": "2026-06-28",
           "time": "19:30",
           "weekday": "Вс",
@@ -496,15 +459,43 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-02",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-06-03",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-06-16",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-06-16-19-30-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -524,15 +515,25 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-25",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
@@ -552,29 +553,49 @@
       "id": "vakhtangov-pushkin",
       "name": "Повести Пушкина",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "1830-й год. В Болдино, в уединении Александр Сергеевич Пушкин пишет своё первое завершённое прозаическое произведение, знаменитые «Повести Белкина». Всю жизнь обращавший внимание на знаки судьбы, поэт как будто подводит своеобразные итоги прошлого и думает о будущем. Герои его историй любят, страдают, играют роли, блуждают в метели, стреляются на дуэлях, гонятся за похищенной дочерью, ищут счастье, но в конце концов всё в их жизнях меняет Случай. Анатолий Шульев: «Даже когда наступает самое тёмное время года, тёмное время жизни, надо чуть-чуть подождать утра, весны — и за смертью снова жизнь н",
+      "image": "https://vakhtangov.ru/uploads/2023/12/DSC03108-250x167.jpg",
       "url": "https://vakhtangov.ru/show/pushkin_tales",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-06",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-06-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8½",
+      "name": "Феллини. 8 1/2",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
+      "description": "Успешный кинорежиссёр Гвидо (его роль играет заслуженный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Фелли",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 1800,
+      "price_max": 5300,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-04",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "#"
+        }
+      ]
     },
     {
       "id": "mxat-kosmos",
@@ -656,15 +677,43 @@
       "id": "ermolova-chukovsky",
       "name": "Чуковский",
       "theater": "Театр им. Ермоловой",
-      "description": "",
-      "image": "https://edge-msk-1.kinescopecdn.net/b4800941-33d4-435b-bd07-7e5b6a489cba/posters/701fff82-7623-4102-8917-057614fe9b8e/poster_md/61407ce0-5dc7-4e2e-8ab7-914dbb620b04.webp",
+      "description": "Корней Иванович Чуковский — это имя звенит, радует и греет детей и взрослых уже больше ста лет. Тиражи его сказок обгоняют Пушкина. Меняются поколения, мода, а его сказки по-прежнему читают и любят. Чуковского все знают как доброго сказочника, весёлого дедушку, друга всех детей. Но знаем ли мы его, как человека? Самоучка, рождённый при Александре III, друг Маяковского, Блока и Ахматовой, исследователь Некрасова и переводчик великого американского поэта Уитмена, отец четверых детей, потерявший при жизни троих из них. Каким он был на самом деле, что скрывал от посторонних и почему отрёкся от с",
+      "image": "/slir/w300/userfiles/perfomance/full/10f8723ead89c6ea.jpg",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 500,
+      "price_max": 30000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-14",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        },
+        {
+          "date": "2026-07-06",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        },
+        {
+          "date": "2026-07-07",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        }
+      ]
     },
     {
       "id": "entracte-mitina",
