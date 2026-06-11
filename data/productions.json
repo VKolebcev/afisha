@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T15:37:02+03:00",
+  "last_updated": "2026-06-11T21:06:25+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -188,14 +188,14 @@
       "id": "nations-makbet",
       "name": "Макбет",
       "theater": "Театр наций",
-      "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/makbet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -544,29 +544,67 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-25",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
+        },
+        {
+          "date": "2026-09-09",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
       "name": "Повесть о Сонечке",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "« Повесть о Сонечке» – густой, очень плотный текст. Общественные потрясения становятся для Марины Цветаевой своеобразным катализатором. Сумасшедшая энергия обновления, которой буквально пропитан воздух, даёт ей силы, темы, новый язык. О ком бы ни писала Цветаева, она, как большой поэт, писала о себе. Примеривала на себя чужие жизни, разные роли. Её проза, соединенная с реалиями жизни, полна магии, которая завораживает… Я благодарен Евгении Крегжде за совместное глубокое погружение в пространство прозы М.И. Цветаевой и внимательную работу над текстом нашего спектакля",
+      "image": "https://vakhtangov.ru/uploads/2023/12/DSC00275-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/sonechka",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1800,
+      "price_max": 5300,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-22",
+          "time": "19:30",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-06-22-19-30-00"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "19:30",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-06-28-19-30-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-pushkin",
@@ -617,7 +655,7 @@
       "description": "В 2017 году в свет вышла автобиографическая книга народного артиста РФ Юрия Стоянова «Игра в \"Городки\"». «Добрая книга умного человека» — так охарактеризовали её читатели. Юрий Стоянов : « Книжка „Игра в „Городки““ не надиктована и не рассказана в форме интервью. У нее нет редактора, от первого до последнего слова книга написана мной. Я не могу назвать свое произведение биографией в чистом виде, потому что это все-таки жанровая книга. Она написана в жанре рассказа, или очень маленькой повести, под большим влиянием Марка Твена, Антона Павловича Чехова и Сергея Довлатова. Узнаете ли вы что-нибуд",
       "image": "https://storage.mxat.ru/resize_cache/17255/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/53b/vkl3sxgx2oyk02l2m6076iozjtv2vmeg/79869.jpg",
       "url": "https://mxat.ru/repertuar/show/stoyanov",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
@@ -627,10 +665,10 @@
           "date": "2026-06-14",
           "time": "19:00",
           "weekday": "Вс",
-          "available": false,
+          "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": ""
+          "buy_url": "https://mxat.ru/repertuar/show/stoyanov"
         }
       ]
     },
@@ -812,15 +850,43 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Нас всех ждет хороший человек. Он ждет всегда",
+      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
       "url": "https://vnutri.space/bochkotara",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-07-12",
+          "time": "16:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        },
+        {
+          "date": "2026-07-12",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        },
+        {
+          "date": "2026-07-13",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        }
+      ]
     },
     {
       "id": "vnutri-sherlock",
@@ -873,14 +939,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -934,14 +1000,14 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
