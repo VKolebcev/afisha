@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T10:22:47+03:00",
+  "last_updated": "2026-06-11T15:37:02+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -146,15 +146,43 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "",
-      "image": "",
+      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
+      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-20",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://theatreofnations.ru/event/266c6d27ecd59f6d6313e6935f0ed301/"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://theatreofnations.ru/event/3e0ac1c850ded9d276298a8da9a37c32/"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "nations-makbet",
@@ -459,15 +487,25 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-16",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -534,14 +572,14 @@
       "id": "vakhtangov-pushkin",
       "name": "Повести Пушкина",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "1830-й год. В Болдино, в уединении Александр Сергеевич Пушкин пишет своё первое завершённое прозаическое произведение, знаменитые «Повести Белкина». Всю жизнь обращавший внимание на знаки судьбы, поэт как будто подводит своеобразные итоги прошлого и думает о будущем. Герои его историй любят, страдают, играют роли, блуждают в метели, стреляются на дуэлях, гонятся за похищенной дочерью, ищут счастье, но в конце концов всё в их жизнях меняет Случай. Анатолий Шульев: «Даже когда наступает самое тёмное время года, тёмное время жизни, надо чуть-чуть подождать утра, весны — и за смертью снова жизнь н",
+      "image": "https://vakhtangov.ru/uploads/2023/12/DSC03108-250x167.jpg",
       "url": "https://vakhtangov.ru/show/pushkin_tales",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -774,43 +812,15 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "Нас всех ждет хороший человек. Он ждет всегда",
-      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/bochkotara",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-12",
-          "time": "16:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        },
-        {
-          "date": "2026-07-12",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        },
-        {
-          "date": "2026-07-13",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-sherlock",
@@ -863,14 +873,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "Уроки человечности на окраине Перми ",
-      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -924,14 +934,14 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
