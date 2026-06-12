@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T01:47:34+03:00",
+  "last_updated": "2026-06-12T05:38:32+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -374,14 +374,14 @@
       "id": "sreda21-frankenstein",
       "name": "Франкенштейн",
       "theater": "Среда 21",
-      "description": "Спектакль Нади Кубайлат об одержимом ученом и созданном им чудовище, о границах человеческого и природе добра и зла. Текст культового романа дополняют стихи английских поэтов-романтиков, а Мэри Шелли от первого лица рассказывает историю создания своего т",
-      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/frankenshtejn/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -910,14 +910,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "Уроки человечности на окраине Перми ",
-      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
