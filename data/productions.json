@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T10:16:30+03:00",
+  "last_updated": "2026-06-14T14:24:15+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -146,28 +146,56 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "",
-      "image": "",
+      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
+      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-20",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://theatreofnations.ru/event/266c6d27ecd59f6d6313e6935f0ed301/"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://theatreofnations.ru/event/3e0ac1c850ded9d276298a8da9a37c32/"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "nations-makbet",
       "name": "Макбет",
       "theater": "Театр наций",
-      "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/makbet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
