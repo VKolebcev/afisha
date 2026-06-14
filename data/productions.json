@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T22:09:47+03:00",
+  "last_updated": "2026-06-15T01:02:54+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -243,22 +243,12 @@
       "description": "Спектакль «Доктор Живаго» по роману Бориса Пастернака о любви, о возможности и необходимости принятия противоречий эпохи, где сюжет – цепочка случайностей, которые чудесным образом осуществляют упрямый замысел Провидения. Режиссёр взяла главный русский роман ХХ века и перенесла его на сцену, сохранив пастернаковскую картину поэтического мира.",
       "image": "https://www.okolo.ru/upload/resize_cache/iblock/1c4/1200_900_2/ry2ef9gcrwlxx1xrpmukhhzk7uuywh15.jpg",
       "url": "https://www.okolo.ru/shows/doktor-zhivago/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": [
-        {
-          "date": "2026-06-14",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=48721755&agentId=museum255"
-        }
-      ]
+      "dates": []
     },
     {
       "id": "okolo-lyubimymi",
@@ -532,10 +522,10 @@
           "date": "2026-07-02",
           "time": "19:00",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-07-02-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-09-04",
