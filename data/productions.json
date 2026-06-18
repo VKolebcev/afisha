@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T23:12:59+03:00",
+  "last_updated": "2026-06-19T01:52:41+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -80,34 +80,15 @@
       "id": "mayakovsky-les",
       "name": "Лес",
       "theater": "Театр Маяковского",
-      "description": "На перекрёстке лесных дорог, посреди России, сходятся два провинциальных артиста, комик Счастливцев и трагик Несчастливцев. Дорога доводит их до «Пеньков» — усадьбы богатой помещицы Гурмыжской, где творится «тёмный лес». Молодые женятся на старых ради денег, бесприданницы топятся от любви, все врут и никто не счастлив. Поработав в других спектаклях со стихиями ветра, воды, огня, в пьесе Островского художественный руководитель Маяковки Егор Перегудов исследует новую стихию. Леса давно нет. Нет ни пеньков, ни опилок. Одна природная сила вытеснила другую, оставив человека в тревожной зыбкости и п",
-      "image": "https://www.mayakovsky.ru/upload/iblock/7ff/7ff05647dfbffe2fe8541f5245c9be0e.jpg",
+      "description": "",
+      "image": "",
       "url": "https://www.mayakovsky.ru/performance/les/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-21",
-          "time": "18:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15351"
-        },
-        {
-          "date": "2026-07-19",
-          "time": "18:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15488"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "mayakovsky-bagdad",
@@ -476,34 +457,15 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
-      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
-      "price_min": 3300,
-      "price_max": 4800,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-10",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-10-19-30-00"
-        },
-        {
-          "date": "2026-09-12",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-12-14-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -523,34 +485,15 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-25",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
-        },
-        {
-          "date": "2026-09-09",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-sonechka",
@@ -570,28 +513,28 @@
       "id": "vakhtangov-pushkin",
       "name": "Повести Пушкина",
       "theater": "Театр Вахтангова",
-      "description": "1830-й год. В Болдино, в уединении Александр Сергеевич Пушкин пишет своё первое завершённое прозаическое произведение, знаменитые «Повести Белкина». Всю жизнь обращавший внимание на знаки судьбы, поэт как будто подводит своеобразные итоги прошлого и думает о будущем. Герои его историй любят, страдают, играют роли, блуждают в метели, стреляются на дуэлях, гонятся за похищенной дочерью, ищут счастье, но в конце концов всё в их жизнях меняет Случай. Анатолий Шульев: «Даже когда наступает самое тёмное время года, тёмное время жизни, надо чуть-чуть подождать утра, весны — и за смертью снова жизнь н",
-      "image": "https://vakhtangov.ru/uploads/2023/12/DSC03108-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/pushkin_tales",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8 1/2",
+      "name": "Феллини. 8½",
       "theater": "Театр Вахтангова",
-      "description": "Успешный кинорежиссёр Гвидо (его роль играет заслуженный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Фелли",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
