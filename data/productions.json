@@ -1,38 +1,19 @@
 {
-  "last_updated": "2026-06-19T01:52:41+03:00",
+  "last_updated": "2026-06-19T05:59:27+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
-      "image": "https://fomenki.ru/f/performance/26523_c.png",
+      "description": "",
+      "image": "",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": true,
-      "price_min": 1000,
-      "price_max": 30000,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-03",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#48095088"
-        },
-        {
-          "date": "2026-09-16",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#52376638"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "electro-piknik-1",
@@ -80,15 +61,34 @@
       "id": "mayakovsky-les",
       "name": "Лес",
       "theater": "Театр Маяковского",
-      "description": "",
-      "image": "",
+      "description": "На перекрёстке лесных дорог, посреди России, сходятся два провинциальных артиста, комик Счастливцев и трагик Несчастливцев. Дорога доводит их до «Пеньков» — усадьбы богатой помещицы Гурмыжской, где творится «тёмный лес». Молодые женятся на старых ради денег, бесприданницы топятся от любви, все врут и никто не счастлив. Поработав в других спектаклях со стихиями ветра, воды, огня, в пьесе Островского художественный руководитель Маяковки Егор Перегудов исследует новую стихию. Леса давно нет. Нет ни пеньков, ни опилок. Одна природная сила вытеснила другую, оставив человека в тревожной зыбкости и п",
+      "image": "https://www.mayakovsky.ru/upload/iblock/7ff/7ff05647dfbffe2fe8541f5245c9be0e.jpg",
       "url": "https://www.mayakovsky.ru/performance/les/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-21",
+          "time": "18:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15351"
+        },
+        {
+          "date": "2026-07-19",
+          "time": "18:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15488"
+        }
+      ]
     },
     {
       "id": "mayakovsky-bagdad",
