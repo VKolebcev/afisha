@@ -1,38 +1,19 @@
 {
-  "last_updated": "2026-06-20T14:08:38+03:00",
+  "last_updated": "2026-06-20T16:28:36+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
-      "image": "https://fomenki.ru/f/performance/26523_c.png",
+      "description": "",
+      "image": "",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": true,
-      "price_min": 1000,
-      "price_max": 30000,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-03",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#48095088"
-        },
-        {
-          "date": "2026-09-16",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#52376638"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "electro-piknik-1",
@@ -476,62 +457,81 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-10",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-10-19-30-00"
+        },
+        {
+          "date": "2026-09-12",
+          "time": "14:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-12-14-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
       "name": "Война и мир",
       "theater": "Театр Вахтангова",
-      "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
-      "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
-      "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": true,
-      "price_min": 1500,
-      "price_max": 15000,
-      "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-02",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 1500,
-          "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-07-02-19-00-00"
-        },
-        {
-          "date": "2026-09-04",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1500,
-          "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-04-19-00-00"
-        }
-      ]
-    },
-    {
-      "id": "vakhtangov-chudo",
-      "name": "Обыкновенное чудо",
-      "theater": "Театр Вахтангова",
       "description": "",
-      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
-      "url": "https://vakhtangov.ru/show/ordinay_miracle",
+      "image": "",
+      "url": "https://vakhtangov.ru/show/war_and_peace/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
+    },
+    {
+      "id": "vakhtangov-chudo",
+      "name": "Обыкновенное чудо",
+      "theater": "Театр Вахтангова",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
+      "url": "https://vakhtangov.ru/show/ordinay_miracle",
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-25",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
+        },
+        {
+          "date": "2026-09-09",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
@@ -649,8 +649,8 @@
       "id": "entracte-mitina",
       "name": "Митина любовь",
       "theater": "Антракт",
-      "description": "В спектакле «Митина любовь» режиссер не только переосмысляет повесть, но и добавляет несколько ярких музыкальных фрагментов. Как и во многих других постановках, Наставшев выступает здесь как автор инсценировки, композитор и художник. Владислав Наставшев: «Главный вопрос для меня: что происходит с Митей? Катя действительно существует или все события происходят во внутреннем мире героя? А если Катя существует? Она играет спектакль? Она репетирует? Готовит роль? Кто она? Актриса или сила судьбы? Человек или нет? Митю играет молодой артист Андрей Мартынов, а Катю – Аня Чиповская. Между ними поколе",
-      "image": "https://static.tildacdn.com/tild3333-6534-4662-b734-306634363833/ML-Poster-Red-00.jpg",
+      "description": "",
+      "image": "",
       "url": "https://entracte.moscow/mitina",
       "available": true,
       "price_min": 0,
@@ -665,7 +665,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+          "buy_url": "https://entracte.moscow/mitina"
         },
         {
           "date": "2026-07-20",
@@ -674,7 +674,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+          "buy_url": "https://entracte.moscow/mitina"
         },
         {
           "date": "2026-09-16",
@@ -683,7 +683,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+          "buy_url": "https://entracte.moscow/mitina"
         }
       ]
     },
@@ -718,40 +718,12 @@
       "description": "Режиссер Владислав Наставшев помещает чеховских персонажей в неопознанное пространство. Герои спектакля не понимают до конца – то ли они живые люди со своими проблемами, желаниями, тоской и страстью, то ли их вовсе не существует, и они всего лишь персонажи пьесы Антона Павловича Чехова. Владислав Наставшев: «Чехов писал о себе, о том, что он сам думает и чувствует про жизнь, про человека, про искусство. «Чайка» не только заявлена комедией, но и является таковой. При всей серьезности и глубине тем и проблем, которые поднимаются в пьесе, она сделана очень смешно, с уникальным тонким чеховским чу",
       "image": "https://static.tildacdn.com/tild6265-6665-4465-b632-373964643338/CHAYKA-0832-www.jpg",
       "url": "https://entracte.moscow/seagull",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-05",
-          "time": "",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
-        },
-        {
-          "date": "2026-07-06",
-          "time": "",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
-        },
-        {
-          "date": "2026-08-26",
-          "time": "",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
-        }
-      ]
+      "error": "Не удалось загрузить страницу афиши",
+      "dates": []
     },
     {
       "id": "poltory-parkovka",
