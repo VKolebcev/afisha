@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T01:00:13+03:00",
+  "last_updated": "2026-06-21T05:46:44+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -155,34 +155,15 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-21",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://theatreofnations.ru/event/3e0ac1c850ded9d276298a8da9a37c32/"
-        },
-        {
-          "date": "2026-06-28",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "nations-makbet",
@@ -299,6 +280,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://bilet.mos.ru/event/382969257/"
+        },
+        {
+          "date": "2026-09-19",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
         }
       ]
     },
@@ -306,39 +296,29 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "Моноспектакль Дмитрия Волкострелова",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-27",
-          "time": "19:30",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1280974"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
@@ -528,34 +508,15 @@
       "id": "vakhtangov-sonechka",
       "name": "Повесть о Сонечке",
       "theater": "Театр Вахтангова",
-      "description": "« Повесть о Сонечке» – густой, очень плотный текст. Общественные потрясения становятся для Марины Цветаевой своеобразным катализатором. Сумасшедшая энергия обновления, которой буквально пропитан воздух, даёт ей силы, темы, новый язык. О ком бы ни писала Цветаева, она, как большой поэт, писала о себе. Примеривала на себя чужие жизни, разные роли. Её проза, соединенная с реалиями жизни, полна магии, которая завораживает… Я благодарен Евгении Крегжде за совместное глубокое погружение в пространство прозы М.И. Цветаевой и внимательную работу над текстом нашего спектакля",
-      "image": "https://vakhtangov.ru/uploads/2023/12/DSC00275-Edit-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/sonechka",
-      "available": true,
-      "price_min": 1800,
-      "price_max": 5300,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-22",
-          "time": "19:30",
-          "weekday": "Пн",
-          "available": false,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "#"
-        },
-        {
-          "date": "2026-06-28",
-          "time": "19:30",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-06-28-19-30-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-pushkin",
@@ -573,16 +534,16 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8½",
+      "name": "Феллини. 8 1/2",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
+      "description": "Успешный кинорежиссёр Гвидо (его роль играет заслуженный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Фелли",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
