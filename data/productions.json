@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T19:25:30+03:00",
+  "last_updated": "2026-06-21T22:16:07+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -164,15 +164,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-06-21",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
         {
           "date": "2026-06-28",
           "time": "20:00",
@@ -503,10 +494,10 @@
           "date": "2026-07-02",
           "time": "19:00",
           "weekday": "Чт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-07-02-19-00-00"
         },
         {
           "date": "2026-09-04",
@@ -523,15 +514,34 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-25",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-06-25-19-00-00"
+        },
+        {
+          "date": "2026-09-09",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
