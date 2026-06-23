@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T01:42:37+03:00",
+  "last_updated": "2026-06-23T05:15:03+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -524,14 +524,14 @@
       "id": "vakhtangov-pushkin",
       "name": "Повести Пушкина",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "1830-й год. В Болдино, в уединении Александр Сергеевич Пушкин пишет своё первое завершённое прозаическое произведение, знаменитые «Повести Белкина». Всю жизнь обращавший внимание на знаки судьбы, поэт как будто подводит своеобразные итоги прошлого и думает о будущем. Герои его историй любят, страдают, играют роли, блуждают в метели, стреляются на дуэлях, гонятся за похищенной дочерью, ищут счастье, но в конце концов всё в их жизнях меняет Случай. Анатолий Шульев: «Даже когда наступает самое тёмное время года, тёмное время жизни, надо чуть-чуть подождать утра, весны — и за смертью снова жизнь н",
+      "image": "https://vakhtangov.ru/uploads/2023/12/DSC03108-250x167.jpg",
       "url": "https://vakhtangov.ru/show/pushkin_tales",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -798,22 +798,12 @@
       "description": "Спектакль Антона Фёдорова в Арт-платформе ",
       "image": "https://static.tildacdn.com/tild6536-3836-4764-b033-626233616534/photo_2026-02-12_211.jpeg",
       "url": "https://vnutri.space/sherlock",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": [
-        {
-          "date": "2026-06-22",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://spb.radario.ru/events/2667344/tickets"
-        }
-      ]
+      "dates": []
     },
     {
       "id": "vnutri-deadsouls",
