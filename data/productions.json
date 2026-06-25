@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T05:27:54+03:00",
+  "last_updated": "2026-06-25T09:41:09+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -146,15 +146,25 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "",
-      "image": "",
+      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
+      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-28",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://theatreofnations.ru/event/fd81b04be7cc01c3c482544588e67698/"
+        }
+      ]
     },
     {
       "id": "nations-makbet",
@@ -495,15 +505,34 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-06-25",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-09-09",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
@@ -617,15 +646,34 @@
       "id": "ermolova-chukovsky",
       "name": "Чуковский",
       "theater": "Театр им. Ермоловой",
-      "description": "",
-      "image": "https://edge-msk-1.kinescopecdn.net/b4800941-33d4-435b-bd07-7e5b6a489cba/posters/701fff82-7623-4102-8917-057614fe9b8e/poster_md/61407ce0-5dc7-4e2e-8ab7-914dbb620b04.webp",
+      "description": "Корней Иванович Чуковский — это имя звенит, радует и греет детей и взрослых уже больше ста лет. Тиражи его сказок обгоняют Пушкина. Меняются поколения, мода, а его сказки по-прежнему читают и любят. Чуковского все знают как доброго сказочника, весёлого дедушку, друга всех детей. Но знаем ли мы его, как человека? Самоучка, рождённый при Александре III, друг Маяковского, Блока и Ахматовой, исследователь Некрасова и переводчик великого американского поэта Уитмена, отец четверых детей, потерявший при жизни троих из них. Каким он был на самом деле, что скрывал от посторонних и почему отрёкся от с",
+      "image": "/slir/w300/userfiles/perfomance/full/10f8723ead89c6ea.jpg",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 500,
+      "price_max": 30000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-07-06",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        },
+        {
+          "date": "2026-07-07",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        }
+      ]
     },
     {
       "id": "entracte-mitina",
