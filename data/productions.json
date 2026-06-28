@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T13:59:01+03:00",
+  "last_updated": "2026-06-28T16:17:33+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -146,25 +146,15 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-06-28",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "nations-makbet",
@@ -306,43 +296,53 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Моноспектакль Дмитрия Волкострелова",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
       "id": "sreda21-frankenstein",
       "name": "Франкенштейн",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Спектакль Нади Кубайлат об одержимом ученом и созданном им чудовище, о границах человеческого и природе добра и зла. Текст культового романа дополняют стихи английских поэтов-романтиков, а Мэри Шелли от первого лица рассказывает историю создания своего т",
+      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
       "url": "https://sreda21.ru/frankenshtejn/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-23",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1338708"
+        }
+      ]
     },
     {
       "id": "sreda21-filosofia",
@@ -693,8 +693,8 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
+      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": true,
       "price_min": 0,
@@ -709,7 +709,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://entracte.moscow/einsteinundmargarita"
+          "buy_url": "https://moscowshow.com/afisha/teatry/eynshteyn-i-margarita/"
         }
       ]
     },
@@ -862,14 +862,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -877,7 +877,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
@@ -904,14 +904,14 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
