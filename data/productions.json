@@ -1,38 +1,19 @@
 {
-  "last_updated": "2026-06-30T16:56:42+03:00",
+  "last_updated": "2026-06-30T20:04:10+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
-      "image": "https://fomenki.ru/f/performance/26523_c.png",
+      "description": "",
+      "image": "",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": true,
-      "price_min": 1000,
-      "price_max": 30000,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-03",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#48095088"
-        },
-        {
-          "date": "2026-09-16",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#52376638"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "electro-piknik-1",
@@ -438,34 +419,15 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
-      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
-      "price_min": 3300,
-      "price_max": 4800,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-10",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-10-19-30-00"
-        },
-        {
-          "date": "2026-09-12",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-12-14-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -528,14 +490,14 @@
       "id": "vakhtangov-sonechka",
       "name": "Повесть о Сонечке",
       "theater": "Театр Вахтангова",
-      "description": "« Повесть о Сонечке» – густой, очень плотный текст. Общественные потрясения становятся для Марины Цветаевой своеобразным катализатором. Сумасшедшая энергия обновления, которой буквально пропитан воздух, даёт ей силы, темы, новый язык. О ком бы ни писала Цветаева, она, как большой поэт, писала о себе. Примеривала на себя чужие жизни, разные роли. Её проза, соединенная с реалиями жизни, полна магии, которая завораживает… Я благодарен Евгении Крегжде за совместное глубокое погружение в пространство прозы М.И. Цветаевой и внимательную работу над текстом нашего спектакля",
-      "image": "https://vakhtangov.ru/uploads/2023/12/DSC00275-Edit-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/sonechka",
       "available": false,
-      "price_min": 1800,
-      "price_max": 5300,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -927,15 +889,34 @@
       "id": "vnutri-hamlet",
       "name": "Я — Ошибка",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Жанр - Исследование трагедии",
+      "image": "https://static.tildacdn.com/tild3963-6334-4734-a631-316538303232/_.jpg",
       "url": "https://vnutri.space/hamlet",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-07-11",
+          "time": "16:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
+        },
+        {
+          "date": "2026-07-11",
+          "time": "20:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
+        }
+      ]
     },
     {
       "id": "vnutri-sisters",
