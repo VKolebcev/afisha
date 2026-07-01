@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T10:04:35+03:00",
+  "last_updated": "2026-07-01T14:51:31+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -177,12 +177,22 @@
       "description": "Сюрреалистическая, в высоком смысле наивная и потому бесконечно трогательная история. Главный герой «Школы для дураков», от лица которого ведётся повествование — ученик Такой-то, мальчик с нелинейным восприятием времени и раздвоением личности. Он вспоминает детство, когда учился в школе, и вспоминая, описывает и комментирует мир, в котором прошедшее время то и дело путается с настоящим. Первый роман Саши Соколова (1973), называют одним из важнейших событий в русской литературе ХХ века. Его высоко оценил, к примеру, Владимир Набоков, а выдающиеся теоретики обнаруживают в нетривиальном по структ",
       "image": "https://www.okolo.ru/upload/resize_cache/iblock/d8e/1200_900_2/dfnd0fmi82l7uekrlv8a5nv140uf1etv.jpg",
       "url": "https://www.okolo.ru/shows/shkola-dlya-durakov-s-sokolov/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": []
+      "dates": [
+        {
+          "date": "2026-09-12",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=53927403&agentId=museum255"
+        }
+      ]
     },
     {
       "id": "okolo-yesterday",
@@ -191,12 +201,22 @@
       "description": "«Вчера наступило внезапно» — таков буквальный перевод строчки из песни «Yesterday» The Beatles. В спектакле Юрия Погребничко песни ливерпульской четверки встречаются с диалогами из «Винни-Пуха» Алана Милна, а хмурые персонажи носят телогрейки и шапки ушанки, охотятся на слонопотама, ищут земную ось и цитируют Джона Леннона: «Я плачу, потому что земля круглая». .",
       "image": "https://www.okolo.ru/upload/iblock/64a/fzjboeupjkwf16fj4lh4a2so2u0zawpn.jpg",
       "url": "https://www.okolo.ru/shows/yesterday/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": []
+      "dates": [
+        {
+          "date": "2026-09-04",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=53927384&agentId=museum255"
+        }
+      ]
     },
     {
       "id": "okolo-zhivago",
@@ -205,12 +225,22 @@
       "description": "Спектакль «Доктор Живаго» по роману Бориса Пастернака о любви, о возможности и необходимости принятия противоречий эпохи, где сюжет – цепочка случайностей, которые чудесным образом осуществляют упрямый замысел Провидения. Режиссёр взяла главный русский роман ХХ века и перенесла его на сцену, сохранив пастернаковскую картину поэтического мира.",
       "image": "https://www.okolo.ru/upload/resize_cache/iblock/1c4/1200_900_2/ry2ef9gcrwlxx1xrpmukhhzk7uuywh15.jpg",
       "url": "https://www.okolo.ru/shows/doktor-zhivago/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": []
+      "dates": [
+        {
+          "date": "2026-09-03",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=53927381&agentId=museum255"
+        }
+      ]
     },
     {
       "id": "okolo-lyubimymi",
@@ -219,12 +249,22 @@
       "description": "Смокинг и кирзовые сапоги, жабо и телогрейка, кринолин и шапка-ушанка в спектаклях Погребничко мирно соседствуют друг с другом, Так же, как Володин и Достоевский. Режиссером движет не желание противопоставить эпохи или социальные срезы, а скорее уравнять их в правах. Парадоксальное соседство не снижает хрестоматийные образы, а скорее возвышает зэков и бомжей. Спектакль как попытка обнаружить общее в людях независимо от того, где и когда им выпало жить. Жанр спектакля — концерт самодеятельности со сквозным сюжетом из легендарной пьесы Володина. Погребничко «взрывает» бытовую ситуацию каждого из",
       "image": "https://www.okolo.ru/upload/iblock/d35/jtob3m0h3atxupu9wtm3rrnec2jxudre.jpg",
       "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": []
+      "dates": [
+        {
+          "date": "2026-09-27",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=78825&performanceId=53930377&agentId=museum255https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=78825&performanceId=53930377&agentId=museum255"
+        }
+      ]
     },
     {
       "id": "shalom-natan",
@@ -324,9 +364,23 @@
       "id": "sreda21-frankenstein",
       "name": "Франкенштейн",
       "theater": "Среда 21",
-      "description": "Спектакль Нади Кубайлат об одержимом ученом и созданном им чудовище, о границах человеческого и природе добра и зла. Текст культового романа дополняют стихи английских поэтов-романтиков, а Мэри Шелли от первого лица рассказывает историю создания своего т",
-      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/frankenshtejn/",
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
+    },
+    {
+      "id": "sreda21-filosofia",
+      "name": "Философия другого переулка",
+      "theater": "Среда 21",
+      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской в духе философского стендапа мудреца и писателя Александра Пятигорского. Будет весело и неспокойно, как за нашим окном.",
+      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
+      "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
       "available": true,
       "price_min": 0,
       "price_max": 0,
@@ -334,29 +388,24 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-09-23",
-          "time": "19:00",
-          "weekday": "Ср",
+          "date": "2026-09-24",
+          "time": "19:30",
+          "weekday": "Чт",
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1338708"
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339049"
+        },
+        {
+          "date": "2026-09-25",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339050"
         }
       ]
-    },
-    {
-      "id": "sreda21-filosofia",
-      "name": "Философия другого переулка",
-      "theater": "Среда 21",
-      "description": "",
-      "image": "",
-      "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
-      "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
     },
     {
       "id": "sovremennik-art",
@@ -414,34 +463,15 @@
       "id": "vakhtangov-war_and_peace",
       "name": "Война и мир",
       "theater": "Театр Вахтангова",
-      "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
-      "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
       "available": false,
-      "price_min": 1500,
-      "price_max": 15000,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-02",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": false,
-          "price_min": 1500,
-          "price_max": 15000,
-          "buy_url": "#"
-        },
-        {
-          "date": "2026-09-04",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": false,
-          "price_min": 1500,
-          "price_max": 15000,
-          "buy_url": "#"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-chudo",
@@ -507,16 +537,16 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8½",
+      "name": "Феллини. 8 1/2",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
+      "description": "Успешный кинорежиссёр Гвидо (его роль играет заслуженный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Фелли",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 1800,
+      "price_max": 5300,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -635,44 +665,25 @@
       "description": "В спектакле «Митина любовь» режиссер не только переосмысляет повесть, но и добавляет несколько ярких музыкальных фрагментов. Как и во многих других постановках, Наставшев выступает здесь как автор инсценировки, композитор и художник. Владислав Наставшев: «Главный вопрос для меня: что происходит с Митей? Катя действительно существует или все события происходят во внутреннем мире героя? А если Катя существует? Она играет спектакль? Она репетирует? Готовит роль? Кто она? Актриса или сила судьбы? Человек или нет? Митю играет молодой артист Андрей Мартынов, а Катю – Аня Чиповская. Между ними поколе",
       "image": "https://static.tildacdn.com/tild3333-6534-4662-b734-306634363833/ML-Poster-Red-00.jpg",
       "url": "https://entracte.moscow/mitina",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-20",
-          "time": "",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
-        },
-        {
-          "date": "2026-09-16",
-          "time": "",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
-        }
-      ]
+      "error": "Не удалось загрузить страницу афиши",
+      "dates": []
     },
     {
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
+      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -858,7 +869,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
+      "image": "",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
