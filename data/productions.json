@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T05:26:12+03:00",
+  "last_updated": "2026-07-02T09:31:00+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -104,43 +104,15 @@
       "id": "mayakovsky-bagdad",
       "name": "Багдадский вор и чёрная магия",
       "theater": "Театр Маяковского",
-      "description": "Восток древний и современный, Восток пряный и разноцветный оживает на большой сцене Маяковки вокалом и танцами, живой музыкой, полётами, трюками и превращениями, традиционными восточными коврами и современным видео-артом. Вновь хитрость побеждает силу, а Багдадский вор, минуя испытания Подземными толчками, Смерчем и даже Восточными сладостями (в исполнении молодых артистов Маяковки) завоёвывает возлюбленную Фатиму. Музыка Давида Тухманова и стихи Юрия Энтина — автора песен всего советского детства (от «Бременских музыкантов» и «Летучего корабля» до «Гостьи из будущего») объединяют детей и роди",
-      "image": "https://www.mayakovsky.ru/upload/resize_cache/iblock/ab2/800_1156_2/ab2220cad38539d32cd1bbf35af33ebb.PNG",
+      "description": "",
+      "image": "",
       "url": "https://www.mayakovsky.ru/performance/bagdadskiy-vor-i-chernaya-magiya",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-04",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15460"
-        },
-        {
-          "date": "2026-09-05",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15549"
-        },
-        {
-          "date": "2026-09-06",
-          "time": "12:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15550"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "nations-muzh",
@@ -336,14 +308,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -421,15 +393,34 @@
       "id": "sovremennik-art",
       "name": "Арт",
       "theater": "Современник",
-      "description": "",
-      "image": "",
+      "description": "Иван, Серж и Марк — трое друзей. Они по-своему успешны, каждый имеет профессию и своё дело. Их размеренная жизнь течёт по ровному руслу — всё ясно, как божий день, тщательно распланировано и работает, как часовой механизм: один собирается жениться на девушке из хорошей семьи, второй завёл роман с гомеопатией в прямом смысле этого слова, а третий — с белоснежно белым холстом, который приобрёл за баснословную сумму. Эта покупка свела друзей вместе и одновременно развела их по разные стороны: Серж искренне восхищён картиной и не понимает, почему его чувство не разделяют друзья. Насмешки над гиган",
+      "image": "https://sovremennik.ru/uploads/play/image/89/DSC_0340.jpg",
       "url": "https://sovremennik.ru/plays/art",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-07-08",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://sovremennik.ru/plays/art/tickets/2668"
+        },
+        {
+          "date": "2026-07-24",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://sovremennik.ru/plays/art/tickets/2674"
+        }
+      ]
     },
     {
       "id": "doc-mesto",
@@ -459,34 +450,15 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
-      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
-      "price_min": 3300,
-      "price_max": 4800,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-10",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-10-19-30-00"
-        },
-        {
-          "date": "2026-09-12",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-12-14-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -733,14 +705,14 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
-      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
+      "description": "",
+      "image": "",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
