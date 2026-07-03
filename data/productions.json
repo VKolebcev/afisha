@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-03T00:59:38+03:00",
+  "last_updated": "2026-07-03T05:01:09+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -340,14 +340,14 @@
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Моноспектакль Дмитрия Волкострелова",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
@@ -468,48 +468,39 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
-      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
-      "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
-      "price_min": 3300,
-      "price_max": 4800,
-      "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-10",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-10-19-30-00"
-        },
-        {
-          "date": "2026-09-12",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-12-14-00-00"
-        }
-      ]
-    },
-    {
-      "id": "vakhtangov-war_and_peace",
-      "name": "Война и мир",
-      "theater": "Театр Вахтангова",
       "description": "",
       "image": "",
-      "url": "https://vakhtangov.ru/show/war_and_peace/",
+      "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
+    },
+    {
+      "id": "vakhtangov-war_and_peace",
+      "name": "Война и мир",
+      "theater": "Театр Вахтангова",
+      "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
+      "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
+      "url": "https://vakhtangov.ru/show/war_and_peace/",
+      "available": true,
+      "price_min": 1500,
+      "price_max": 15000,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-04",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-04-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-chudo",
@@ -565,16 +556,16 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8½",
+      "name": "Феллини. 8 1/2",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
+      "description": "Успешный кинорежиссёр Гвидо (его роль играет заслуженный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Фелли",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 1800,
+      "price_max": 5300,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -916,7 +907,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
@@ -929,15 +920,34 @@
       "id": "vnutri-endoftheworld",
       "name": "Это конец света",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Режиссер Таисия Вилкова представляет новое прочтение культовой пьесы Николая Коляды",
+      "image": "https://static.tildacdn.com/tild6163-3266-4361-b463-633636306632/photo.jpeg",
       "url": "https://vnutri.space/endoftheworld",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-08-30",
+          "time": "18:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
+        }
+      ]
     },
     {
       "id": "vnutri-mirkurbanov",
