@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T01:06:00+03:00",
+  "last_updated": "2026-07-07T05:07:43+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -758,15 +758,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-07-06",
-          "time": "",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
-        },
         {
           "date": "2026-08-26",
           "time": "",
