@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T17:08:17+03:00",
+  "last_updated": "2026-07-07T20:06:33+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -517,25 +517,15 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-09",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-sonechka",
@@ -681,22 +671,12 @@
       "description": "Корней Иванович Чуковский — это имя звенит, радует и греет детей и взрослых уже больше ста лет. Тиражи его сказок обгоняют Пушкина. Меняются поколения, мода, а его сказки по-прежнему читают и любят. Чуковского все знают как доброго сказочника, весёлого дедушку, друга всех детей. Но знаем ли мы его, как человека? Самоучка, рождённый при Александре III, друг Маяковского, Блока и Ахматовой, исследователь Некрасова и переводчик великого американского поэта Уитмена, отец четверых детей, потерявший при жизни троих из них. Каким он был на самом деле, что скрывал от посторонних и почему отрёкся от с",
       "image": "/slir/w300/userfiles/perfomance/full/10f8723ead89c6ea.jpg",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
-      "available": true,
+      "available": false,
       "price_min": 500,
       "price_max": 30000,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-07",
-          "time": "19:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 500,
-          "price_max": 30000,
-          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
-        }
-      ]
+      "error": "Ближайших дат не найдено",
+      "dates": []
     },
     {
       "id": "entracte-mitina",
