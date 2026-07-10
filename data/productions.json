@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T09:33:58+03:00",
+  "last_updated": "2026-07-10T14:43:27+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -137,14 +137,14 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "",
-      "image": "",
+      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
+      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
       "dates": []
     },
     {
@@ -379,34 +379,15 @@
       "id": "sreda21-filosofia",
       "name": "Философия другого переулка",
       "theater": "Среда 21",
-      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской в духе философского стендапа мудреца и писателя Александра Пятигорского. Будет весело и неспокойно, как за нашим окном.",
-      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-24",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339049"
-        },
-        {
-          "date": "2026-09-25",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339050"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sovremennik-art",
@@ -604,16 +585,16 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8½",
+      "name": "Феллини. 8 1/2",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
+      "description": "Успешный кинорежиссёр Гвидо (его роль играет заслуженный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Фелли",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 1800,
+      "price_max": 5300,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -696,14 +677,14 @@
       "id": "ermolova-chukovsky",
       "name": "Чуковский",
       "theater": "Театр им. Ермоловой",
-      "description": "",
-      "image": "https://edge-msk-1.kinescopecdn.net/b4800941-33d4-435b-bd07-7e5b6a489cba/posters/701fff82-7623-4102-8917-057614fe9b8e/poster_md/61407ce0-5dc7-4e2e-8ab7-914dbb620b04.webp",
+      "description": "Корней Иванович Чуковский — это имя звенит, радует и греет детей и взрослых уже больше ста лет. Тиражи его сказок обгоняют Пушкина. Меняются поколения, мода, а его сказки по-прежнему читают и любят. Чуковского все знают как доброго сказочника, весёлого дедушку, друга всех детей. Но знаем ли мы его, как человека? Самоучка, рождённый при Александре III, друг Маяковского, Блока и Ахматовой, исследователь Некрасова и переводчик великого американского поэта Уитмена, отец четверых детей, потерявший при жизни троих из них. Каким он был на самом деле, что скрывал от посторонних и почему отрёкся от с",
+      "image": "/slir/w300/userfiles/perfomance/full/10f8723ead89c6ea.jpg",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 500,
+      "price_max": 30000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
@@ -867,6 +848,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        },
+        {
+          "date": "2026-09-25",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
         }
       ]
     },
@@ -874,14 +864,14 @@
       "id": "vnutri-sherlock",
       "name": "Шерлокхолмси все-все-все",
       "theater": "Пространство внутри",
-      "description": "Спектакль Антона Фёдорова в Арт-платформе ",
-      "image": "https://static.tildacdn.com/tild6536-3836-4764-b033-626233616534/photo_2026-02-12_211.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/sherlock",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -1001,14 +991,14 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
