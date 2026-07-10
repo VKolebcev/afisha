@@ -1,38 +1,19 @@
 {
-  "last_updated": "2026-07-10T14:43:27+03:00",
+  "last_updated": "2026-07-10T17:00:31+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
-      "image": "https://fomenki.ru/f/performance/26523_c.png",
+      "description": "",
+      "image": "",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": true,
-      "price_min": 1000,
-      "price_max": 30000,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-16",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#52376638"
-        },
-        {
-          "date": "2026-10-08",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#52379526"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "electro-piknik-1",
@@ -137,28 +118,28 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "nations-makbet",
       "name": "Макбет",
       "theater": "Театр наций",
-      "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/makbet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -379,15 +360,34 @@
       "id": "sreda21-filosofia",
       "name": "Философия другого переулка",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской в духе философского стендапа мудреца и писателя Александра Пятигорского. Будет весело и неспокойно, как за нашим окном.",
+      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-24",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339049"
+        },
+        {
+          "date": "2026-09-25",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339050"
+        }
+      ]
     },
     {
       "id": "sovremennik-art",
@@ -516,25 +516,15 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-09",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-sonechka",
@@ -680,12 +670,31 @@
       "description": "Корней Иванович Чуковский — это имя звенит, радует и греет детей и взрослых уже больше ста лет. Тиражи его сказок обгоняют Пушкина. Меняются поколения, мода, а его сказки по-прежнему читают и любят. Чуковского все знают как доброго сказочника, весёлого дедушку, друга всех детей. Но знаем ли мы его, как человека? Самоучка, рождённый при Александре III, друг Маяковского, Блока и Ахматовой, исследователь Некрасова и переводчик великого американского поэта Уитмена, отец четверых детей, потерявший при жизни троих из них. Каким он был на самом деле, что скрывал от посторонних и почему отрёкся от с",
       "image": "/slir/w300/userfiles/perfomance/full/10f8723ead89c6ea.jpg",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
-      "available": false,
+      "available": true,
       "price_min": 500,
       "price_max": 30000,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-13",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        },
+        {
+          "date": "2026-09-14",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        }
+      ]
     },
     {
       "id": "entracte-mitina",
@@ -864,14 +873,14 @@
       "id": "vnutri-sherlock",
       "name": "Шерлокхолмси все-все-все",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль Антона Фёдорова в Арт-платформе ",
+      "image": "https://static.tildacdn.com/tild6536-3836-4764-b033-626233616534/photo_2026-02-12_211.jpeg",
       "url": "https://vnutri.space/sherlock",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -991,15 +1000,34 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
       "url": "https://vnutri.space/mirkurbanov",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-05",
+          "time": "18:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
+        },
+        {
+          "date": "2026-09-05",
+          "time": "20:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
+        }
+      ]
     },
     {
       "id": "vnutri-hamlet",
