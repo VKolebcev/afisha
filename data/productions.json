@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-11T10:41:05+03:00",
+  "last_updated": "2026-07-11T13:09:25+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -137,14 +137,14 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "",
-      "image": "",
+      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
+      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
       "dates": []
     },
     {
@@ -317,29 +317,39 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Моноспектакль Дмитрия Волкострелова",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-17",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
@@ -369,15 +379,34 @@
       "id": "sreda21-filosofia",
       "name": "Философия другого переулка",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской в духе философского стендапа мудреца и писателя Александра Пятигорского. Будет весело и неспокойно, как за нашим окном.",
+      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-24",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339049"
+        },
+        {
+          "date": "2026-09-25",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339050"
+        }
+      ]
     },
     {
       "id": "sovremennik-art",
@@ -530,34 +559,15 @@
       "id": "vakhtangov-sonechka",
       "name": "Повесть о Сонечке",
       "theater": "Театр Вахтангова",
-      "description": "« Повесть о Сонечке» – густой, очень плотный текст. Общественные потрясения становятся для Марины Цветаевой своеобразным катализатором. Сумасшедшая энергия обновления, которой буквально пропитан воздух, даёт ей силы, темы, новый язык. О ком бы ни писала Цветаева, она, как большой поэт, писала о себе. Примеривала на себя чужие жизни, разные роли. Её проза, соединенная с реалиями жизни, полна магии, которая завораживает… Я благодарен Евгении Крегжде за совместное глубокое погружение в пространство прозы М.И. Цветаевой и внимательную работу над текстом нашего спектакля",
-      "image": "https://vakhtangov.ru/uploads/2023/12/DSC00275-Edit-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/sonechka",
-      "available": true,
-      "price_min": 1800,
-      "price_max": 5300,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-29",
-          "time": "19:30",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-09-29-19-30-00"
-        },
-        {
-          "date": "2026-10-02",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-10-02-19-30-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-pushkin",
@@ -743,14 +753,14 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
+      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -883,28 +893,28 @@
       "id": "vnutri-sherlock",
       "name": "Шерлокхолмси все-все-все",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль Антона Фёдорова в Арт-платформе ",
+      "image": "https://static.tildacdn.com/tild6536-3836-4764-b033-626233616534/photo_2026-02-12_211.jpeg",
       "url": "https://vnutri.space/sherlock",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Поэма об «обыденной» жизни",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
