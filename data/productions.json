@@ -1,19 +1,38 @@
 {
-  "last_updated": "2026-07-12T11:00:16+03:00",
+  "last_updated": "2026-07-12T13:18:19+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "",
-      "image": "",
+      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
+      "image": "https://fomenki.ru/f/performance/26523_c.png",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1000,
+      "price_max": 30000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-16",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#52376638"
+        },
+        {
+          "date": "2026-10-08",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#52379526"
+        }
+      ]
     },
     {
       "id": "electro-piknik-1",
@@ -132,14 +151,14 @@
       "id": "nations-makbet",
       "name": "Макбет",
       "theater": "Театр наций",
-      "description": "",
-      "image": "",
+      "description": "«Макбет» — одна из самых мистических и мрачных трагедий Уильяма Шекспира и одновременно одно из самых репертуарных названий мирового театра. «Макбет» — апокалиптический сюжет, завёрнутый в острую художественную выразительную форму. Этот яркий формальный театр — версия Елизаветы Бондарь, которая, будучи режиссёром музыкального театра, и в своих драматических спектаклях концентрируется, прежде всего, на звучании. Это касается не только работы с композитором и голосоведения артистов, здесь даже сценография «звучит» — отдельные объекты декорации станут альтернативными музыкальными инструментами. А",
+      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/DSC05280/294b20931d37df41d4a9037d7bac7ff1.jpg",
       "url": "https://theatreofnations.ru/performances/makbet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
       "dates": []
     },
     {
@@ -298,29 +317,39 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Моноспектакль Дмитрия Волкострелова",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-17",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
@@ -506,25 +535,15 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-09",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-sonechka",
@@ -575,27 +594,17 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8 1/2",
+      "name": "Феллини. 8½",
       "theater": "Театр Вахтангова",
-      "description": "Успешный кинорежиссёр Гвидо (его роль играет заслуженный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Фелли",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
-      "available": true,
-      "price_min": 1800,
-      "price_max": 5300,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-09",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-10-09-19-30-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "mxat-kosmos",
@@ -958,29 +967,67 @@
       "id": "vnutri-endoftheworld",
       "name": "Это конец света",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Режиссер Таисия Вилкова представляет новое прочтение культовой пьесы Николая Коляды",
+      "image": "https://static.tildacdn.com/tild6163-3266-4361-b463-633636306632/photo.jpeg",
       "url": "https://vnutri.space/endoftheworld",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-08-30",
+          "time": "18:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
+        },
+        {
+          "date": "2026-08-30",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
+        }
+      ]
     },
     {
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
       "url": "https://vnutri.space/mirkurbanov",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-05",
+          "time": "18:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
+        },
+        {
+          "date": "2026-09-05",
+          "time": "20:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
+        }
+      ]
     },
     {
       "id": "vnutri-hamlet",
