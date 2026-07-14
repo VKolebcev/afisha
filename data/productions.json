@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T00:45:08+03:00",
+  "last_updated": "2026-07-14T04:28:42+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -146,14 +146,14 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -448,22 +448,12 @@
       "description": "Что, если «место силы» - это не точка на карте, а момент, встреча, боль или даже шрам? Полтора месяца участники мини-лаборатории «Место силы» Дарьи Мазур и Александра Ханта исследовали свои личные источники силы и слабости через актерские тренинги, интервью и откровенные монологи. Они искали ответы на вопросы: - Можно ли найти силу в детских травмах, ностальгии или пустоте? - Что делать, когда «место силы» — это другой человек, а он уходит? - Как жить, если твоя опора — ты сам, но ты в этом не уверен? На сцене будут представлены 13 уникальных историй. Этот показ — не про красивые пейзажи и не ",
       "image": "http://teatrdoc.ru/media/events/images/%D0%9C%D0%B5%D1%81%D1%82%D0%BE_%D1%81%D0%B8%D0%BB%D1%8B.jpg",
       "url": "https://teatrdoc.ru/performances/1355/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": [
-        {
-          "date": "2026-07-13",
-          "time": "20:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://teatrdoc.ru/performances/1355/"
-        }
-      ]
+      "dates": []
     },
     {
       "id": "vakhtangov-noch",
@@ -544,25 +534,15 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-09",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-sonechka",
@@ -888,15 +868,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-07-13",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        },
         {
           "date": "2026-09-25",
           "time": "19:00",
