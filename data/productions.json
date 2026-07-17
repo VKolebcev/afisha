@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T08:32:55+03:00",
+  "last_updated": "2026-07-17T10:52:47+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -326,39 +326,29 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "Моноспектакль Дмитрия Волкострелова",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-17",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
@@ -771,14 +761,14 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
-      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
+      "description": "",
+      "image": "",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -860,25 +850,15 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "Нас всех ждет хороший человек. Он ждет всегда",
-      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/bochkotara",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-25",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-sherlock",
@@ -898,48 +878,29 @@
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "Поэма об «обыденной» жизни",
-      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "Уроки человечности на окраине Перми ",
-      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/tarkovskii",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-08-23",
-          "time": "18:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
-        },
-        {
-          "date": "2026-08-23",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-redhood",
