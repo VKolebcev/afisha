@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T00:56:20+03:00",
+  "last_updated": "2026-07-17T04:49:01+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -836,24 +836,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-07-16",
-          "time": "17:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.brodsky.online/tickets/bookplaces/13314/"
-        },
-        {
-          "date": "2026-07-16",
-          "time": "20:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.brodsky.online/tickets/bookplaces/13315/"
-        },
         {
           "date": "2026-09-13",
           "time": "17:00",
