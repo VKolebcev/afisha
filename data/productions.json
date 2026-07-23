@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T19:22:05+03:00",
+  "last_updated": "2026-07-23T21:59:51+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -317,14 +317,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -355,25 +355,15 @@
       "id": "sreda21-frankenstein",
       "name": "Франкенштейн",
       "theater": "Среда 21",
-      "description": "Спектакль Нади Кубайлат об одержимом ученом и созданном им чудовище, о границах человеческого и природе добра и зла. Текст культового романа дополняют стихи английских поэтов-романтиков, а Мэри Шелли от первого лица рассказывает историю создания своего т",
-      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/frankenshtejn/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-23",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1338708"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-filosofia",
@@ -514,10 +504,10 @@
           "date": "2026-09-04",
           "time": "19:00",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-04-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-07",
@@ -916,14 +906,14 @@
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "Поэма об «обыденной» жизни",
-      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -1010,34 +1000,15 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-05",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        },
-        {
-          "date": "2026-09-05",
-          "time": "20:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-hamlet",
