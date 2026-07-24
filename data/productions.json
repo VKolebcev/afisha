@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T00:57:37+03:00",
+  "last_updated": "2026-07-24T04:49:28+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -527,6 +527,15 @@
           "price_min": 1500,
           "price_max": 15000,
           "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-07-19-00-00"
+        },
+        {
+          "date": "2026-10-22",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-22-19-00-00"
         }
       ]
     },
@@ -630,27 +639,17 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8 1/2",
+      "name": "Феллини. 8½",
       "theater": "Театр Вахтангова",
-      "description": "Успешный кинорежиссёр Гвидо (его роль играет заслуженный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Фелли",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
-      "available": true,
-      "price_min": 1800,
-      "price_max": 5300,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-09",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-10-09-19-30-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "mxat-kosmos",
