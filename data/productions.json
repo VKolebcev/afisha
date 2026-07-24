@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T16:18:25+03:00",
+  "last_updated": "2026-07-24T22:12:41+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -415,22 +415,12 @@
       "description": "Иван, Серж и Марк — трое друзей. Они по-своему успешны, каждый имеет профессию и своё дело. Их размеренная жизнь течёт по ровному руслу — всё ясно, как божий день, тщательно распланировано и работает, как часовой механизм: один собирается жениться на девушке из хорошей семьи, второй завёл роман с гомеопатией в прямом смысле этого слова, а третий — с белоснежно белым холстом, который приобрёл за баснословную сумму. Эта покупка свела друзей вместе и одновременно развела их по разные стороны: Серж искренне восхищён картиной и не понимает, почему его чувство не разделяют друзья. Насмешки над гиган",
       "image": "https://sovremennik.ru/uploads/play/image/89/DSC_0340.jpg",
       "url": "https://sovremennik.ru/plays/art",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-07-24",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://sovremennik.ru/plays/art/tickets/2674"
-        }
-      ]
+      "error": "Ближайших дат не найдено",
+      "dates": []
     },
     {
       "id": "doc-mesto",
@@ -514,10 +504,10 @@
           "date": "2026-09-04",
           "time": "19:00",
           "weekday": "Пт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-04-19-00-00"
         },
         {
           "date": "2026-10-07",
