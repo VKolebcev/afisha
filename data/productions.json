@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T18:55:34+03:00",
+  "last_updated": "2026-07-26T21:57:03+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -331,25 +331,15 @@
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "Моноспектакль Дмитрия Волкострелова",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-17",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
@@ -542,34 +532,15 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
-      "price_min": 350,
-      "price_max": 4200,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-09",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 350,
-          "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-21-19-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-sonechka",
@@ -935,7 +906,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
+      "image": "",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
@@ -948,67 +919,29 @@
       "id": "vnutri-endoftheworld",
       "name": "Это конец света",
       "theater": "Пространство внутри",
-      "description": "Режиссер Таисия Вилкова представляет новое прочтение культовой пьесы Николая Коляды",
-      "image": "https://static.tildacdn.com/tild6163-3266-4361-b463-633636306632/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/endoftheworld",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-08-30",
-          "time": "18:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        },
-        {
-          "date": "2026-08-30",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-05",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        },
-        {
-          "date": "2026-09-05",
-          "time": "20:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-hamlet",
