@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T22:08:24+03:00",
+  "last_updated": "2026-07-29T00:55:49+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -317,14 +317,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -933,14 +933,14 @@
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "Поэма об «обыденной» жизни",
-      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -994,67 +994,29 @@
       "id": "vnutri-endoftheworld",
       "name": "Это конец света",
       "theater": "Пространство внутри",
-      "description": "Режиссер Таисия Вилкова представляет новое прочтение культовой пьесы Николая Коляды",
-      "image": "https://static.tildacdn.com/tild6163-3266-4361-b463-633636306632/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/endoftheworld",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-08-30",
-          "time": "18:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        },
-        {
-          "date": "2026-08-30",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-05",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        },
-        {
-          "date": "2026-09-05",
-          "time": "20:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/163518"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-hamlet",
