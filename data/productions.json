@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T19:29:55+03:00",
+  "last_updated": "2026-07-31T22:08:41+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -67,7 +67,7 @@
       "name": "Пик Ник. Прибытие",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "/static/img/9622/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1186",
       "available": false,
       "price_min": 0,
@@ -331,25 +331,15 @@
       "id": "sreda21-smert",
       "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "Моноспектакль Дмитрия Волкострелова",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-17",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
@@ -440,15 +430,61 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-10",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-10-19-30-00"
+        },
+        {
+          "date": "2026-09-12",
+          "time": "14:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-12-14-00-00"
+        },
+        {
+          "date": "2026-10-07",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-07-19-30-00"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "14:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-17-14-00-00"
+        },
+        {
+          "date": "2026-10-24",
+          "time": "14:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-24-14-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -616,16 +652,16 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Космос",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
-      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -736,15 +772,25 @@
       "id": "entracte-mitina",
       "name": "Митина любовь",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "В спектакле «Митина любовь» режиссер не только переосмысляет повесть, но и добавляет несколько ярких музыкальных фрагментов. Как и во многих других постановках, Наставшев выступает здесь как автор инсценировки, композитор и художник. Владислав Наставшев: «Главный вопрос для меня: что происходит с Митей? Катя действительно существует или все события происходят во внутреннем мире героя? А если Катя существует? Она играет спектакль? Она репетирует? Готовит роль? Кто она? Актриса или сила судьбы? Человек или нет? Митю играет молодой артист Андрей Мартынов, а Катю – Аня Чиповская. Между ними поколе",
+      "image": "https://static.tildacdn.com/tild3333-6534-4662-b734-306634363833/ML-Poster-Red-00.jpg",
       "url": "https://entracte.moscow/mitina",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-15",
+          "time": "",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        }
+      ]
     },
     {
       "id": "entracte-einstein",
@@ -774,8 +820,8 @@
       "id": "entracte-chayka",
       "name": "Чайка",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "Режиссер Владислав Наставшев помещает чеховских персонажей в неопознанное пространство. Герои спектакля не понимают до конца – то ли они живые люди со своими проблемами, желаниями, тоской и страстью, то ли их вовсе не существует, и они всего лишь персонажи пьесы Антона Павловича Чехова. Владислав Наставшев: «Чехов писал о себе, о том, что он сам думает и чувствует про жизнь, про человека, про искусство. «Чайка» не только заявлена комедией, но и является таковой. При всей серьезности и глубине тем и проблем, которые поднимаются в пьесе, она сделана очень смешно, с уникальным тонким чеховским чу",
+      "image": "https://static.tildacdn.com/tild6265-6665-4465-b632-373964643338/CHAYKA-0832-www.jpg",
       "url": "https://entracte.moscow/seagull",
       "available": true,
       "price_min": 0,
@@ -790,7 +836,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://entracte.moscow/seagull"
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
         },
         {
           "date": "2026-10-11",
@@ -799,7 +845,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://entracte.moscow/seagull"
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
         },
         {
           "date": "2026-10-13",
@@ -808,7 +854,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://entracte.moscow/seagull"
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
         }
       ]
     },
@@ -887,14 +933,14 @@
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "Поэма об «обыденной» жизни",
-      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -935,7 +981,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
+      "image": "",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
