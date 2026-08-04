@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T04:28:44+03:00",
+  "last_updated": "2026-08-04T08:39:20+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -190,27 +190,17 @@
     },
     {
       "id": "okolo-shkola",
-      "name": "Школа для дураков//С.Соколов",
+      "name": "Школа для дураков",
       "theater": "Театр около дома Станиславского",
-      "description": "Сюрреалистическая, в высоком смысле наивная и потому бесконечно трогательная история. Главный герой «Школы для дураков», от лица которого ведётся повествование — ученик Такой-то, мальчик с нелинейным восприятием времени и раздвоением личности. Он вспоминает детство, когда учился в школе, и вспоминая, описывает и комментирует мир, в котором прошедшее время то и дело путается с настоящим. Первый роман Саши Соколова (1973), называют одним из важнейших событий в русской литературе ХХ века. Его высоко оценил, к примеру, Владимир Набоков, а выдающиеся теоретики обнаруживают в нетривиальном по структ",
-      "image": "https://www.okolo.ru/upload/resize_cache/iblock/d8e/1200_900_2/dfnd0fmi82l7uekrlv8a5nv140uf1etv.jpg",
+      "description": "",
+      "image": "",
       "url": "https://www.okolo.ru/shows/shkola-dlya-durakov-s-sokolov/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-12",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=53927403&agentId=museum255"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "okolo-yesterday",
@@ -262,27 +252,17 @@
     },
     {
       "id": "okolo-lyubimymi",
-      "name": "С любимыми не расставайтесь//А.Володин и Ф.М.Достоевский",
+      "name": "С любимыми не расставайтесь",
       "theater": "Театр около дома Станиславского",
-      "description": "Смокинг и кирзовые сапоги, жабо и телогрейка, кринолин и шапка-ушанка в спектаклях Погребничко мирно соседствуют друг с другом, Так же, как Володин и Достоевский. Режиссером движет не желание противопоставить эпохи или социальные срезы, а скорее уравнять их в правах. Парадоксальное соседство не снижает хрестоматийные образы, а скорее возвышает зэков и бомжей. Спектакль как попытка обнаружить общее в людях независимо от того, где и когда им выпало жить. Жанр спектакля — концерт самодеятельности со сквозным сюжетом из легендарной пьесы Володина. Погребничко «взрывает» бытовую ситуацию каждого из",
-      "image": "https://www.okolo.ru/upload/iblock/d35/jtob3m0h3atxupu9wtm3rrnec2jxudre.jpg",
+      "description": "",
+      "image": "",
       "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-27",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=78825&performanceId=53930377&agentId=museum255"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "shalom-natan",
