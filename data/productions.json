@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T00:22:05+03:00",
+  "last_updated": "2026-08-10T03:59:56+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -80,85 +80,29 @@
       "id": "mayakovsky-les",
       "name": "Лес",
       "theater": "Театр Маяковского",
-      "description": "На перекрёстке лесных дорог, посреди России, сходятся два провинциальных артиста, комик Счастливцев и трагик Несчастливцев. Дорога доводит их до «Пеньков» — усадьбы богатой помещицы Гурмыжской, где творится «тёмный лес». Молодые женятся на старых ради денег, бесприданницы топятся от любви, все врут и никто не счастлив. Поработав в других спектаклях со стихиями ветра, воды, огня, в пьесе Островского художественный руководитель Маяковки Егор Перегудов исследует новую стихию. Леса давно нет. Нет ни пеньков, ни опилок. Одна природная сила вытеснила другую, оставив человека в тревожной зыбкости и п",
-      "image": "https://www.mayakovsky.ru/upload/iblock/7ff/7ff05647dfbffe2fe8541f5245c9be0e.jpg",
+      "description": "",
+      "image": "",
       "url": "https://www.mayakovsky.ru/performance/les/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-03",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15683"
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15723"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "mayakovsky-bagdad",
       "name": "Багдадский вор и чёрная магия",
       "theater": "Театр Маяковского",
-      "description": "Восток древний и современный, Восток пряный и разноцветный оживает на большой сцене Маяковки вокалом и танцами, живой музыкой, полётами, трюками и превращениями, традиционными восточными коврами и современным видео-артом. Вновь хитрость побеждает силу, а Багдадский вор, минуя испытания Подземными толчками, Смерчем и даже Восточными сладостями (в исполнении молодых артистов Маяковки) завоёвывает возлюбленную Фатиму. Музыка Давида Тухманова и стихи Юрия Энтина — автора песен всего советского детства (от «Бременских музыкантов» и «Летучего корабля» до «Гостьи из будущего») объединяют детей и роди",
-      "image": "https://www.mayakovsky.ru/upload/resize_cache/iblock/ab2/800_1156_2/ab2220cad38539d32cd1bbf35af33ebb.PNG",
+      "description": "",
+      "image": "",
       "url": "https://www.mayakovsky.ru/performance/bagdadskiy-vor-i-chernaya-magiya",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-05",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15549"
-        },
-        {
-          "date": "2026-09-06",
-          "time": "12:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15550"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15737"
-        },
-        {
-          "date": "2026-10-31",
-          "time": "12:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15741"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "nations-muzh",
@@ -719,16 +663,16 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Космос",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
-      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -757,27 +701,17 @@
     },
     {
       "id": "mxat-flashback",
-      "name": "Флешбэк 2002",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "2002 год. Все читают Пелевина и Мураками, слушают Эминема и Moby, пользуются кнопочными сотовыми телефонами и пробуют неведомые доселе суши. На выпускном в институте юный Саша знакомится с девушкой Леной, общается с ней всю ночь, влюбляется и… расстается навсегда. Спустя 20 лет давно женатый Александр оглядывается назад, вспоминает тот выпускной, ту девушку и задается вопросом: а могло ли быть всё по-другому? Сделал ли он всё тогда правильно? А если нет – есть ли возможность поменять что-то сейчас? И при чем здесь, кстати, квантовая физика? Режиссёр Вера Попова: «Главная тема спектакля — недов",
-      "image": "https://storage.mxat.ru/resize_cache/6815/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/7ec/vuztpw2tj2q8dm20gsy2zvbrwrn888n6/92106.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/flashback",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-21",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "bronnaya-pigmalion",
