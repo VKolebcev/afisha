@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T18:51:26+03:00",
+  "last_updated": "2026-08-11T21:47:43+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -190,27 +190,17 @@
     },
     {
       "id": "okolo-shkola",
-      "name": "Школа для дураков//С.Соколов",
+      "name": "Школа для дураков",
       "theater": "Театр около дома Станиславского",
-      "description": "Сюрреалистическая, в высоком смысле наивная и потому бесконечно трогательная история. Главный герой «Школы для дураков», от лица которого ведётся повествование — ученик Такой-то, мальчик с нелинейным восприятием времени и раздвоением личности. Он вспоминает детство, когда учился в школе, и вспоминая, описывает и комментирует мир, в котором прошедшее время то и дело путается с настоящим. Первый роман Саши Соколова (1973), называют одним из важнейших событий в русской литературе ХХ века. Его высоко оценил, к примеру, Владимир Набоков, а выдающиеся теоретики обнаруживают в нетривиальном по структ",
-      "image": "https://www.okolo.ru/upload/resize_cache/iblock/d8e/1200_900_2/dfnd0fmi82l7uekrlv8a5nv140uf1etv.jpg",
+      "description": "",
+      "image": "",
       "url": "https://www.okolo.ru/shows/shkola-dlya-durakov-s-sokolov/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-12",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=53927403&agentId=museum255"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "okolo-yesterday",
@@ -238,27 +228,17 @@
     },
     {
       "id": "okolo-zhivago",
-      "name": "Доктор Живаго//по мотивам романа Б.Пастернака",
+      "name": "Доктор Живаго",
       "theater": "Театр около дома Станиславского",
-      "description": "Спектакль «Доктор Живаго» по роману Бориса Пастернака о любви, о возможности и необходимости принятия противоречий эпохи, где сюжет – цепочка случайностей, которые чудесным образом осуществляют упрямый замысел Провидения. Режиссёр взяла главный русский роман ХХ века и перенесла его на сцену, сохранив пастернаковскую картину поэтического мира.",
-      "image": "https://www.okolo.ru/upload/resize_cache/iblock/1c4/1200_900_2/ry2ef9gcrwlxx1xrpmukhhzk7uuywh15.jpg",
+      "description": "",
+      "image": "",
       "url": "https://www.okolo.ru/shows/doktor-zhivago/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-03",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=53927381&agentId=museum255"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "okolo-lyubimymi",
@@ -589,10 +569,10 @@
           "date": "2026-09-04",
           "time": "19:00",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-04-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-07",
@@ -738,16 +718,16 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Страница не найдена",
+      "name": "Космос",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "",
-      "image": "",
+      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
+      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
