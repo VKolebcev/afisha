@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T06:30:37+03:00",
+  "last_updated": "2026-08-15T09:21:22+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -39,7 +39,7 @@
       "name": "Пик Ник. Город миражей",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "/static/img/9614/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1182",
       "available": false,
       "price_min": 0,
@@ -53,7 +53,7 @@
       "name": "Пик Ник. Никогда",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "/static/img/9617/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1183",
       "available": false,
       "price_min": 0,
@@ -67,7 +67,7 @@
       "name": "Пик Ник. Прибытие",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "/static/img/9622/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1186",
       "available": false,
       "price_min": 0,
