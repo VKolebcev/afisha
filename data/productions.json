@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T12:16:39+03:00",
+  "last_updated": "2026-08-15T15:18:17+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -113,52 +113,15 @@
       "id": "mayakovsky-bagdad",
       "name": "Багдадский вор и чёрная магия",
       "theater": "Театр Маяковского",
-      "description": "Восток древний и современный, Восток пряный и разноцветный оживает на большой сцене Маяковки вокалом и танцами, живой музыкой, полётами, трюками и превращениями, традиционными восточными коврами и современным видео-артом. Вновь хитрость побеждает силу, а Багдадский вор, минуя испытания Подземными толчками, Смерчем и даже Восточными сладостями (в исполнении молодых артистов Маяковки) завоёвывает возлюбленную Фатиму. Музыка Давида Тухманова и стихи Юрия Энтина — автора песен всего советского детства (от «Бременских музыкантов» и «Летучего корабля» до «Гостьи из будущего») объединяют детей и роди",
-      "image": "https://www.mayakovsky.ru/upload/resize_cache/iblock/ab2/800_1156_2/ab2220cad38539d32cd1bbf35af33ebb.PNG",
+      "description": "",
+      "image": "",
       "url": "https://www.mayakovsky.ru/performance/bagdadskiy-vor-i-chernaya-magiya",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-05",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15549"
-        },
-        {
-          "date": "2026-09-06",
-          "time": "12:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15550"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15737"
-        },
-        {
-          "date": "2026-10-31",
-          "time": "12:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15741"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "nations-muzh",
