@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-18T18:22:01+03:00",
+  "last_updated": "2026-08-18T21:27:19+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -468,25 +468,15 @@
       "id": "sovremennik-art",
       "name": "Арт",
       "theater": "Современник",
-      "description": "Иван, Серж и Марк — трое друзей. Они по-своему успешны, каждый имеет профессию и своё дело. Их размеренная жизнь течёт по ровному руслу — всё ясно, как божий день, тщательно распланировано и работает, как часовой механизм: один собирается жениться на девушке из хорошей семьи, второй завёл роман с гомеопатией в прямом смысле этого слова, а третий — с белоснежно белым холстом, который приобрёл за баснословную сумму. Эта покупка свела друзей вместе и одновременно развела их по разные стороны: Серж искренне восхищён картиной и не понимает, почему его чувство не разделяют друзья. Насмешки над гиган",
-      "image": "https://sovremennik.ru/uploads/play/image/89/DSC_0340.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sovremennik.ru/plays/art",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-19",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://sovremennik.ru/plays/art/tickets/2815"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "doc-mesto",
@@ -516,61 +506,15 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
-      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
-      "price_min": 3300,
-      "price_max": 4800,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-10",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        },
-        {
-          "date": "2026-09-12",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-12-14-00-00"
-        },
-        {
-          "date": "2026-10-07",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-07-19-30-00"
-        },
-        {
-          "date": "2026-10-17",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-17-14-00-00"
-        },
-        {
-          "date": "2026-10-24",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-24-14-00-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vakhtangov-war_and_peace",
