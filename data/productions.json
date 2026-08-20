@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-20T06:38:32+03:00",
+  "last_updated": "2026-08-20T09:28:04+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -747,16 +747,16 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Страница не найдена",
+      "name": "Космос",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "",
-      "image": "",
+      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
+      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -867,8 +867,8 @@
       "id": "entracte-mitina",
       "name": "Митина любовь",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "В спектакле «Митина любовь» режиссер не только переосмысляет повесть, но и добавляет несколько ярких музыкальных фрагментов. Как и во многих других постановках, Наставшев выступает здесь как автор инсценировки, композитор и художник. Владислав Наставшев: «Главный вопрос для меня: что происходит с Митей? Катя действительно существует или все события происходят во внутреннем мире героя? А если Катя существует? Она играет спектакль? Она репетирует? Готовит роль? Кто она? Актриса или сила судьбы? Человек или нет? Митю играет молодой артист Андрей Мартынов, а Катю – Аня Чиповская. Между ними поколе",
+      "image": "https://static.tildacdn.com/tild3333-6534-4662-b734-306634363833/ML-Poster-Red-00.jpg",
       "url": "https://entracte.moscow/mitina",
       "available": true,
       "price_min": 0,
@@ -883,7 +883,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://entracte.moscow/mitina"
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
         }
       ]
     },
@@ -999,25 +999,15 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "Нас всех ждет хороший человек. Он ждет всегда",
-      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/bochkotara",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-25",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-sherlock",
@@ -1051,34 +1041,15 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "Уроки человечности на окраине Перми ",
-      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/tarkovskii",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-05",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
-        },
-        {
-          "date": "2026-09-05",
-          "time": "20:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-redhood",
@@ -1145,47 +1116,28 @@
       "id": "vnutri-hamlet",
       "name": "Я — Ошибка",
       "theater": "Пространство внутри",
-      "description": "Жанр - Исследование трагедии",
-      "image": "https://static.tildacdn.com/tild3963-6334-4734-a631-316538303232/_.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/hamlet",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-01",
-          "time": "16:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "20:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-sisters",
       "name": "Три сестры",
       "theater": "Пространство внутри",
-      "description": "Драма одного дома",
-      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/sisters",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     }
   ]
