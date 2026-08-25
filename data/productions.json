@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T03:41:17+03:00",
+  "last_updated": "2026-08-25T06:40:02+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -385,31 +385,60 @@
     },
     {
       "id": "sreda21-smert",
-      "name": "Русская смерть. Воспоминание о спектакле",
+      "name": "«Русская смерть. Воспоминание о спектакле»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-17",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
-      "name": "Франкенштейн",
+      "name": "«Франкенштейн» — спектакль по Мэри Шелли",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Спектакль Нади Кубайлат по роману Мэри Шелли о Викторе Франкенштейне, создании чудовища и границах человеческого.",
+      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
       "url": "https://sreda21.ru/frankenshtejn/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-23",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1338708"
+        },
+        {
+          "date": "2026-10-28",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1383794"
+        }
+      ]
     },
     {
       "id": "sreda21-filosofia",
@@ -1083,7 +1112,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
