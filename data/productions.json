@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T15:28:20+03:00",
+  "last_updated": "2026-08-25T18:33:34+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -67,7 +67,7 @@
       "name": "Пик Ник. Прибытие",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "",
+      "image": "/static/img/9622/medium.jpg",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1186",
       "available": false,
       "price_min": 0,
@@ -286,10 +286,10 @@
     },
     {
       "id": "shalom-natan",
-      "name": "Натан Мудрый",
+      "name": "Натан Mудрый",
       "theater": "Театр Шалом",
       "description": "",
-      "image": "",
+      "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/9d0/9d045aa39444c288f1fb474a3459ebd3/nat_1920_750_1x.png",
       "url": "https://shalom-theatre.ru/spektakli/Nathan/",
       "available": true,
       "price_min": 0,
@@ -598,10 +598,10 @@
           "date": "2026-09-04",
           "time": "19:00",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-04-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-07",
