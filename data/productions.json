@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T22:34:21+03:00",
+  "last_updated": "2026-08-27T03:21:15+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -934,15 +934,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-08-26",
-          "time": "",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
-        },
-        {
           "date": "2026-10-11",
           "time": "",
           "weekday": "Вс",
@@ -1008,43 +999,15 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "Нас всех ждет хороший человек. Он ждет всегда",
-      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/bochkotara",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-25",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "16:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        },
-        {
-          "date": "2026-10-30",
-          "time": "20:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-sherlock",
@@ -1112,7 +1075,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
+      "image": "",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
@@ -1176,14 +1139,14 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
