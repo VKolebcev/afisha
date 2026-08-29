@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T14:58:43+03:00",
+  "last_updated": "2026-08-29T19:13:49+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -218,6 +218,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=53927403&agentId=museum255"
+        },
+        {
+          "date": "2026-10-08",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=57783101&agentId=museum255"
         }
       ]
     },
@@ -242,6 +251,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=53927384&agentId=museum255"
+        },
+        {
+          "date": "2026-10-17",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=57789659&agentId=museum255"
         }
       ]
     },
@@ -266,6 +284,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=53927381&agentId=museum255"
+        },
+        {
+          "date": "2026-10-03",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=57783089&agentId=museum255"
         }
       ]
     },
@@ -732,27 +759,17 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8 1/2",
+      "name": "Феллини. 8½",
       "theater": "Театр Вахтангова",
-      "description": "Успешный кинорежиссёр Гвидо (его роль играет народный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Феллини.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
-      "available": true,
-      "price_min": 1800,
-      "price_max": 5300,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-09",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-10-09-19-30-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "mxat-kosmos",
@@ -914,6 +931,15 @@
       "dates": [
         {
           "date": "2026-09-15",
+          "time": "",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        },
+        {
+          "date": "2026-10-27",
           "time": "",
           "weekday": "Вт",
           "available": true,
