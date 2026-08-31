@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T02:01:19+03:00",
+  "last_updated": "2026-08-31T05:23:25+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -830,27 +830,17 @@
     },
     {
       "id": "mxat-flashback",
-      "name": "Флешбэк 2002",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "2002 год. Все читают Пелевина и Мураками, слушают Эминема и Moby, пользуются кнопочными сотовыми телефонами и пробуют неведомые доселе суши. На выпускном в институте юный Саша знакомится с девушкой Леной, общается с ней всю ночь, влюбляется и… расстается навсегда. Спустя 20 лет давно женатый Александр оглядывается назад, вспоминает тот выпускной, ту девушку и задается вопросом: а могло ли быть всё по-другому? Сделал ли он всё тогда правильно? А если нет – есть ли возможность поменять что-то сейчас? И при чем здесь, кстати, квантовая физика? Режиссёр Вера Попова: «Главная тема спектакля — недов",
-      "image": "https://storage.mxat.ru/resize_cache/6815/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/7ec/vuztpw2tj2q8dm20gsy2zvbrwrn888n6/92106.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/flashback",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-21",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "bronnaya-pigmalion",
@@ -1179,24 +1169,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-08-30",
-          "time": "18:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        },
-        {
-          "date": "2026-08-30",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        },
         {
           "date": "2026-10-04",
           "time": "18:00",
