@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T01:54:50+03:00",
+  "last_updated": "2026-09-02T05:01:12+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -390,91 +390,43 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-15",
-          "time": "19:30",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1367251"
-        },
-        {
-          "date": "2026-09-16",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1367252"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-smert",
-      "name": "«Русская смерть. Воспоминание о спектакле»",
+      "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-17",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
-      "name": "«Франкенштейн» — спектакль по Мэри Шелли",
+      "name": "Франкенштейн",
       "theater": "Среда 21",
-      "description": "Спектакль Нади Кубайлат по роману Мэри Шелли о Викторе Франкенштейне, создании чудовища и границах человеческого.",
-      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/frankenshtejn/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-23",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1338708"
-        },
-        {
-          "date": "2026-10-28",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1383794"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-filosofia",
@@ -564,7 +516,7 @@
       "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
       "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
+      "available": false,
       "price_min": 3300,
       "price_max": 4800,
       "currency": "₽",
@@ -601,19 +553,19 @@
           "date": "2026-10-17",
           "time": "14:00",
           "weekday": "Сб",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-17-14-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-24",
           "time": "14:00",
           "weekday": "Сб",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-24-14-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-11-04",
@@ -633,7 +585,7 @@
       "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
       "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": true,
+      "available": false,
       "price_min": 1500,
       "price_max": 15000,
       "currency": "₽",
@@ -652,19 +604,19 @@
           "date": "2026-10-07",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-07-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-22",
           "time": "19:00",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-22-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-11-02",
@@ -702,7 +654,7 @@
       "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
       "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
+      "available": false,
       "price_min": 350,
       "price_max": 4200,
       "currency": "₽",
@@ -712,19 +664,19 @@
           "date": "2026-09-09",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-09-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-21",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-21-19-00-00"
+          "buy_url": "#"
         }
       ]
     },
@@ -735,7 +687,7 @@
       "description": "« Повесть о Сонечке» – густой, очень плотный текст. Общественные потрясения становятся для Марины Цветаевой своеобразным катализатором. Сумасшедшая энергия обновления, которой буквально пропитан воздух, даёт ей силы, темы, новый язык. О ком бы ни писала Цветаева, она, как большой поэт, писала о себе. Примеривала на себя чужие жизни, разные роли. Её проза, соединенная с реалиями жизни, полна магии, которая завораживает… Я благодарен Евгении Крегжде за совместное глубокое погружение в пространство прозы М.И. Цветаевой и внимательную работу над текстом нашего спектакля",
       "image": "https://vakhtangov.ru/uploads/2023/12/DSC00275-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/sonechka",
-      "available": true,
+      "available": false,
       "price_min": 1800,
       "price_max": 5300,
       "currency": "₽",
@@ -745,37 +697,37 @@
           "date": "2026-09-16",
           "time": "19:30",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-09-16-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-09-29",
           "time": "19:30",
           "weekday": "Вт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-09-29-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-02",
           "time": "19:30",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-10-02-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-20",
           "time": "19:30",
           "weekday": "Вт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-10-20-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-11-05",
@@ -818,7 +770,7 @@
       "description": "Успешный кинорежиссёр Гвидо (его роль играет народный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Феллини.",
       "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
-      "available": true,
+      "available": false,
       "price_min": 1800,
       "price_max": 5300,
       "currency": "₽",
@@ -828,10 +780,10 @@
           "date": "2026-10-09",
           "time": "19:30",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-10-09-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-11-11",
@@ -855,74 +807,45 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Космос",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
-      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "mxat-gorodki",
-      "name": "Игра в «Городки»",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "В 2017 году в свет вышла автобиографическая книга народного артиста РФ Юрия Стоянова «Игра в \"Городки\"». «Добрая книга умного человека» — так охарактеризовали её читатели. Юрий Стоянов : « Книжка „Игра в „Городки““ не надиктована и не рассказана в форме интервью. У нее нет редактора, от первого до последнего слова книга написана мной. Я не могу назвать свое произведение биографией в чистом виде, потому что это все-таки жанровая книга. Она написана в жанре рассказа, или очень маленькой повести, под большим влиянием Марка Твена, Антона Павловича Чехова и Сергея Довлатова. Узнаете ли вы что-нибуд",
-      "image": "https://storage.mxat.ru/resize_cache/17255/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/53b/vkl3sxgx2oyk02l2m6076iozjtv2vmeg/79869.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/stoyanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-20",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
-        {
-          "date": "2026-10-10",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "mxat-flashback",
-      "name": "Флешбэк 2002",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "2002 год. Все читают Пелевина и Мураками, слушают Эминема и Moby, пользуются кнопочными сотовыми телефонами и пробуют неведомые доселе суши. На выпускном в институте юный Саша знакомится с девушкой Леной, общается с ней всю ночь, влюбляется и… расстается навсегда. Спустя 20 лет давно женатый Александр оглядывается назад, вспоминает тот выпускной, ту девушку и задается вопросом: а могло ли быть всё по-другому? Сделал ли он всё тогда правильно? А если нет – есть ли возможность поменять что-то сейчас? И при чем здесь, кстати, квантовая физика? Режиссёр Вера Попова: «Главная тема спектакля — недов",
-      "image": "https://storage.mxat.ru/resize_cache/6815/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/7ec/vuztpw2tj2q8dm20gsy2zvbrwrn888n6/92106.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/flashback",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-21",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "bronnaya-pigmalion",
@@ -1134,34 +1057,15 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "Нас всех ждет хороший человек. Он ждет всегда",
-      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/bochkotara",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-25",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        },
-        {
-          "date": "2026-10-18",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-sherlock",
@@ -1229,7 +1133,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
+      "image": "",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
@@ -1275,14 +1179,14 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -1292,44 +1196,25 @@
       "description": "Жанр - Исследование трагедии",
       "image": "https://static.tildacdn.com/tild3963-6334-4734-a631-316538303232/_.jpg",
       "url": "https://vnutri.space/hamlet",
-      "available": true,
-      "price_min": 0,
-      "price_max": 0,
-      "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-01",
-          "time": "16:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
-        },
-        {
-          "date": "2026-09-01",
-          "time": "20:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/172082"
-        }
-      ]
-    },
-    {
-      "id": "vnutri-sisters",
-      "name": "Три сестры",
-      "theater": "Пространство внутри",
-      "description": "Драма одного дома",
-      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
-      "url": "https://vnutri.space/sisters",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
+      "dates": []
+    },
+    {
+      "id": "vnutri-sisters",
+      "name": "Три сестры",
+      "theater": "Пространство внутри",
+      "description": "",
+      "image": "",
+      "url": "https://vnutri.space/sisters",
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
+      "currency": "₽",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     }
   ]
