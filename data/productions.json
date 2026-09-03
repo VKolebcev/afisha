@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T16:06:57+03:00",
+  "last_updated": "2026-09-03T21:14:54+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -583,10 +583,10 @@
           "date": "2026-09-12",
           "time": "14:00",
           "weekday": "Сб",
-          "available": false,
+          "available": true,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-09-12-14-00-00"
         },
         {
           "date": "2026-10-07",
@@ -601,10 +601,10 @@
           "date": "2026-10-17",
           "time": "14:00",
           "weekday": "Сб",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-17-14-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-24",
@@ -643,10 +643,10 @@
           "date": "2026-09-04",
           "time": "19:00",
           "weekday": "Пт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-09-04-19-00-00"
         },
         {
           "date": "2026-10-07",
@@ -661,10 +661,10 @@
           "date": "2026-10-22",
           "time": "19:00",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-22-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-11-02",
@@ -1229,7 +1229,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
@@ -1275,14 +1275,14 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
