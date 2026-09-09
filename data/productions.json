@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T16:16:01+03:00",
+  "last_updated": "2026-09-09T21:11:25+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -403,36 +403,17 @@
     },
     {
       "id": "sreda21-smert",
-      "name": "«Русская смерть. Воспоминание о спектакле»",
+      "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-17",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
-        },
-        {
-          "date": "2026-10-16",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1399749"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
@@ -450,45 +431,17 @@
     },
     {
       "id": "sreda21-filosofia",
-      "name": "«Философия другого переулка»",
+      "name": "Философия другого переулка",
       "theater": "Среда 21",
-      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской, посвящённое Александру Пятигорскому. Спектакль в театре «Среда 21».",
-      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-24",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339049"
-        },
-        {
-          "date": "2026-09-25",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339050"
-        },
-        {
-          "date": "2026-10-09",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1390295"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sovremennik-art",
@@ -591,10 +544,10 @@
           "date": "2026-10-24",
           "time": "14:00",
           "weekday": "Сб",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-24-14-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-11-04",
@@ -674,7 +627,7 @@
       "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
       "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
+      "available": false,
       "price_min": 350,
       "price_max": 4200,
       "currency": "₽",
@@ -693,10 +646,10 @@
           "date": "2026-10-21",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-21-19-00-00"
+          "buy_url": "#"
         }
       ]
     },
@@ -1167,14 +1120,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -1182,7 +1135,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
