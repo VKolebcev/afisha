@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T01:51:27+03:00",
+  "last_updated": "2026-09-11T05:05:47+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -436,36 +436,17 @@
     },
     {
       "id": "sreda21-frankenstein",
-      "name": "«Франкенштейн» — спектакль по Мэри Шелли",
+      "name": "Франкенштейн",
       "theater": "Среда 21",
-      "description": "Спектакль Нади Кубайлат по роману Мэри Шелли о Викторе Франкенштейне, создании чудовища и границах человеческого.",
-      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/frankenshtejn/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-23",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1338708"
-        },
-        {
-          "date": "2026-10-28",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1383794"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-filosofia",
@@ -828,16 +809,16 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Страница не найдена",
+      "name": "Космос",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "",
-      "image": "",
+      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
+      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -1168,14 +1149,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "Уроки человечности на окраине Перми ",
-      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -1183,7 +1164,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
+      "image": "",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
@@ -1196,34 +1177,15 @@
       "id": "vnutri-endoftheworld",
       "name": "Это конец света",
       "theater": "Пространство внутри",
-      "description": "Режиссер Таисия Вилкова представляет новое прочтение культовой пьесы Николая Коляды",
-      "image": "https://static.tildacdn.com/tild6163-3266-4361-b463-633636306632/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/endoftheworld",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-04",
-          "time": "18:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        },
-        {
-          "date": "2026-10-04",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-mirkurbanov",
