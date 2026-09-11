@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T16:07:19+03:00",
+  "last_updated": "2026-09-11T21:00:29+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -464,6 +464,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1383794"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1403669"
         }
       ]
     },
@@ -610,10 +619,10 @@
           "date": "2026-11-04",
           "time": "14:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-11-04-14-00-00"
+          "buy_url": "#"
         }
       ]
     },
