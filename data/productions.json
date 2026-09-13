@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T05:07:32+03:00",
+  "last_updated": "2026-09-13T10:47:13+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -363,29 +363,67 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-15",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1367251"
+        },
+        {
+          "date": "2026-09-16",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1367252"
+        }
+      ]
     },
     {
       "id": "sreda21-smert",
-      "name": "Русская смерть. Воспоминание о спектакле",
+      "name": "«Русская смерть. Воспоминание о спектакле»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-17",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1347075"
+        },
+        {
+          "date": "2026-10-16",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1399749"
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
@@ -431,17 +469,45 @@
     },
     {
       "id": "sreda21-filosofia",
-      "name": "Философия другого переулка",
+      "name": "«Философия другого переулка»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской, посвящённое Александру Пятигорскому. Спектакль в театре «Среда 21».",
+      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-24",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339049"
+        },
+        {
+          "date": "2026-09-25",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1339050"
+        },
+        {
+          "date": "2026-10-09",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1390295"
+        }
+      ]
     },
     {
       "id": "sovremennik-art",
@@ -799,36 +865,17 @@
     },
     {
       "id": "mxat-flashback",
-      "name": "Флешбэк 2002",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "2002 год. Все читают Пелевина и Мураками, слушают Эминема и Moby, пользуются кнопочными сотовыми телефонами и пробуют неведомые доселе суши. На выпускном в институте юный Саша знакомится с девушкой Леной, общается с ней всю ночь, влюбляется и… расстается навсегда. Спустя 20 лет давно женатый Александр оглядывается назад, вспоминает тот выпускной, ту девушку и задается вопросом: а могло ли быть всё по-другому? Сделал ли он всё тогда правильно? А если нет – есть ли возможность поменять что-то сейчас? И при чем здесь, кстати, квантовая физика? Режиссёр Вера Попова: «Главная тема спектакля — недов",
-      "image": "https://storage.mxat.ru/resize_cache/6815/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/7ec/vuztpw2tj2q8dm20gsy2zvbrwrn888n6/92106.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/flashback",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-09-21",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
-        {
-          "date": "2026-11-24",
-          "time": "19:00",
-          "weekday": "Вт",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "bronnaya-pigmalion",
@@ -941,8 +988,8 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
+      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": true,
       "price_min": 0,
@@ -957,7 +1004,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://entracte.moscow/einsteinundmargarita"
+          "buy_url": "https://moscowshow.com/afisha/teatry/eynshteyn-i-margarita/"
         }
       ]
     },
@@ -1143,28 +1190,28 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
-      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
       "id": "vnutri-hamlet",
       "name": "Я — Ошибка",
       "theater": "Пространство внутри",
-      "description": "Жанр - Исследование трагедии",
-      "image": "https://static.tildacdn.com/tild3963-6334-4734-a631-316538303232/_.jpg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/hamlet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
