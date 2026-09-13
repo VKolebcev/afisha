@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T10:47:13+03:00",
+  "last_updated": "2026-09-13T16:32:14+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -89,43 +89,15 @@
       "id": "mayakovsky-les",
       "name": "Лес",
       "theater": "Театр Маяковского",
-      "description": "На перекрёстке лесных дорог, посреди России, сходятся два провинциальных артиста, комик Счастливцев и трагик Несчастливцев. Дорога доводит их до «Пеньков» — усадьбы богатой помещицы Гурмыжской, где творится «тёмный лес». Молодые женятся на старых ради денег, бесприданницы топятся от любви, все врут и никто не счастлив. Поработав в других спектаклях со стихиями ветра, воды, огня, в пьесе Островского художественный руководитель Маяковки Егор Перегудов исследует новую стихию. Леса давно нет. Нет ни пеньков, ни опилок. Одна природная сила вытеснила другую, оставив человека в тревожной зыбкости и п",
-      "image": "https://www.mayakovsky.ru/upload/iblock/7ff/7ff05647dfbffe2fe8541f5245c9be0e.jpg",
+      "description": "",
+      "image": "",
       "url": "https://www.mayakovsky.ru/performance/les/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-03",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15683"
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15723"
-        },
-        {
-          "date": "2026-11-25",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15806"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "mayakovsky-bagdad",
@@ -554,7 +526,7 @@
       "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
       "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
+      "available": false,
       "price_min": 3300,
       "price_max": 4800,
       "currency": "₽",
@@ -564,10 +536,10 @@
           "date": "2026-10-07",
           "time": "19:30",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-07-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-17",
@@ -767,45 +739,17 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8 1/2",
+      "name": "Феллини. 8½",
       "theater": "Театр Вахтангова",
-      "description": "Успешный кинорежиссёр Гвидо (его роль играет народный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Феллини.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
-      "available": true,
-      "price_min": 1800,
-      "price_max": 5300,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-09",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-10-09-19-30-00"
-        },
-        {
-          "date": "2026-11-11",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-11-11-19-30-00"
-        },
-        {
-          "date": "2026-11-17",
-          "time": "19:30",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-11-17-19-30-00"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "mxat-kosmos",
@@ -865,17 +809,36 @@
     },
     {
       "id": "mxat-flashback",
-      "name": "Страница не найдена",
+      "name": "Флешбэк 2002",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "",
-      "image": "",
+      "description": "2002 год. Все читают Пелевина и Мураками, слушают Эминема и Moby, пользуются кнопочными сотовыми телефонами и пробуют неведомые доселе суши. На выпускном в институте юный Саша знакомится с девушкой Леной, общается с ней всю ночь, влюбляется и… расстается навсегда. Спустя 20 лет давно женатый Александр оглядывается назад, вспоминает тот выпускной, ту девушку и задается вопросом: а могло ли быть всё по-другому? Сделал ли он всё тогда правильно? А если нет – есть ли возможность поменять что-то сейчас? И при чем здесь, кстати, квантовая физика? Режиссёр Вера Попова: «Главная тема спектакля — недов",
+      "image": "https://storage.mxat.ru/resize_cache/6815/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/7ec/vuztpw2tj2q8dm20gsy2zvbrwrn888n6/92106.jpg",
       "url": "https://mxat.ru/repertuar/show/flashback",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-21",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "bronnaya-pigmalion",
@@ -1087,15 +1050,34 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Нас всех ждет хороший человек. Он ждет всегда",
+      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
       "url": "https://vnutri.space/bochkotara",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-25",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        },
+        {
+          "date": "2026-10-18",
+          "time": "20:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        }
+      ]
     },
     {
       "id": "vnutri-sherlock",
@@ -1129,14 +1111,14 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -1190,28 +1172,28 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
       "id": "vnutri-hamlet",
       "name": "Я — Ошибка",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Жанр - Исследование трагедии",
+      "image": "https://static.tildacdn.com/tild3963-6334-4734-a631-316538303232/_.jpg",
       "url": "https://vnutri.space/hamlet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
