@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T18:26:37+03:00",
+  "last_updated": "2026-09-15T00:11:39+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -506,6 +506,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1390295"
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1405562"
         }
       ]
     },
@@ -554,7 +563,7 @@
       "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
       "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
+      "available": false,
       "price_min": 3300,
       "price_max": 4800,
       "currency": "₽",
@@ -591,10 +600,10 @@
           "date": "2026-11-04",
           "time": "14:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-11-04-14-00-00"
+          "buy_url": "#"
         }
       ]
     },
@@ -923,15 +932,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-09-14",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 500,
-          "price_max": 30000,
-          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
-        },
         {
           "date": "2026-10-25",
           "time": "19:00",
