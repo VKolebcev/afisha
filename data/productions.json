@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T01:43:57+03:00",
+  "last_updated": "2026-09-14T05:25:27+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -809,16 +809,16 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Страница не найдена",
+      "name": "Космос",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "",
-      "image": "",
+      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
+      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -998,8 +998,8 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
+      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": true,
       "price_min": 0,
@@ -1014,7 +1014,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://entracte.moscow/einsteinundmargarita"
+          "buy_url": "https://moscowshow.com/afisha/teatry/eynshteyn-i-margarita/"
         }
       ]
     },
@@ -1067,31 +1067,12 @@
       "description": "Режиссер — Режиссер Художник — Мария Трегубова В ролях — Евгений Цыганов, Мария Смольникова, Ольга Надеждина, Светлана Кузянина, Максим Логинов, Станислав Кобозев Художник по свету — Иван Виноградов Хореограф — Анатолий Емельянов Саунд дизайнер — Дмитрий Бачинский Генеральный продюсер — Максим Левченко Директор — Мария Могучая Исполнительный продюсер — Анна Маленкова Административно-постановочная часть: Технический директор — Алексей Акимов Главный администратор — Захар Волошко Звукорежиссер — Дмитрий Бачинский Место проведения — парковка торгового центра Europolis Ростокино Адрес: Москва, пр.",
       "image": "https://www.brodsky.online/upload/iblock/99d/p6vnn8hj8dotx23q33logexl9rn39krl/Snimok-ekrana-2025_12_06-v-14.01.10.png",
       "url": "https://brodsky.online/events/parkovka-vsye-tut-spektakl",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": [
-        {
-          "date": "2026-09-13",
-          "time": "17:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.brodsky.online/tickets/bookplaces/14025/"
-        },
-        {
-          "date": "2026-09-13",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.brodsky.online/tickets/bookplaces/14026/"
-        }
-      ]
+      "dates": []
     },
     {
       "id": "vnutri-bochkotara",
@@ -1173,7 +1154,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
