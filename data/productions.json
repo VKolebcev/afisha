@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T16:53:18+03:00",
+  "last_updated": "2026-09-16T21:33:30+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -14,15 +14,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-09-16",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#52376638"
-        },
         {
           "date": "2026-10-08",
           "time": "19:00",
@@ -305,10 +296,10 @@
     },
     {
       "id": "shalom-natan",
-      "name": "Натан Мудрый",
+      "name": "Натан Mудрый",
       "theater": "Театр Шалом",
       "description": "",
-      "image": "",
+      "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/9d0/9d045aa39444c288f1fb474a3459ebd3/nat_1920_750_1x.png",
       "url": "https://shalom-theatre.ru/spektakli/Nathan/",
       "available": true,
       "price_min": 0,
@@ -361,12 +352,49 @@
       "description": "",
       "image": "https://cdn-ru.bitrix24.ru/b1452541/landing/2e5/2e59960325a7d758b8283e0dd9fb41d5/605662b1_9688_4925_8761_6590340aef8c_1x.webp",
       "url": "https://shalom-theatre.ru/spektakli/lear/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-09-19",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        },
+        {
+          "date": "2026-09-20",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        },
+        {
+          "date": "2026-11-21",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://bilet.mos.ru/event/382969257/"
+        }
+      ]
     },
     {
       "id": "sreda21-vek",
@@ -563,7 +591,7 @@
       "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
       "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
+      "available": true,
       "price_min": 3300,
       "price_max": 4800,
       "currency": "₽",
@@ -600,10 +628,10 @@
           "date": "2026-11-04",
           "time": "14:00",
           "weekday": "Ср",
-          "available": false,
+          "available": true,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-11-04-14-00-00"
         }
       ]
     },
@@ -708,10 +736,10 @@
           "date": "2026-09-16",
           "time": "19:30",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-09-16-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-09-29",
@@ -1095,6 +1123,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        },
+        {
+          "date": "2026-11-30",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
         }
       ]
     },
@@ -1133,12 +1170,22 @@
       "description": "Уроки человечности на окраине Перми ",
       "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": []
+      "dates": [
+        {
+          "date": "2026-11-24",
+          "time": "20:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
+        }
+      ]
     },
     {
       "id": "vnutri-redhood",
