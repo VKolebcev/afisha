@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T16:57:03+03:00",
+  "last_updated": "2026-09-17T21:41:28+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -591,10 +591,10 @@
           "date": "2026-10-07",
           "time": "19:30",
           "weekday": "Ср",
-          "available": false,
+          "available": true,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-07-19-30-00"
         },
         {
           "date": "2026-10-17",
@@ -642,19 +642,19 @@
           "date": "2026-10-07",
           "time": "19:00",
           "weekday": "Ср",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-07-19-00-00"
         },
         {
           "date": "2026-10-22",
           "time": "19:00",
           "weekday": "Чт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-22-19-00-00"
         },
         {
           "date": "2026-11-02",
@@ -692,7 +692,7 @@
       "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
       "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": true,
+      "available": false,
       "price_min": 350,
       "price_max": 4200,
       "currency": "₽",
@@ -702,10 +702,10 @@
           "date": "2026-10-21",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-21-19-00-00"
+          "buy_url": "#"
         }
       ]
     },
@@ -1134,14 +1134,14 @@
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Поэма об «обыденной» жизни",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
@@ -1219,28 +1219,28 @@
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
       "id": "vnutri-hamlet",
       "name": "Я — Ошибка",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Жанр - Исследование трагедии",
+      "image": "https://static.tildacdn.com/tild3963-6334-4734-a631-316538303232/_.jpg",
       "url": "https://vnutri.space/hamlet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
