@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T05:14:04+03:00",
+  "last_updated": "2026-09-18T10:45:32+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -400,15 +400,34 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-05",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-11-06",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "sreda21-smert",
@@ -1173,7 +1192,7 @@
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
