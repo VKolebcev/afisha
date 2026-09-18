@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T10:45:32+03:00",
+  "last_updated": "2026-09-18T16:15:25+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -164,14 +164,14 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -332,7 +332,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://bilet.mos.ru/event/349392257/"
+          "buy_url": "https://tickets.mos.ru/widget/wv2?eventId=71041&agentId=museum171_nonmos"
         },
         {
           "date": "2026-11-15",
@@ -341,7 +341,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://bilet.mos.ru/event/349392257/"
+          "buy_url": "https://tickets.mos.ru/widget/wv2?eventId=71041&agentId=museum171_nonmos"
         }
       ]
     },
