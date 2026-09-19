@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-19T05:16:55+03:00",
+  "last_updated": "2026-09-19T10:40:18+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -1008,8 +1008,8 @@
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
-      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
+      "description": "",
+      "image": "",
       "url": "https://entracte.moscow/einsteinundmargarita",
       "available": true,
       "price_min": 0,
@@ -1024,7 +1024,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://moscowshow.com/afisha/teatry/eynshteyn-i-margarita/"
+          "buy_url": "https://entracte.moscow/einsteinundmargarita"
         }
       ]
     },
@@ -1196,34 +1196,15 @@
       "id": "vnutri-endoftheworld",
       "name": "Это конец света",
       "theater": "Пространство внутри",
-      "description": "Режиссер Таисия Вилкова представляет новое прочтение культовой пьесы Николая Коляды",
-      "image": "https://static.tildacdn.com/tild6163-3266-4361-b463-633636306632/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/endoftheworld",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-04",
-          "time": "18:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        },
-        {
-          "date": "2026-10-04",
-          "time": "20:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api?utm_source=vnutri-web#/about/154934/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-mirkurbanov",
