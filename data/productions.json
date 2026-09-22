@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T11:04:20+03:00",
+  "last_updated": "2026-09-22T16:47:05+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -27,10 +27,10 @@
           "date": "2026-11-13",
           "time": "19:00",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1000,
           "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#56638275"
+          "buy_url": "https://fomenki.ru/performance/arcadia/"
         }
       ]
     },
@@ -633,19 +633,19 @@
           "date": "2026-10-07",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-07-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-22",
           "time": "19:00",
           "weekday": "Чт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-22-19-00-00"
         },
         {
           "date": "2026-11-02",
@@ -683,7 +683,7 @@
       "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
       "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
-      "available": false,
+      "available": true,
       "price_min": 350,
       "price_max": 4200,
       "currency": "₽",
@@ -693,10 +693,10 @@
           "date": "2026-10-21",
           "time": "19:00",
           "weekday": "Ср",
-          "available": false,
+          "available": true,
           "price_min": 350,
           "price_max": 4200,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-21-19-00-00"
         }
       ]
     },
