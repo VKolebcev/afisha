@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26T05:35:27+03:00",
+  "last_updated": "2026-09-26T11:06:56+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -391,29 +391,67 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-05",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-11-06",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "sreda21-smert",
-      "name": "Русская смерть. Воспоминание о спектакле",
+      "name": "«Русская смерть. Воспоминание о спектакле»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-16",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1399749"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
@@ -450,17 +488,45 @@
     },
     {
       "id": "sreda21-filosofia",
-      "name": "Философия другого переулка",
+      "name": "«Философия другого переулка»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской, посвящённое Александру Пятигорскому. Спектакль в театре «Среда 21».",
+      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-09",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1390295"
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1405562"
+        }
+      ]
     },
     {
       "id": "sovremennik-art",
@@ -567,10 +633,10 @@
           "date": "2026-10-22",
           "time": "19:00",
           "weekday": "Чт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-22-19-00-00"
         },
         {
           "date": "2026-11-02",
@@ -1046,25 +1112,15 @@
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "Уроки человечности на окраине Перми ",
-      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/tarkovskii",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-11-24",
-          "time": "20:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "vnutri-redhood",
@@ -1145,14 +1201,14 @@
       "id": "vnutri-sisters",
       "name": "Три сестры",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Драма одного дома",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/sisters",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     }
   ]
