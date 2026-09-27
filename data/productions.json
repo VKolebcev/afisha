@@ -1,38 +1,19 @@
 {
-  "last_updated": "2026-09-27T05:34:15+03:00",
+  "last_updated": "2026-09-27T11:43:21+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
-      "image": "https://fomenki.ru/f/performance/26523_c.png",
+      "description": "",
+      "image": "",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": true,
-      "price_min": 1000,
-      "price_max": 30000,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-10-08",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#52379526"
-        },
-        {
-          "date": "2026-11-13",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#56638275"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "electro-piknik-1",
@@ -555,14 +536,14 @@
       "id": "doc-mesto",
       "name": "Место силы",
       "theater": "Театр.doc",
-      "description": "Что, если «место силы» - это не точка на карте, а момент, встреча, боль или даже шрам? Полтора месяца участники мини-лаборатории «Место силы» Дарьи Мазур и Александра Ханта исследовали свои личные источники силы и слабости через актерские тренинги, интервью и откровенные монологи. Они искали ответы на вопросы: - Можно ли найти силу в детских травмах, ностальгии или пустоте? - Что делать, когда «место силы» — это другой человек, а он уходит? - Как жить, если твоя опора — ты сам, но ты в этом не уверен? На сцене будут представлены 13 уникальных историй. Этот показ — не про красивые пейзажи и не ",
-      "image": "http://teatrdoc.ru/media/events/images/%D0%9C%D0%B5%D1%81%D1%82%D0%BE_%D1%81%D0%B8%D0%BB%D1%8B.jpg",
+      "description": "",
+      "image": "",
       "url": "https://teatrdoc.ru/performances/1355/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -620,29 +601,85 @@
       "id": "vakhtangov-war_and_peace",
       "name": "Война и мир",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
+      "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1500,
+      "price_max": 15000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-07",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-10-22",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-11-02",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-02-19-00-00"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-13-19-00-00"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-16-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
+      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 350,
+      "price_max": 4200,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-21",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 350,
+          "price_max": 4200,
+          "buy_url": "#"
+        }
+      ]
     },
     {
       "id": "vakhtangov-sonechka",
