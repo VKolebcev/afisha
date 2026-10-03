@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03T21:26:35+03:00",
+  "last_updated": "2026-10-04T02:26:28+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -98,15 +98,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-10-03",
-          "time": "18:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15683"
-        },
         {
           "date": "2026-10-21",
           "time": "19:00",
@@ -313,15 +304,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-10-03",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=57783089&agentId=museum255"
-        },
         {
           "date": "2026-11-11",
           "time": "19:00",
