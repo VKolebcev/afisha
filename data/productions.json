@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04T23:39:22+03:00",
+  "last_updated": "2026-10-05T02:42:30+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -48,7 +48,7 @@
       "name": "Пик Ник. Город миражей",
       "theater": "Электротеатр Станиславский",
       "description": "",
-      "image": "/static/img/9614/medium.jpg",
+      "image": "",
       "url": "https://electrotheatre.ru/repertoire/spectacle/1182",
       "available": false,
       "price_min": 0,
@@ -458,17 +458,36 @@
     },
     {
       "id": "sreda21-smert",
-      "name": "Русская смерть. Воспоминание о спектакле",
+      "name": "«Русская смерть. Воспоминание о спектакле»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-16",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1399749"
+        },
+        {
+          "date": "2026-11-20",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
