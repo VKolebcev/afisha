@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-05T16:02:53+03:00",
+  "last_updated": "2026-10-06T00:44:08+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -590,7 +590,7 @@
       "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
       "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": true,
+      "available": false,
       "price_min": 3300,
       "price_max": 4800,
       "currency": "₽",
@@ -627,10 +627,10 @@
           "date": "2026-11-04",
           "time": "14:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-11-04-14-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-12-09",
@@ -669,10 +669,10 @@
           "date": "2026-10-07",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-10-07-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-10-22",
