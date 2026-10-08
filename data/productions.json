@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T12:43:20+03:00",
+  "last_updated": "2026-10-08T21:10:55+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -14,15 +14,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-10-08",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#52379526"
-        },
         {
           "date": "2026-11-13",
           "time": "19:00",
