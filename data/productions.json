@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T22:51:40+03:00",
+  "last_updated": "2026-10-18T01:46:35+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -253,15 +253,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-10-17",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=57789659&agentId=museum255"
-        },
         {
           "date": "2026-11-26",
           "time": "19:00",
@@ -660,10 +651,10 @@
           "date": "2026-11-13",
           "time": "19:00",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-13-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-11-16",
