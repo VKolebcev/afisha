@@ -1,19 +1,38 @@
 {
-  "last_updated": "2026-10-17T15:35:13+03:00",
+  "last_updated": "2026-10-17T20:38:22+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
       "name": "Аркадия",
       "theater": "Мастерская Петра Фоменко",
-      "description": "",
-      "image": "",
+      "description": "«Аркадия» Тома Стоппарда – пьеса изящная и умная; алгебраически выверенная как математическая формула; гармоничная как интеллектуальный пазл. В ней есть и по-уайльдовски острое слово, и интрига, и искусно обрисованные характеры, и многослойный подтекст. Любое слово, любая деталь играют, дополняют и уточняют сюжетные линии и образы персонажей. Действие происходит в комнате огромного загородного дома в графстве Дербишир в начале XIX века, а также в наши дни. Изыскания двух современных учёных, их отношения переплетаются с жизнями тех, кто обитал в этом же доме почти двести лет назад. Вы можете на",
+      "image": "https://fomenki.ru/f/performance/26523_c.png",
       "url": "https://fomenki.ru/performance/arcadia/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1000,
+      "price_max": 30000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-13",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#56638275"
+        },
+        {
+          "date": "2026-12-15",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/boxoffice/#59817472"
+        }
+      ]
     },
     {
       "id": "electro-piknik-1",
@@ -568,15 +587,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-10-17",
-          "time": "14:00",
-          "weekday": "Сб",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        },
         {
           "date": "2026-10-24",
           "time": "14:00",
