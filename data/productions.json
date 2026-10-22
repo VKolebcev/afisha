@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T21:58:09+03:00",
+  "last_updated": "2026-10-23T02:46:54+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -630,31 +630,22 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-10-22",
+          "date": "2026-11-02",
           "time": "19:00",
-          "weekday": "Чт",
+          "weekday": "Пн",
           "available": false,
           "price_min": 1500,
           "price_max": 15000,
           "buy_url": "#"
-        },
-        {
-          "date": "2026-11-02",
-          "time": "19:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 1500,
-          "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-02-19-00-00"
         },
         {
           "date": "2026-11-13",
           "time": "19:00",
           "weekday": "Пт",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-13-19-00-00"
         },
         {
           "date": "2026-11-16",
@@ -689,14 +680,14 @@
       "id": "vakhtangov-chudo",
       "name": "Обыкновенное чудо",
       "theater": "Театр Вахтангова",
-      "description": "Верил ли Шварц в возможность побеждать зло искусством или не верил, но пьесы его полны такой горячей ненависти к злу, к подлости всякого рода, что они обжигают… И хотя пьесы его – сказки, и действие в них происходит в выдуманных королевствах, зло и добро в них – не отвлечённые, не абстрактные понятия.",
-      "image": "/i/video-blank.png",
+      "description": "",
+      "image": "https://vakhtangov.ru/uploads/2023/10/bannery-CHudo.jpg",
       "url": "https://vakhtangov.ru/show/ordinay_miracle",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
