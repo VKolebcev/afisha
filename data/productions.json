@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T11:05:11+03:00",
+  "last_updated": "2026-10-23T16:56:22+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -409,57 +409,133 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-05",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-11-06",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "sreda21-smert",
-      "name": "Русская смерть. Воспоминание о спектакле",
+      "name": "«Русская смерть. Воспоминание о спектакле»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-20",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
-      "name": "Франкенштейн",
+      "name": "«Франкенштейн» — спектакль по Мэри Шелли",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Спектакль Нади Кубайлат по роману Мэри Шелли о Викторе Франкенштейне, создании чудовища и границах человеческого.",
+      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
       "url": "https://sreda21.ru/frankenshtejn/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-28",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1383794"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1403669"
+        },
+        {
+          "date": "2026-12-09",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1442144"
+        }
+      ]
     },
     {
       "id": "sreda21-filosofia",
-      "name": "Философия другого переулка",
+      "name": "«Философия другого переулка»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Панк-кабаре Андрея Родионова и Екатерины Троепольской, посвящённое Александру Пятигорскому. Спектакль в театре «Среда 21».",
+      "image": "https://static.tildacdn.com/tild3630-6436-4862-b961-306562623135/photo_2025-04-16_124.jpeg",
       "url": "https://sreda21.ru/filosofija-drugogo-pereulka",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-23",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1405562"
+        }
+      ]
     },
     {
       "id": "sovremennik-art",
@@ -493,15 +569,52 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-24",
+          "time": "14:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-10-24-14-00-00"
+        },
+        {
+          "date": "2026-11-04",
+          "time": "14:00",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-09",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-30",
+          "time": "14:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2026-12-30-14-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -686,16 +799,16 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Страница не найдена",
+      "name": "Космос",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "",
-      "image": "",
+      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
+      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
@@ -842,43 +955,91 @@
       "id": "entracte-mitina",
       "name": "Митина любовь",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "В спектакле «Митина любовь» режиссер не только переосмысляет повесть, но и добавляет несколько ярких музыкальных фрагментов. Как и во многих других постановках, Наставшев выступает здесь как автор инсценировки, композитор и художник. Владислав Наставшев: «Главный вопрос для меня: что происходит с Митей? Катя действительно существует или все события происходят во внутреннем мире героя? А если Катя существует? Она играет спектакль? Она репетирует? Готовит роль? Кто она? Актриса или сила судьбы? Человек или нет? Митю играет молодой артист Андрей Мартынов, а Катю – Аня Чиповская. Между ними поколе",
+      "image": "https://static.tildacdn.com/tild3333-6534-4662-b734-306634363833/ML-Poster-Red-00.jpg",
       "url": "https://entracte.moscow/mitina",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-27",
+          "time": "",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        },
+        {
+          "date": "2026-12-09",
+          "time": "",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/796751?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        }
+      ]
     },
     {
       "id": "entracte-einstein",
       "name": "Эйнштейн и Маргарита",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "Алена Хмельницкая и Алексей Серебряков впервые оказываются вместе на одной сцене в спектакле о большой любви на фоне исторических событий «Эйнштейн и Маргарита». В основе спектакля пьеса советского и российского драматурга Александра Гельмана «Альмар», написанная несколько лет назад. В ней автор фантазирует о том, какой могла быть последняя встреча великого ученого и гражданки СССР, которую тот в реальной жизни любил на протяжении десятилетия. Премьера состоялась 12 июня 2022 г. Фото: Марк Олич, Ира Полярная",
+      "image": "https://thb.tildacdn.com/tild6339-3530-4163-a262-646532376130/-/resize/504x/EM2025-6615-web.jpg",
       "url": "https://entracte.moscow/einsteinundmargarita",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-10-27",
+          "time": "",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://moscowshow.com/afisha/teatry/eynshteyn-i-margarita/"
+        },
+        {
+          "date": "2026-12-17",
+          "time": "",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://moscowshow.com/afisha/teatry/eynshteyn-i-margarita/"
+        }
+      ]
     },
     {
       "id": "entracte-chayka",
       "name": "Чайка",
       "theater": "Антракт",
-      "description": "",
-      "image": "",
+      "description": "Режиссер Владислав Наставшев помещает чеховских персонажей в неопознанное пространство. Герои спектакля не понимают до конца – то ли они живые люди со своими проблемами, желаниями, тоской и страстью, то ли их вовсе не существует, и они всего лишь персонажи пьесы Антона Павловича Чехова. Владислав Наставшев: «Чехов писал о себе, о том, что он сам думает и чувствует про жизнь, про человека, про искусство. «Чайка» не только заявлена комедией, но и является таковой. При всей серьезности и глубине тем и проблем, которые поднимаются в пьесе, она сделана очень смешно, с уникальным тонким чеховским чу",
+      "image": "https://static.tildacdn.com/tild6265-6665-4465-b632-373964643338/CHAYKA-0832-www.jpg",
       "url": "https://entracte.moscow/seagull",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-12",
+          "time": "",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        }
+      ]
     },
     {
       "id": "poltory-parkovka",
@@ -917,64 +1078,84 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Нас всех ждет хороший человек. Он ждет всегда",
+      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
       "url": "https://vnutri.space/bochkotara",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-30",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        }
+      ]
     },
     {
       "id": "vnutri-sherlock",
       "name": "Шерлокхолмси все-все-все",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль Антона Фёдорова в Арт-платформе ",
+      "image": "https://static.tildacdn.com/tild6536-3836-4764-b033-626233616534/photo_2026-02-12_211.jpeg",
       "url": "https://vnutri.space/sherlock",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Поэма об «обыденной» жизни",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
       "id": "vnutri-tarkovskii",
       "name": "Добыть Тарковского",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Уроки человечности на окраине Перми ",
+      "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-24",
+          "time": "20:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
+        }
+      ]
     },
     {
       "id": "vnutri-redhood",
       "name": "Красная Шапочка",
       "theater": "Пространство внутри",
       "description": "",
-      "image": "",
+      "image": "https://static.tildacdn.com/tild6163-3634-4633-b139-333833373866/21.png",
       "url": "https://vnutri.space/redhood",
       "available": false,
       "price_min": 0,
@@ -987,56 +1168,56 @@
       "id": "vnutri-endoftheworld",
       "name": "Это конец света",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Режиссер Таисия Вилкова представляет новое прочтение культовой пьесы Николая Коляды",
+      "image": "https://static.tildacdn.com/tild6163-3266-4361-b463-633636306632/photo.jpeg",
       "url": "https://vnutri.space/endoftheworld",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
       "id": "vnutri-mirkurbanov",
       "name": "Гуттаперчевый человек и NUTCRACKER",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Спектакль об обобщённом жизненном пути человека от Игоря Миркурбанова",
+      "image": "https://static.tildacdn.com/tild6236-3161-4430-b232-643134306163/___1.jpg",
       "url": "https://vnutri.space/mirkurbanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
       "id": "vnutri-hamlet",
       "name": "Я — Ошибка",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Жанр - Исследование трагедии",
+      "image": "https://static.tildacdn.com/tild3963-6334-4734-a631-316538303232/_.jpg",
       "url": "https://vnutri.space/hamlet",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     },
     {
       "id": "vnutri-sisters",
       "name": "Три сестры",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Драма одного дома",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/sisters",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": null,
       "dates": []
     }
   ]
