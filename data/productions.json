@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T05:20:31+03:00",
+  "last_updated": "2026-10-26T11:16:55+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -194,8 +194,18 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-16",
+          "time": "20:00",
+          "weekday": "Пн",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "okolo-shkola",
