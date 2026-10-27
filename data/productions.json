@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T11:32:55+03:00",
+  "last_updated": "2026-10-27T18:03:33+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -106,6 +106,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15874"
+        },
+        {
+          "date": "2027-01-18",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=16018"
         }
       ]
     },
@@ -166,6 +175,24 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15883"
+        },
+        {
+          "date": "2027-01-23",
+          "time": "18:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=16027"
+        },
+        {
+          "date": "2027-01-24",
+          "time": "12:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=16030"
         }
       ]
     },
@@ -454,7 +481,7 @@
       "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
       "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
@@ -464,10 +491,19 @@
           "date": "2026-11-20",
           "time": "19:30",
           "weekday": "Пт",
-          "available": false,
+          "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": ""
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1411580"
+        },
+        {
+          "date": "2026-12-10",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1453219"
         }
       ]
     },
@@ -534,6 +570,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1405562"
+        },
+        {
+          "date": "2026-12-17",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1453220"
         }
       ]
     },
@@ -651,10 +696,10 @@
           "date": "2026-12-11",
           "time": "19:00",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-12-11-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-12-30",
