@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T20:39:03+03:00",
+  "last_updated": "2026-10-29T01:00:39+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -649,6 +649,24 @@
           "price_min": 3300,
           "price_max": 4800,
           "buy_url": "#"
+        },
+        {
+          "date": "2027-01-03",
+          "time": "12:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-25",
+          "time": "19:30",
+          "weekday": "Пн",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
         }
       ]
     },
@@ -705,6 +723,24 @@
           "date": "2026-12-30",
           "time": "19:00",
           "weekday": "Ср",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-03",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-25",
+          "time": "19:00",
+          "weekday": "Пн",
           "available": false,
           "price_min": 1500,
           "price_max": 15000,
@@ -839,6 +875,24 @@
           "price_min": 1800,
           "price_max": 5300,
           "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-12-04-19-30-00"
+        },
+        {
+          "date": "2027-01-08",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-21",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "#"
         }
       ]
     },
