@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T01:00:39+03:00",
+  "last_updated": "2026-10-29T06:33:31+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -521,15 +521,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-10-28",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1383794"
-        },
-        {
           "date": "2026-11-13",
           "time": "19:00",
           "weekday": "Пт",
@@ -898,16 +889,16 @@
     },
     {
       "id": "mxat-kosmos",
-      "name": "Космос",
+      "name": "Страница не найдена",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "Спектакль участвует в программе «Пушкинская карта» (18+) Татьяна, учительница английского языка, живёт в маленьком городке и преподаёт в той же школе, в которой училась. Жизнь её безрадостна и пуста – муж давно погиб, сын вырос и отдалился. И вдруг появляется призрачная надежда на счастье: в новостях сообщают, что в город детства приезжает одноклассник Татьяны, знаменитый лётчик-космонавт. И, конечно, он зайдёт в родную школу… Пьеса «Космос» написана в 2020 году. Эскиз спектакля был создан режиссёром Екатериной Григорьевой в октябре 2022 года в рамках экспериментального проекта «АРТХАБ» , посв",
-      "image": "https://storage.mxat.ru/resize_cache/2721/0ad0ffd58df8a2191a1f5eb6510b3e60/iblock/e75/d7452c5r2gqc5ro0temsyagsd3jcfd4m/87984.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/space",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -1106,6 +1097,15 @@
           "date": "2026-11-12",
           "time": "",
           "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://widget.afisha.yandex.ru/w/events/833855?clientKey=41d113f3-00cf-466f-8dcd-6447b237aab0&regionId=213"
+        },
+        {
+          "date": "2027-01-27",
+          "time": "",
+          "weekday": "Ср",
           "available": true,
           "price_min": 0,
           "price_max": 0,
