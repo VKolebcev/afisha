@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T12:17:21+03:00",
+  "last_updated": "2026-10-30T20:28:14+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -131,15 +131,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-10-30",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15737"
-        },
         {
           "date": "2026-10-31",
           "time": "12:00",
@@ -343,15 +334,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-10-30",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2?eventId=71041&agentId=museum171_nonmos"
-        },
         {
           "date": "2026-10-31",
           "time": "19:00",
@@ -605,29 +587,139 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-04",
+          "time": "14:00",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-09",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-30",
+          "time": "14:00",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-03",
+          "time": "12:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-25",
+          "time": "19:30",
+          "weekday": "Пн",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
       "name": "Война и мир",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
+      "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1500,
+      "price_max": 15000,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-02",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-02-19-00-00"
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-13-19-00-00"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-11",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-30",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-03",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2027-01-03-19-00-00"
+        },
+        {
+          "date": "2027-01-25",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2027-01-25-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-chudo",
@@ -696,10 +788,10 @@
           "date": "2027-01-04",
           "time": "19:30",
           "weekday": "Пн",
-          "available": false,
+          "available": true,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2027-01-04-19-30-00"
         }
       ]
     },
@@ -734,10 +826,10 @@
           "date": "2026-11-11",
           "time": "19:30",
           "weekday": "Ср",
-          "available": false,
+          "available": true,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-11-11-19-30-00"
         },
         {
           "date": "2026-11-17",
@@ -761,19 +853,19 @@
           "date": "2027-01-08",
           "time": "19:30",
           "weekday": "Пт",
-          "available": false,
+          "available": true,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2027-01-08-19-30-00"
         },
         {
           "date": "2027-01-21",
           "time": "19:30",
           "weekday": "Чт",
-          "available": false,
+          "available": true,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2027-01-21-19-30-00"
         }
       ]
     },
@@ -875,52 +967,15 @@
       "id": "ermolova-chukovsky",
       "name": "Чуковский",
       "theater": "Театр им. Ермоловой",
-      "description": "Корней Иванович Чуковский — это имя звенит, радует и греет детей и взрослых уже больше ста лет. Тиражи его сказок обгоняют Пушкина. Меняются поколения, мода, а его сказки по-прежнему читают и любят. Чуковского все знают как доброго сказочника, весёлого дедушку, друга всех детей. Но знаем ли мы его, как человека? Самоучка, рождённый при Александре III, друг Маяковского, Блока и Ахматовой, исследователь Некрасова и переводчик великого американского поэта Уитмена, отец четверых детей, потерявший при жизни троих из них. Каким он был на самом деле, что скрывал от посторонних и почему отрёкся от с",
-      "image": "/slir/w300/userfiles/perfomance/full/10f8723ead89c6ea.jpg",
+      "description": "",
+      "image": "https://edge-msk-1.kinescopecdn.net/b4800941-33d4-435b-bd07-7e5b6a489cba/posters/701fff82-7623-4102-8917-057614fe9b8e/poster_md/61407ce0-5dc7-4e2e-8ab7-914dbb620b04.webp",
       "url": "https://www.ermolova.ru/repertoire/view/230/",
-      "available": true,
-      "price_min": 500,
-      "price_max": 30000,
+      "available": false,
+      "price_min": 0,
+      "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-11-05",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 500,
-          "price_max": 30000,
-          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
-        },
-        {
-          "date": "2026-11-06",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 500,
-          "price_max": 30000,
-          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
-        },
-        {
-          "date": "2026-12-17",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 500,
-          "price_max": 30000,
-          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
-        },
-        {
-          "date": "2026-12-27",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": true,
-          "price_min": 500,
-          "price_max": 30000,
-          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "entracte-mitina",
@@ -1050,9 +1105,9 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-11-30",
+          "date": "2026-12-16",
           "time": "19:00",
-          "weekday": "Пн",
+          "weekday": "Ср",
           "available": true,
           "price_min": 0,
           "price_max": 0,
