@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T14:26:04+03:00",
+  "last_updated": "2026-10-31T19:31:57+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -132,15 +132,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-10-31",
-          "time": "12:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15741"
-        },
-        {
           "date": "2026-11-29",
           "time": "18:00",
           "weekday": "Вс",
@@ -246,6 +237,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=59669843&agentId=museum255_notmos"
+        },
+        {
+          "date": "2026-12-24",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=61608888&agentId=museum255_notmos"
         }
       ]
     },
@@ -270,6 +270,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=59671882&agentId=museum255_notmos"
+        },
+        {
+          "date": "2026-12-18",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=61608880&agentId=museum255_notmos"
         }
       ]
     },
@@ -294,6 +303,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=59670185&agentId=museum255_notmos"
+        },
+        {
+          "date": "2026-12-03",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=61556092&agentId=museum255_notmos"
         }
       ]
     },
@@ -334,15 +352,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-10-31",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2?eventId=71041&agentId=museum171_nonmos"
-        },
         {
           "date": "2026-11-14",
           "time": "19:00",
@@ -678,10 +687,10 @@
           "date": "2026-11-16",
           "time": "19:00",
           "weekday": "Пн",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-16-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-12-11",
@@ -820,17 +829,63 @@
     },
     {
       "id": "vakhtangov-fellini",
-      "name": "Феллини. 8½",
+      "name": "Феллини. 8 1/2",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "https://vakhtangov.ru/uploads/2022/12/bannery-fellini.jpg",
+      "description": "Успешный кинорежиссёр Гвидо (его роль играет народный артист России Владимир Вдовиченков) снимает дорогостоящий фильм, но переживает сильный творческий и личностный кризис. Чтобы преодолеть сложный жизненный этап, он обращается к своему подсознанию, воспоминаниям из детства, снам и фантазиям. Эти поиски приводят героя к неожиданным открытиям и ставят перед непростым выбором. В основе спектакля — практически автобиографичная история знаменитого итальянского режиссёра Федерико Феллини. Пьеса, пронизанная иронией и тонким юмором, написана на основе киносценария «8 1/2» и биографии самого Феллини.",
+      "image": "/i/video-blank.png",
       "url": "https://vakhtangov.ru/show/fellini-8-1-2",
-      "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "available": true,
+      "price_min": 1800,
+      "price_max": 5300,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-11-17",
+          "time": "19:30",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-11-17-19-30-00"
+        },
+        {
+          "date": "2026-12-04",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-12-04-19-30-00"
+        },
+        {
+          "date": "2027-01-08",
+          "time": "19:30",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2027-01-08-19-30-00"
+        },
+        {
+          "date": "2027-01-21",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 1800,
+          "price_max": 5300,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2027-01-21-19-30-00"
+        }
+      ]
     },
     {
       "id": "mxat-kosmos",
