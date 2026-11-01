@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T23:48:02+03:00",
+  "last_updated": "2026-11-01T06:18:10+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -374,6 +374,15 @@
           "date": "2027-01-03",
           "time": "19:00",
           "weekday": "Вс",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets.mos.ru/widget/wv2?eventId=71041&agentId=museum171_nonmos"
+        },
+        {
+          "date": "2027-01-30",
+          "time": "19:00",
+          "weekday": "Сб",
           "available": true,
           "price_min": 0,
           "price_max": 0,
@@ -1025,6 +1034,15 @@
           "date": "2026-12-27",
           "time": "19:00",
           "weekday": "Вс",
+          "available": true,
+          "price_min": 500,
+          "price_max": 30000,
+          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
+        },
+        {
+          "date": "2027-01-30",
+          "time": "19:00",
+          "weekday": "Сб",
           "available": true,
           "price_min": 500,
           "price_max": 30000,
