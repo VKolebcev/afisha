@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T16:19:55+03:00",
+  "last_updated": "2026-11-03T23:42:28+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -218,59 +218,126 @@
     },
     {
       "id": "okolo-shkola",
-      "name": "Школа для дураков",
+      "name": "Школа для дураков//С.Соколов",
       "theater": "Театр около дома Станиславского",
-      "description": "",
-      "image": "",
+      "description": "Сюрреалистическая, в высоком смысле наивная и потому бесконечно трогательная история. Главный герой «Школы для дураков», от лица которого ведётся повествование — ученик Такой-то, мальчик с нелинейным восприятием времени и раздвоением личности. Он вспоминает детство, когда учился в школе, и вспоминая, описывает и комментирует мир, в котором прошедшее время то и дело путается с настоящим. Первый роман Саши Соколова (1973), называют одним из важнейших событий в русской литературе ХХ века. Его высоко оценил, к примеру, Владимир Набоков, а выдающиеся теоретики обнаруживают в нетривиальном по структ",
+      "image": "https://www.okolo.ru/upload/resize_cache/iblock/d8e/1200_900_2/dfnd0fmi82l7uekrlv8a5nv140uf1etv.jpg",
       "url": "https://www.okolo.ru/shows/shkola-dlya-durakov-s-sokolov/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-07",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=59669843&agentId=museum255_notmos"
+        },
+        {
+          "date": "2026-12-24",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=61608888&agentId=museum255_notmos"
+        }
+      ]
     },
     {
       "id": "okolo-yesterday",
-      "name": "Вчера наступило внезапно, Винни-Пух или Прощай, Битлз",
+      "name": "Вчера наступило внезапно, Винни-Пух или Прощай, Битлз//А.Милн",
       "theater": "Театр около дома Станиславского",
-      "description": "",
-      "image": "",
+      "description": "«Вчера наступило внезапно» — таков буквальный перевод строчки из песни «Yesterday» The Beatles. В спектакле Юрия Погребничко песни ливерпульской четверки встречаются с диалогами из «Винни-Пуха» Алана Милна, а хмурые персонажи носят телогрейки и шапки ушанки, охотятся на слонопотама, ищут земную ось и цитируют Джона Леннона: «Я плачу, потому что земля круглая». .",
+      "image": "https://www.okolo.ru/upload/iblock/64a/fzjboeupjkwf16fj4lh4a2so2u0zawpn.jpg",
       "url": "https://www.okolo.ru/shows/yesterday/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-26",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=59671882&agentId=museum255_notmos"
+        },
+        {
+          "date": "2026-12-18",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=61608880&agentId=museum255_notmos"
+        }
+      ]
     },
     {
       "id": "okolo-zhivago",
-      "name": "Доктор Живаго",
+      "name": "Доктор Живаго//по мотивам романа Б.Пастернака",
       "theater": "Театр около дома Станиславского",
-      "description": "",
-      "image": "",
+      "description": "Спектакль «Доктор Живаго» по роману Бориса Пастернака о любви, о возможности и необходимости принятия противоречий эпохи, где сюжет – цепочка случайностей, которые чудесным образом осуществляют упрямый замысел Провидения. Режиссёр взяла главный русский роман ХХ века и перенесла его на сцену, сохранив пастернаковскую картину поэтического мира.",
+      "image": "https://www.okolo.ru/upload/resize_cache/iblock/1c4/1200_900_2/ry2ef9gcrwlxx1xrpmukhhzk7uuywh15.jpg",
       "url": "https://www.okolo.ru/shows/doktor-zhivago/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-11",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=59670185&agentId=museum255_notmos"
+        },
+        {
+          "date": "2026-12-03",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=61556092&agentId=museum255_notmos"
+        }
+      ]
     },
     {
       "id": "okolo-lyubimymi",
-      "name": "С любимыми не расставайтесь",
+      "name": "С любимыми не расставайтесь//А.Володин и Ф.М.Достоевский",
       "theater": "Театр около дома Станиславского",
-      "description": "",
-      "image": "",
+      "description": "Смокинг и кирзовые сапоги, жабо и телогрейка, кринолин и шапка-ушанка в спектаклях Погребничко мирно соседствуют друг с другом, Так же, как Володин и Достоевский. Режиссером движет не желание противопоставить эпохи или социальные срезы, а скорее уравнять их в правах. Парадоксальное соседство не снижает хрестоматийные образы, а скорее возвышает зэков и бомжей. Спектакль как попытка обнаружить общее в людях независимо от того, где и когда им выпало жить. Жанр спектакля — концерт самодеятельности со сквозным сюжетом из легендарной пьесы Володина. Погребничко «взрывает» бытовую ситуацию каждого из",
+      "image": "https://www.okolo.ru/upload/iblock/d35/jtob3m0h3atxupu9wtm3rrnec2jxudre.jpg",
       "url": "https://www.okolo.ru/shows/s-lyubimymi-ne-rasstavaytes-a-volodin-i-f-m-dostoevskiy/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-21",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=78825&performanceId=59671620&agentId=museum255_notmos"
+        }
+      ]
     },
     {
       "id": "shalom-natan",
@@ -647,10 +714,10 @@
           "date": "2026-12-30",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-12-30-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-03",
