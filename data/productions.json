@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T13:03:36+03:00",
+  "last_updated": "2026-11-05T22:14:38+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -31,6 +31,15 @@
           "price_min": 1000,
           "price_max": 30000,
           "buy_url": "https://fomenki.ru/boxoffice/#59817472"
+        },
+        {
+          "date": "2027-01-16",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": false,
+          "price_min": 1000,
+          "price_max": 30000,
+          "buy_url": "https://fomenki.ru/performance/arcadia/"
         }
       ]
     },
@@ -614,15 +623,52 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "",
-      "image": "",
+      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
+      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
       "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
       "available": false,
-      "price_min": 0,
-      "price_max": 0,
+      "price_min": 3300,
+      "price_max": 4800,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-12-09",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-30",
+          "time": "14:00",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-03",
+          "time": "12:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-25",
+          "time": "19:30",
+          "weekday": "Пн",
+          "available": false,
+          "price_min": 3300,
+          "price_max": 4800,
+          "buy_url": "#"
+        }
+      ]
     },
     {
       "id": "vakhtangov-war_and_peace",
@@ -650,10 +696,10 @@
           "date": "2026-11-16",
           "time": "19:00",
           "weekday": "Пн",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-16-19-00-00"
         },
         {
           "date": "2026-12-11",
@@ -724,10 +770,10 @@
           "date": "2026-11-05",
           "time": "19:30",
           "weekday": "Чт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-11-05-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-11-20",
@@ -957,15 +1003,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-11-05",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 500,
-          "price_max": 30000,
-          "buy_url": "https://www.ermolova.ru/repertoire/view/230/"
-        },
         {
           "date": "2026-11-06",
           "time": "19:00",
