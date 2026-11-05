@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T04:09:53+03:00",
+  "last_updated": "2026-11-05T13:03:36+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -614,66 +614,84 @@
       "id": "vakhtangov-noch",
       "name": "Ночь перед Рождеством",
       "theater": "Театр Вахтангова",
-      "description": "«Ночь перед Рождеством» – прекрасная повесть. В её восприятии много стереотипов, поэтому хочется добиться нового звучания. Вместе с артистами мы искали, как сегодня эта история должна выглядеть и звучать, каков способ существования на сцене исполнителей в этом материале. Зритель, который придёт на наш спектакль, не забудет о вахтанговских традициях, о том, что он в театре актёрского отстранения, поэтому хочется проникнуть в глубину этой истории, в суть этих удивительных персонажей. Мы ставим спектакль в зале «Амфитеатр» Симоновской сцены. Само пространство интересно и аскетично, у нас будет и ",
-      "image": "https://vakhtangov.ru/uploads/2023/06/DSC00468-Enhanced-NR-Edit-250x167.jpg",
-      "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
-      "available": false,
-      "price_min": 3300,
-      "price_max": 4800,
-      "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-12-09",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        },
-        {
-          "date": "2026-12-30",
-          "time": "14:00",
-          "weekday": "Ср",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        },
-        {
-          "date": "2027-01-03",
-          "time": "12:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        },
-        {
-          "date": "2027-01-25",
-          "time": "19:30",
-          "weekday": "Пн",
-          "available": false,
-          "price_min": 3300,
-          "price_max": 4800,
-          "buy_url": "#"
-        }
-      ]
-    },
-    {
-      "id": "vakhtangov-war_and_peace",
-      "name": "Война и мир",
-      "theater": "Театр Вахтангова",
       "description": "",
       "image": "",
-      "url": "https://vakhtangov.ru/show/war_and_peace/",
+      "url": "https://vakhtangov.ru/show/noch-pered-rozhdestvom",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
+    },
+    {
+      "id": "vakhtangov-war_and_peace",
+      "name": "Война и мир",
+      "theater": "Театр Вахтангова",
+      "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
+      "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
+      "url": "https://vakhtangov.ru/show/war_and_peace/",
+      "available": true,
+      "price_min": 1500,
+      "price_max": 15000,
+      "currency": "₽",
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-13",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-11-16",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-11",
+          "time": "19:00",
+          "weekday": "Пт",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2026-12-30",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": false,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "#"
+        },
+        {
+          "date": "2027-01-03",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2027-01-03-19-00-00"
+        },
+        {
+          "date": "2027-01-25",
+          "time": "19:00",
+          "weekday": "Пн",
+          "available": true,
+          "price_min": 1500,
+          "price_max": 15000,
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2027-01-25-19-00-00"
+        }
+      ]
     },
     {
       "id": "vakhtangov-chudo",
@@ -848,31 +866,69 @@
     },
     {
       "id": "mxat-gorodki",
-      "name": "Страница не найдена",
+      "name": "Игра в «Городки»",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "",
-      "image": "",
+      "description": "В 2017 году в свет вышла автобиографическая книга народного артиста РФ Юрия Стоянова «Игра в \"Городки\"». «Добрая книга умного человека» — так охарактеризовали её читатели. Юрий Стоянов : « Книжка „Игра в „Городки““ не надиктована и не рассказана в форме интервью. У нее нет редактора, от первого до последнего слова книга написана мной. Я не могу назвать свое произведение биографией в чистом виде, потому что это все-таки жанровая книга. Она написана в жанре рассказа, или очень маленькой повести, под большим влиянием Марка Твена, Антона Павловича Чехова и Сергея Довлатова. Узнаете ли вы что-нибуд",
+      "image": "/upload/resize_cache/iblock/53b/vkl3sxgx2oyk02l2m6076iozjtv2vmeg/320_200_1/79869.jpg",
       "url": "https://mxat.ru/repertuar/show/stoyanov",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-22",
+          "time": "19:00",
+          "weekday": "Вс",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-12-17",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "mxat-flashback",
-      "name": "Страница не найдена",
+      "name": "Флешбэк 2002",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "",
-      "image": "",
+      "description": "2002 год. Все читают Пелевина и Мураками, слушают Эминема и Moby, пользуются кнопочными сотовыми телефонами и пробуют неведомые доселе суши. На выпускном в институте юный Саша знакомится с девушкой Леной, общается с ней всю ночь, влюбляется и… расстается навсегда. Спустя 20 лет давно женатый Александр оглядывается назад, вспоминает тот выпускной, ту девушку и задается вопросом: а могло ли быть всё по-другому? Сделал ли он всё тогда правильно? А если нет – есть ли возможность поменять что-то сейчас? И при чем здесь, кстати, квантовая физика? Режиссёр Вера Попова: «Главная тема спектакля — недов",
+      "image": "/upload/resize_cache/iblock/7ec/vuztpw2tj2q8dm20gsy2zvbrwrn888n6/320_200_1/92106.jpg",
       "url": "https://mxat.ru/repertuar/show/flashback",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-11-24",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2026-12-26",
+          "time": "19:00",
+          "weekday": "Сб",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "bronnaya-pigmalion",
