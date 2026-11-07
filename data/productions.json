@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T21:41:21+03:00",
+  "last_updated": "2026-11-07T03:30:58+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -471,17 +471,7 @@
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": [
-        {
-          "date": "2026-11-06",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "dates": []
     },
     {
       "id": "sreda21-smert",
@@ -705,10 +695,10 @@
           "date": "2026-12-30",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-12-30-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-03",
