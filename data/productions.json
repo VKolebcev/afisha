@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T20:11:04+03:00",
+  "last_updated": "2026-11-08T00:14:04+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -238,15 +238,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-11-07",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71502&performanceId=59669843&agentId=museum255_notmos"
-        },
         {
           "date": "2026-12-24",
           "time": "19:00",
