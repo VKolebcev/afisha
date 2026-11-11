@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T16:12:56+03:00",
+  "last_updated": "2026-11-12T00:39:28+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -295,15 +295,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-11-11",
-          "time": "19:00",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=90294&performanceId=59670185&agentId=museum255_notmos"
-        },
         {
           "date": "2026-12-03",
           "time": "19:00",
@@ -668,10 +659,10 @@
           "date": "2026-11-16",
           "time": "19:00",
           "weekday": "Пн",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-16-19-00-00"
         },
         {
           "date": "2026-12-11",
@@ -813,15 +804,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-11-11",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": false,
-          "price_min": 1800,
-          "price_max": 5300,
-          "buy_url": "#"
-        },
-        {
           "date": "2026-11-17",
           "time": "19:30",
           "weekday": "Вт",
@@ -834,10 +816,10 @@
           "date": "2026-12-04",
           "time": "19:30",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-12-04-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-08",
@@ -903,6 +885,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": ""
+        },
+        {
+          "date": "2027-01-21",
+          "time": "19:00",
+          "weekday": "Чт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
         }
       ]
     },
@@ -932,6 +923,15 @@
           "date": "2026-12-26",
           "time": "19:00",
           "weekday": "Сб",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2027-01-17",
+          "time": "19:00",
+          "weekday": "Вс",
           "available": false,
           "price_min": 0,
           "price_max": 0,
@@ -1041,15 +1041,34 @@
       "id": "poltory-parkovka",
       "name": "Парковка. ВСЁ ТУТ.",
       "theater": "Полторы комнаты",
-      "description": "",
-      "image": "",
+      "description": "Режиссер — Режиссер Художник — Мария Трегубова В ролях — Евгений Цыганов, Мария Смольникова, Ольга Надеждина, Светлана Кузянина, Максим Логинов, Станислав Кобозев Художник по свету — Иван Виноградов Хореограф — Анатолий Емельянов Саунд дизайнер — Дмитрий Бачинский Генеральный продюсер — Максим Левченко Директор — Мария Могучая Исполнительный продюсер — Анна Маленкова Административно-постановочная часть: Технический директор — Алексей Акимов Главный администратор — Захар Волошко Звукорежиссер — Дмитрий Бачинский Место проведения — парковка торгового центра Europolis Ростокино Адрес: Москва, пр.",
+      "image": "https://www.brodsky.online/upload/iblock/99d/p6vnn8hj8dotx23q33logexl9rn39krl/Snimok-ekrana-2025_12_06-v-14.01.10.png",
       "url": "https://brodsky.online/events/parkovka-vsye-tut-spektakl",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-12-16",
+          "time": "17:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/14692/"
+        },
+        {
+          "date": "2026-12-16",
+          "time": "20:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.brodsky.online/tickets/bookplaces/14693/"
+        }
+      ]
     },
     {
       "id": "vnutri-bochkotara",
