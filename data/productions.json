@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12T07:56:59+03:00",
+  "last_updated": "2026-11-12T17:16:25+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -617,10 +617,10 @@
           "date": "2027-01-03",
           "time": "12:00",
           "weekday": "Вс",
-          "available": true,
+          "available": false,
           "price_min": 3300,
           "price_max": 4800,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=amphitheater&datetime=2027-01-03-12-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-25",
@@ -659,10 +659,10 @@
           "date": "2026-11-16",
           "time": "19:00",
           "weekday": "Пн",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-11-16-19-00-00"
         },
         {
           "date": "2026-12-11",
@@ -677,10 +677,10 @@
           "date": "2026-12-30",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-12-30-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-03",
@@ -807,10 +807,10 @@
           "date": "2026-11-17",
           "time": "19:30",
           "weekday": "Вт",
-          "available": false,
+          "available": true,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-11-17-19-30-00"
         },
         {
           "date": "2026-12-04",
