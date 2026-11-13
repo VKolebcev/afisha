@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T16:38:46+03:00",
+  "last_updated": "2026-11-14T00:05:28+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -14,15 +14,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-11-13",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 1000,
-          "price_max": 30000,
-          "buy_url": "https://fomenki.ru/boxoffice/#56638275"
-        },
         {
           "date": "2026-12-15",
           "time": "19:00",
@@ -464,14 +455,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
+      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
       "dates": []
     },
     {
@@ -665,15 +656,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-11-13",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": false,
-          "price_min": 1500,
-          "price_max": 15000,
-          "buy_url": "#"
-        },
         {
           "date": "2026-11-16",
           "time": "19:00",
@@ -1131,14 +1113,14 @@
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Поэма об «обыденной» жизни",
+      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
+      "error": "Ближайших дат не найдено",
       "dates": []
     },
     {
