@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T07:08:28+03:00",
+  "last_updated": "2026-11-13T16:38:46+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -198,8 +198,27 @@
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Блок .nearest_events_performances пуст — JS не успел отрендерить. Попробуй увеличить задержку в fetch().",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2027-01-18",
+          "time": "20:00",
+          "weekday": "Пн",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        },
+        {
+          "date": "2027-01-19",
+          "time": "20:00",
+          "weekday": "Вт",
+          "available": false,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": ""
+        }
+      ]
     },
     {
       "id": "nations-makbet",
@@ -445,14 +464,14 @@
       "id": "sreda21-vek",
       "name": "И дольше века длится день",
       "theater": "Среда 21",
-      "description": "Кукольная мистерия от театра \"Таратумб\" создана по одноименному роману Чингиза Айтматова. В его основе — судьба семьи, которую в 1953 году забросило в маленький станционный поселок среди бескрайней казахской степи.",
-      "image": "https://static.tildacdn.com/tild3665-6239-4166-a438-326631613439/3Andrey_Parfyonov_01.jpg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/i-dolshe-veka-dlitsja-den",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Даты не найдены — возможно, изменились field-ID полей шаблона Tilda. Проверь атрибуты field у элементов с датой и временем.",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
@@ -668,10 +687,10 @@
           "date": "2026-12-11",
           "time": "19:00",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-12-11-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-12-30",
@@ -807,10 +826,10 @@
           "date": "2026-11-17",
           "time": "19:30",
           "weekday": "Вт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-11-17-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-12-04",
@@ -1112,14 +1131,14 @@
       "id": "vnutri-deadsouls",
       "name": "Мёртвые души",
       "theater": "Пространство внутри",
-      "description": "Поэма об «обыденной» жизни",
-      "image": "https://static.tildacdn.com/tild3832-3239-4263-b465-666465636662/3.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://vnutri.space/deadsouls",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
