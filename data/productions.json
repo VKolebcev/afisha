@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T08:44:49+03:00",
+  "last_updated": "2026-11-17T18:10:49+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -96,7 +96,7 @@
           "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": "https://www.mayakovsky.ru/mos-tickets/?event_id=15806"
+          "buy_url": ""
         },
         {
           "date": "2026-12-23",
@@ -182,34 +182,15 @@
       "id": "nations-muzh",
       "name": "Я не убивала своего мужа",
       "theater": "Театр наций",
-      "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
-      "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
+      "description": "",
+      "image": "",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2027-01-18",
-          "time": "20:00",
-          "weekday": "Пн",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://theatreofnations.ru/event/dc50b37704aff935afa19c64df64cbc9/"
-        },
-        {
-          "date": "2027-01-19",
-          "time": "20:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://theatreofnations.ru/event/f98cf0a68b55d84629c0e7d4936b4dd6/"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "nations-makbet",
@@ -472,17 +453,27 @@
     },
     {
       "id": "sreda21-frankenstein",
-      "name": "Франкенштейн",
+      "name": "«Франкенштейн» — спектакль по Мэри Шелли",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "Спектакль Нади Кубайлат по роману Мэри Шелли о Викторе Франкенштейне, создании чудовища и границах человеческого.",
+      "image": "https://static.tildacdn.com/tild3132-6535-4964-a639-373038333339/8_2__.jpeg",
       "url": "https://sreda21.ru/frankenshtejn/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-12-09",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1442144"
+        }
+      ]
     },
     {
       "id": "sreda21-filosofia",
@@ -622,19 +613,19 @@
           "date": "2026-12-30",
           "time": "19:00",
           "weekday": "Ср",
-          "available": false,
+          "available": true,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-12-30-19-00-00"
         },
         {
           "date": "2027-01-03",
           "time": "19:00",
           "weekday": "Вс",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2027-01-03-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-25",
@@ -1019,15 +1010,34 @@
       "id": "vnutri-bochkotara",
       "name": "Затоваренная бочкотара",
       "theater": "Пространство внутри",
-      "description": "",
-      "image": "",
+      "description": "Нас всех ждет хороший человек. Он ждет всегда",
+      "image": "https://static.tildacdn.com/tild3439-3563-4438-a339-343835363833/photo_2025-06-04_221.jpeg",
       "url": "https://vnutri.space/bochkotara",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-12-16",
+          "time": "19:00",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        },
+        {
+          "date": "2027-01-28",
+          "time": "20:00",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/600/api#/about/137229"
+        }
+      ]
     },
     {
       "id": "vnutri-sherlock",
