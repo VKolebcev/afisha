@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-20T13:44:02+03:00",
+  "last_updated": "2026-11-20T22:26:31+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -185,7 +185,7 @@
       "description": "Литературной основой спектакля молодого китайского режиссёра Дин Итэна послужил сатирический роман одного из самых известных современных китайских писателей Лю Чжэньюня «Я не Пань Цзиньлянь». Пань Цзиньлянь — литературный образ, один из самых популярных в Китае женских архетипов, широко используемый в художественной культуре как символ прелюбодеяния, хитрости и злодейства. Главная героиня романа Ли Сюэлянь решается на фиктивный развод в надежде обойти закон об ограничении рождаемости. Но после развода её бывший муж внезапно женится на другой женщине, попутно обвинив бывшую жену в неверности. С",
       "image": "https://cdn.theatreofnations.ru/media/CACHE/images/uploads/Performance/IIP_0003/db327bb811dbca0b438ed79c925b9d23.jpg",
       "url": "https://theatreofnations.ru/performances/ya-ne-ubivala-svoego-muzha",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
@@ -195,19 +195,19 @@
           "date": "2027-01-18",
           "time": "20:00",
           "weekday": "Пн",
-          "available": false,
+          "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": ""
+          "buy_url": "https://theatreofnations.ru/event/dc50b37704aff935afa19c64df64cbc9/"
         },
         {
           "date": "2027-01-19",
           "time": "20:00",
           "weekday": "Вт",
-          "available": false,
+          "available": true,
           "price_min": 0,
           "price_max": 0,
-          "buy_url": ""
+          "buy_url": "https://theatreofnations.ru/event/f98cf0a68b55d84629c0e7d4936b4dd6/"
         }
       ]
     },
@@ -386,15 +386,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-11-20",
-          "time": "19:00",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets.mos.ru/widget/wv2?eventId=107233&agentId=museum171_nonmos"
-        },
-        {
           "date": "2026-11-21",
           "time": "19:00",
           "weekday": "Сб",
@@ -451,15 +442,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-11-20",
-          "time": "19:30",
-          "weekday": "Пт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1411580"
-        },
-        {
           "date": "2026-12-10",
           "time": "19:30",
           "weekday": "Чт",
@@ -467,6 +449,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1453219"
+        },
+        {
+          "date": "2027-01-27",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1480961"
         }
       ]
     },
@@ -491,6 +482,15 @@
           "price_min": 0,
           "price_max": 0,
           "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1442144"
+        },
+        {
+          "date": "2027-01-26",
+          "time": "19:00",
+          "weekday": "Вт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1480738"
         }
       ]
     },
@@ -762,10 +762,10 @@
           "date": "2026-12-04",
           "time": "19:30",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-12-04-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-08",
@@ -847,43 +847,15 @@
       "id": "mxat-flashback",
       "name": "Флешбэк 2002",
       "theater": "МХТ им. А.П. Чехова",
-      "description": "2002 год. Все читают Пелевина и Мураками, слушают Эминема и Moby, пользуются кнопочными сотовыми телефонами и пробуют неведомые доселе суши. На выпускном в институте юный Саша знакомится с девушкой Леной, общается с ней всю ночь, влюбляется и… расстается навсегда. Спустя 20 лет давно женатый Александр оглядывается назад, вспоминает тот выпускной, ту девушку и задается вопросом: а могло ли быть всё по-другому? Сделал ли он всё тогда правильно? А если нет – есть ли возможность поменять что-то сейчас? И при чем здесь, кстати, квантовая физика? Режиссёр Вера Попова: «Главная тема спектакля — недов",
-      "image": "/upload/resize_cache/iblock/7ec/vuztpw2tj2q8dm20gsy2zvbrwrn888n6/320_200_1/92106.jpg",
+      "description": "",
+      "image": "",
       "url": "https://mxat.ru/repertuar/show/flashback",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-11-24",
-          "time": "19:00",
-          "weekday": "Вт",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
-        {
-          "date": "2026-12-26",
-          "time": "19:00",
-          "weekday": "Сб",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
-        {
-          "date": "2027-01-17",
-          "time": "19:00",
-          "weekday": "Вс",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "bronnaya-pigmalion",
