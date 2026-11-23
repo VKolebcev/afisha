@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T14:30:41+03:00",
+  "last_updated": "2026-11-24T02:04:04+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -752,10 +752,10 @@
           "date": "2027-01-08",
           "time": "19:30",
           "weekday": "Пт",
-          "available": false,
+          "available": true,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "#"
+          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2027-01-08-19-30-00"
         },
         {
           "date": "2027-01-21",
