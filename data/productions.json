@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T22:48:18+03:00",
+  "last_updated": "2026-11-25T06:52:33+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -489,15 +489,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-11-24",
-          "time": "19:30",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1405562"
-        },
-        {
           "date": "2026-12-17",
           "time": "19:30",
           "weekday": "Чт",
@@ -603,7 +594,7 @@
       "description": "К лассическая постановка эпохального романа Л.Н. Толстого к 100-летию Театра имени Евгения Вахтангова. События наполеоновских войн, размышления о состоянии общества — это фон для истории, рассказанной в спектакле. На первый план выходят семьи: Ростовы, Болконские, Курагины, Друбецкие… Жизнь человека в момент перелома эпох. Мир эстетичный, хрупкий, театральный — всё это поглощается кометой 1812 года. В этой постановке нет павильона, нет нагромождения бытовых деталей, артисты не прячутся за декорациями. Когда события четырёх томов романа укладываются в без малого 5 часов сценического действия — ",
       "image": "https://vakhtangov.ru/uploads/2021/09/DSC_1195-250x167.jpg",
       "url": "https://vakhtangov.ru/show/war_and_peace/",
-      "available": true,
+      "available": false,
       "price_min": 1500,
       "price_max": 15000,
       "currency": "₽",
@@ -622,10 +613,10 @@
           "date": "2026-12-30",
           "time": "19:00",
           "weekday": "Ср",
-          "available": true,
+          "available": false,
           "price_min": 1500,
           "price_max": 15000,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=main&datetime=2026-12-30-19-00-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-03",
@@ -752,10 +743,10 @@
           "date": "2027-01-08",
           "time": "19:30",
           "weekday": "Пт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2027-01-08-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2027-01-21",
@@ -828,15 +819,6 @@
       "currency": "₽",
       "error": null,
       "dates": [
-        {
-          "date": "2026-11-24",
-          "time": "19:00",
-          "weekday": "Вт",
-          "available": false,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": ""
-        },
         {
           "date": "2026-12-26",
           "time": "19:00",
@@ -1056,22 +1038,12 @@
       "description": "Уроки человечности на окраине Перми ",
       "image": "https://static.tildacdn.com/tild3861-6533-4261-b566-356132663133/photo.jpeg",
       "url": "https://vnutri.space/tarkovskii",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
       "error": null,
-      "dates": [
-        {
-          "date": "2026-11-24",
-          "time": "20:00",
-          "weekday": "Вт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/600/api#/about/97436"
-        }
-      ]
+      "dates": []
     },
     {
       "id": "vnutri-redhood",
