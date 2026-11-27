@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T23:42:51+03:00",
+  "last_updated": "2026-11-27T06:22:40+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -254,15 +254,6 @@
       "error": null,
       "dates": [
         {
-          "date": "2026-11-26",
-          "time": "19:00",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://tickets-external.mos.ru/widget/wv2/ticket-selection?eventId=71516&performanceId=59671882&agentId=museum255_notmos"
-        },
-        {
           "date": "2026-12-18",
           "time": "19:00",
           "weekday": "Пт",
@@ -402,36 +393,17 @@
     },
     {
       "id": "sreda21-smert",
-      "name": "«Русская смерть. Воспоминание о спектакле»",
+      "name": "Русская смерть. Воспоминание о спектакле",
       "theater": "Среда 21",
-      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
-      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
+      "description": "",
+      "image": "",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": true,
+      "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": null,
-      "dates": [
-        {
-          "date": "2026-12-10",
-          "time": "19:30",
-          "weekday": "Чт",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1453219"
-        },
-        {
-          "date": "2027-01-27",
-          "time": "19:30",
-          "weekday": "Ср",
-          "available": true,
-          "price_min": 0,
-          "price_max": 0,
-          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1480961"
-        }
-      ]
+      "error": "Ошибка обработки — посмотрите вручную",
+      "dates": []
     },
     {
       "id": "sreda21-frankenstein",
@@ -517,14 +489,14 @@
       "id": "doc-mesto",
       "name": "Место силы",
       "theater": "Театр.doc",
-      "description": "Что, если «место силы» - это не точка на карте, а момент, встреча, боль или даже шрам? Полтора месяца участники мини-лаборатории «Место силы» Дарьи Мазур и Александра Ханта исследовали свои личные источники силы и слабости через актерские тренинги, интервью и откровенные монологи. Они искали ответы на вопросы: - Можно ли найти силу в детских травмах, ностальгии или пустоте? - Что делать, когда «место силы» — это другой человек, а он уходит? - Как жить, если твоя опора — ты сам, но ты в этом не уверен? На сцене будут представлены 13 уникальных историй. Этот показ — не про красивые пейзажи и не ",
-      "image": "http://teatrdoc.ru/media/events/images/%D0%9C%D0%B5%D1%81%D1%82%D0%BE_%D1%81%D0%B8%D0%BB%D1%8B.jpg",
+      "description": "",
+      "image": "",
       "url": "https://teatrdoc.ru/performances/1355/",
       "available": false,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ближайших дат не найдено",
+      "error": "Ошибка обработки — посмотрите вручную",
       "dates": []
     },
     {
