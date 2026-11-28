@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T18:51:30+03:00",
+  "last_updated": "2026-11-28T03:51:29+03:00",
   "productions": [
     {
       "id": "fomenki-arkadiya",
@@ -393,17 +393,36 @@
     },
     {
       "id": "sreda21-smert",
-      "name": "Русская смерть. Воспоминание о спектакле",
+      "name": "«Русская смерть. Воспоминание о спектакле»",
       "theater": "Среда 21",
-      "description": "",
-      "image": "",
+      "description": "«Русская смерть. Воспоминание о спектакле» — постановка Дмитрия Волкострелова о памяти, времени, утрате и живом театре.",
+      "image": "https://static.tildacdn.com/tild3336-6664-4633-b334-663837323130/photo_2025-09-25_224.jpeg",
       "url": "https://sreda21.ru/russkaja-smert-vospominanie-o-spektakle/",
-      "available": false,
+      "available": true,
       "price_min": 0,
       "price_max": 0,
       "currency": "₽",
-      "error": "Ошибка обработки — посмотрите вручную",
-      "dates": []
+      "error": null,
+      "dates": [
+        {
+          "date": "2026-12-10",
+          "time": "19:30",
+          "weekday": "Чт",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1453219"
+        },
+        {
+          "date": "2027-01-27",
+          "time": "19:30",
+          "weekday": "Ср",
+          "available": true,
+          "price_min": 0,
+          "price_max": 0,
+          "buy_url": "https://www.afisha.ru/wl/1450/api#/place/1480961"
+        }
+      ]
     },
     {
       "id": "sreda21-frankenstein",
@@ -632,10 +651,10 @@
           "date": "2026-12-01",
           "time": "19:30",
           "weekday": "Вт",
-          "available": true,
+          "available": false,
           "price_min": 1800,
           "price_max": 5300,
-          "buy_url": "https://vakhtangov.ru/tickets/buy/?stageuid=new&datetime=2026-12-01-19-30-00"
+          "buy_url": "#"
         },
         {
           "date": "2026-12-26",
